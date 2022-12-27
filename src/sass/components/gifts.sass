@@ -1,0 +1,63 @@
+.gifts
+  padding: 140px 0 150px
+
+  &__content
+    position: relative
+
+    &:before,
+    &:after
+      content: ''
+      position: absolute
+      z-index: -1
+      border-radius: 50%
+      filter: blur(125px)
+
+    &:before
+      left: -13%
+      top: 31%
+      width: 349px
+      height: 349px
+      background: rgba($color-second, 0.3)
+
+    &:after
+      right: -7%
+      top: 14%
+      width: 449px
+      height: 449px
+      background: rgba($color-primary, 0.3)
+
+  &__title
+    margin: 0 auto
+    justify-content: center
+    max-width: 690px
+    text-align: center
+
+  &__text
+    margin: 22px auto 0
+    max-width: 680px
+    text-align: center
+
+  &__img
+    margin: 60px auto 0
+    display: block
+
+  &__list
+    position: relative
+    margin: -250px -35px 0
+    display: flex
+    flex-wrap: wrap
+
+    &:before
+      content: ''
+      position: absolute
+      left: 50%
+      top: calc(-540px + 250px)
+      transform: translateX(-50%)
+      background: linear-gradient(0, #FFFFFF 0%, #FFFFFF 20%, #FFFFFF 40%, rgba(255, 255, 255, 0.94) 50%, rgba(255, 255, 255, 0) 100%)
+      width: 100vw
+      height: 540px
+
+  &__item
+    position: relative
+    width: calc(100% / 3 - 70px)
+    margin: 35px

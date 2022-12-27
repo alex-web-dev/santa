@@ -1,0 +1,67 @@
+.btn
+  padding: 18px 40px 20px
+  display: inline-block
+  background-color: $color-primary
+  color: $color-white
+  border-radius: 10px
+  font-size: 18px
+  font-weight: 700
+  line-height: 1.22
+  transition: background .3s, color .3s
+
+  &__icon
+    transition: fill .3s
+
+    &:first-child
+      margin-right: 10px
+
+    &:last-child
+      margin-left: 10px
+
+  &__label
+    padding: 4px 10px 6px
+    background: $color-primary
+    border-radius: 40px
+    font-size: 12px
+    line-height: 1.25
+    font-weight: 700
+    color: $color-white
+    transition: background .3s, color .3s
+
+    &:first-child
+      margin-right: 10px
+
+    &:last-child
+      margin-left: 10px
+
+  &--flex
+    display: flex
+    align-items: center
+
+  &--line
+    background-color: transparent
+    border: 1px solid $color-primary
+    color: $color-primary
+
+    &:hover
+      background-color: $color-primary
+      color: $color-white
+
+  &--line:hover &__label
+    background-color: $color-white
+    color: $color-primary
+
+  &--line:hover &__icon
+    fill: $color-white
+
+  &--second
+    background-color: $color-second
+
+  &--black
+    background-color: $color-black
+
+  &--white-transparent
+    background-color: rgba($color-white, 0.1)
+
+  &--third
+    background-color: $color-third

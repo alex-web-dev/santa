@@ -1,0 +1,16 @@
+.accordion
+  &__button
+    user-select: none
+    cursor: pointer
+
+  &__content
+    display: none
+
+  &--activating &__content
+    height: 0
+    display: block
+    overflow: hidden
+    transition: height .5s
+
+  &--active &__content
+    display: block

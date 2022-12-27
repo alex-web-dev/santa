@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Gulp+Pug+SASS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style type="text/css">
+      body {
+      	color: #272727;
+      	font-size: 16px;
+      	background: #e7e7e7;
+      	padding: 0 16px;
+      }
+      
+      .all-pages {
+      	width: 100%;
+      	max-width: 540px;
+      	max-height: calc(100% - 60px);
+      	overflow: hidden;
+      	border-radius: 8px;
+      	background: #fff;
+      	display: flex;
+      	flex-direction: column;
+      	margin: 30px auto;
+      }
+      
+      .all-pages__title {
+      	font-size: 30px;
+      	padding: 10px 0;
+      	border-bottom: 1px solid #ebebeb;
+      	text-align: center;
+      }
+      
+      .all-pages__list {
+      	counter-reset: list;
+      	list-style: none;
+      	overflow-y: auto
+      }
+      
+      .all-pages__item {
+      	display: block;
+      	text-align: left;
+      	border-bottom: 1px solid #ebebeb;
+      	transition: background .2s;
+      }
+      
+      .all-pages__item:hover {
+      	background-color: #f9f9f9;
+      }
+      
+      .all-pages__link {
+      	padding: 12px 20px;
+      	display: block;
+      	color: #2cbd81;
+      	text-decoration: none;
+      }
+      
+      .all-pages__item .all-pages__link:before {
+      	counter-increment: list;
+      	content: counter(list) ". ";
+      	color: #353535;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all-pages">
+      <div class="all-pages__title">Список страниц</div>
+      <ul class="all-pages__list">
+        <li class="all-pages__item"><a class="all-pages__link" href="home.html">Главная</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

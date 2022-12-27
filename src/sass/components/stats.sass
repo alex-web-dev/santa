@@ -1,0 +1,63 @@
+.stats
+  background-color: #4d4d4d
+  background-image: url('../img/stats/bg.webp')
+  background-position: left bottom -8vw
+  background-size: 110%
+  background-repeat: no-repeat
+  text-align: center
+  color: $color-white
+
+  &__content
+    padding: 90px 0 255px
+    position: relative
+
+  &__title
+    font-size: 200px
+    line-height: 1
+
+  &__subtitle
+    margin-top: 5px
+
+  &__text
+    margin-top: 20px
+
+  &__footer
+    position: relative
+    z-index: 1
+    margin-top: 80px
+    display: inline-flex
+    align-items: center
+
+  &__footer-btn
+    &:not(:first-child)
+      margin-left: 40px
+
+  &__santa
+    position: absolute
+    left: 33%
+    bottom: -27px
+
+  &__star
+    position: absolute
+
+    &--1
+      left: 0
+      top: -8%
+      filter: blur(7px)
+      transform: rotate(-15deg)
+
+    &--2
+      left: 16%
+      bottom: 37%
+      transform: rotate(-30deg)
+      max-width: 19px
+
+    &--3
+      top: 31%
+      right: 3%
+      transform: rotate(15deg)
+      max-width: 55px
+
+  @media (max-width: 1200px)
+    &__santa
+      left: calc(50vw - 218px)

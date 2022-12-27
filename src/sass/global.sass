@@ -1,0 +1,96 @@
+.container
+  max-width: $container-width
+  margin: 0 auto
+  padding: 0 $container-offset
+
+.d-flex
+  display: flex
+
+.d-iflex
+  display: inline-flex
+
+.d-iblock
+  display: inline-block
+
+.items-center
+  align-items: center
+
+.title1,
+.title2,
+.title3
+  font-weight: 700
+  
+  &__primary
+    color: $color-primary
+
+  &__second
+    color: $color-second
+
+  &__third
+    color: $color-third
+
+  &__black
+    color: $color-black
+
+  &__icon-box
+    position: relative
+    display: inline-flex
+    align-items: center
+
+  &--flex
+    display: flex
+    align-items: center
+
+  &--center
+    text-align: center
+
+.title1
+  font-size: 50px
+  line-height: 1.22
+
+  &__icon
+    &--2
+      position: absolute
+      left: 30px
+      top: 20px
+      width: 30px
+      height: 30px
+
+    &--3
+      position: absolute
+      left: 45px
+      top: 8px
+
+.title2
+  font-size: 40px
+
+.title3
+  font-size: 30px
+
+.text
+  font-size: 18px
+  line-height: 1.44
+
+  &--big
+    font-size: 24px
+    line-height: 1.42
+  
+  &--bold
+    font-weight: 700
+
+.link
+  color: $color-black
+  transition: color .3s
+
+  &:hover
+    color: $color-primary
+
+  &--third
+    color: $color-third
+
+    &:hover
+      color: $color-third
+
+.icon
+  &--primary
+    fill: $color-primary

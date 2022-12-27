@@ -1,0 +1,60 @@
+.faq-item
+  padding: 33px 0
+
+  &:not(:first-child)
+    border-top: 1px solid rgba($color-black, 0.1)
+
+  &__header
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+  &__btn
+    margin-left: 15px
+    flex: 0 0 auto
+    display: block
+    position: relative
+    width: 50px
+    height: 50px
+    background-color: rgba($color-black, 0.05)
+    border-radius: 50%
+    transition: background .4s
+
+    &:before,
+    &:after
+      content: ''
+      position: absolute
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+      background-color: $color-black
+      transition: background .4s, transform .4s
+
+    &:before
+      width: 20px
+      height: 1px
+
+    &:after
+      width: 1px
+      height: 20px
+
+  &__header:hover &__btn,
+  &__header.accordion__btn--active &__btn
+    background-color: #000
+
+    &:before,
+    &:after
+      background-color: $color-white
+
+  &__header.accordion__btn--active &__btn
+    &:before,
+    &:after
+      transform: translate(-50%, -50%) rotate(-45deg)
+
+  &__main
+    padding: 20px 75px 7px 0
+
+    p
+      &:not(:first-child)
+        margin-top: 20px

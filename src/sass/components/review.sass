@@ -1,0 +1,23 @@
+.review
+  &__text
+    position: relative
+
+    &:before
+      content: ''
+      position: absolute
+      left: -20px
+      top: -50px
+      +before-icon('../icons/icons.svg#quote', 98px, 80px)
+      opacity: 0.05
+      
+  &__author
+    margin-top: 30px
+    display: flex
+    align-items: center
+
+  &__author-img
+    margin-right: 20px
+    width: 50px
+    height: 50px
+    border-radius: 50%
+    object-fit: cover

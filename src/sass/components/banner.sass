@@ -1,0 +1,67 @@
+.banner
+  background-color: $color-second
+  color: $color-white
+
+  &__content
+    position: relative
+    padding: 263px 0 212px
+
+  &__info
+    padding-left: 86px
+    max-width: 632px
+
+  &__title
+    color: inherit
+
+  &__text
+    margin-top: 30px
+    color: inherit
+
+  &__btn
+    margin-top: 50px
+
+  &__phone-hand
+    position: absolute
+    max-width: none
+
+    &--left
+      z-index: 3
+      right: 380px
+      bottom: -5px
+
+    &--right
+      z-index: 2
+      right: -717px
+      bottom: 0
+
+  &__phone-screen
+    position: absolute
+    right: 178px
+    bottom: 205px
+    width: 225px
+    height: 500px
+    object-fit: cover
+    border-radius: 24px
+
+  &__candy
+    position: absolute
+    z-index: 4
+    display: block
+
+    &--1
+      max-width: 50px
+      transform: rotate(180deg) scale(-1, 1)
+      left: 48.5%
+      top: 14%
+
+    &--2
+      transform: rotate(-30deg)
+      max-width: 97px
+      bottom: -7%
+      left: -2%
+
+    &--3
+      transform: rotate(-150deg)
+      right: -13%
+      bottom: -20%
+      filter: blur(7.5px)
