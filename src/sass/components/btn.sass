@@ -37,6 +37,7 @@
   &--flex
     display: flex
     align-items: center
+    justify-content: center
 
   &--line
     background-color: transparent
@@ -60,8 +61,13 @@
   &--black
     background-color: $color-black
 
-  &--white-transparent
-    background-color: rgba($color-white, 0.1)
-
   &--third
     background-color: $color-third
+
+  @media (max-width: 767px)
+    padding-top: 15px
+    padding-bottom: 17px
+    font-size: 15px
+
+    &--line
+      border-width: 2px

@@ -1,7 +1,8 @@
 header.header
 	.header__content
-		a.logo(href="#")
+		a.logo.header__logo(href="#")
 			img.logo__img(src="assets/img/logo.svg" alt="")
+			img.logo__img.logo__img--black(src="assets/img/logo-black.svg" alt="")
 
 		.menu.header__menu
 			.menu__content 
@@ -12,8 +13,9 @@ header.header
 						a.menu__link(href="#") О Правила
 					li.menu__item
 						a.menu__link(href="#") Блог
-				.menu__login
-					button.btn.btn--white-transparent.menu__login-btn Войти
-					button.btn.menu__login-btn Создать игру
-			button.menu__toggle
+				.menu__profile
+					button.btn.menu__profile-btn.menu__profile-btn--login Войти
+					button.btn.menu__profile-btn Создать игру
+				+picture('assets/img/menu-santa', 'png', 'menu__img', 147, 170)
+			button.menu__toggle(aria-label="Toggle menu")
 				span.menu__lines

@@ -11,8 +11,37 @@
     background-color: #e9f7ef
     border-radius: 50%
 
+    img
+      height: auto
+
+  &__title,
+  &__text
+    margin-left: auto
+    margin-right: auto
+    max-width: 340px
+
   &__title
     margin-top: 30px
 
   &__text
     margin-top: 20px
+
+  @media (max-width: 991px)
+    &__text
+      font-size: 16px
+
+  @media (max-width: 640px)
+    &__img
+      width: 100px
+      height: 100px
+      
+    &__title,
+    &__text
+      max-width: 286px
+
+    &__title
+      margin-top: 20px
+
+    &__text
+      margin-top: 10px
+      font-size: 15px

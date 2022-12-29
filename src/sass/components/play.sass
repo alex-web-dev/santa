@@ -28,6 +28,7 @@
 
   &__sphere
     position: absolute
+    height: auto
 
     &--1
       left: 7%
@@ -55,3 +56,78 @@
       right: -6%
       top: 67%
       max-width: 55px
+
+  @media (max-width: 1400px)
+    &__sphere
+      &--2
+        left: 0
+
+      &--3
+        left: 4.5%
+
+      &--4
+        right: -21%
+
+      &--5
+        right: 0
+
+  @media (max-width: 991px)
+    &__title
+      max-width: 460px
+
+    &__sphere
+      &--4
+        top: 32%
+        max-width: 200px
+        filter: blur(18px)
+
+      &--5
+        top: 58%
+
+  @media (max-width: 767px)
+    &__list
+      padding-top: 80px
+      margin: -25px 0
+
+    &__item
+      margin: 25px 0
+      width: 100%
+
+    &__sphere
+      &--3
+        top: 33%
+
+  @media (max-width: 640px)
+    &__content
+      padding: 50px 0
+
+    &__title
+      max-width: 330px
+
+    &__list
+      padding-top: 40px
+
+    &__sphere
+      &--1
+        left: -40px
+        max-width: 60px
+        filter: blur(2.5px)
+
+      &--2
+        top: 55%
+        left: -28px
+
+      &--3
+        left: 18px
+        top: 58.5%
+
+      &--4
+        right: -70px
+        max-width: 120px
+        filter: blur(7.5px)
+
+      &--5
+        max-width: 31px
+        top: unset
+        bottom: 16%
+        right: 7px

@@ -1,3 +1,6 @@
+.body--lock
+  overflow: hidden
+  
 .container
   max-width: $container-width
   margin: 0 auto
@@ -19,7 +22,7 @@
 .title2,
 .title3
   font-weight: 700
-  
+
   &__primary
     color: $color-primary
 
@@ -49,6 +52,8 @@
   line-height: 1.22
 
   &__icon
+    height: auto
+
     &--2
       position: absolute
       left: 30px
@@ -60,6 +65,7 @@
       position: absolute
       left: 45px
       top: 8px
+      max-width: 53px
 
 .title2
   font-size: 40px
@@ -71,10 +77,13 @@
   font-size: 18px
   line-height: 1.44
 
+  a
+    color: #6477a2
+
   &--big
     font-size: 24px
     line-height: 1.42
-  
+
   &--bold
     font-weight: 700
 
@@ -94,3 +103,54 @@
 .icon
   &--primary
     fill: $color-primary
+
+.logo
+  &__img
+    &--black
+      display: none
+
+@media (max-width: 1200px)
+  .title3
+    font-size: 28px
+
+@media (max-width: 991px)
+  .title1
+    font-size: 40px
+
+    &__icon
+      &--2
+        left: 24px
+        top: 16px
+        width: 24px
+        height: 24px
+
+      &--3
+        left: 37px
+        top: 5px
+        max-width: 42px
+
+  .title2
+    font-size: 30px
+
+  .title3
+    font-size: 20px
+
+@media (max-width: 640px)
+  .container
+    padding: 0 $container-mobile-offset
+
+  .title1
+    font-size: 28px
+
+    &__icon
+      display: none
+
+  .title2
+    font-size: 20px
+
+  .text
+    font-size: 15px
+
+  .logo
+    &__img
+      max-width: 132px

@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="format-detection" content="telephone=no">
     <link rel="shortcut icon" href="assets/img/favicon.ico">
-    <link rel="stylesheet" href="assets/css/styles.css?v=64023851">
+    <link rel="stylesheet" href="assets/css/styles.css?v=91794048">
   </head>
   <body>
     <header class="header">
-      <div class="header__content"><a class="logo" href="#"><img class="logo__img" src="assets/img/logo.svg" alt=""></a>
+      <div class="header__content"><a class="logo header__logo" href="#"><img class="logo__img" src="assets/img/logo.svg" alt=""><img class="logo__img logo__img--black" src="assets/img/logo-black.svg" alt=""></a>
         <div class="menu header__menu">
           <div class="menu__content"> 
             <ul class="menu__list">
@@ -19,12 +19,16 @@
               <li class="menu__item"><a class="menu__link" href="#">О Правила</a></li>
               <li class="menu__item"><a class="menu__link" href="#">Блог</a></li>
             </ul>
-            <div class="menu__login">
-              <button class="btn btn--white-transparent menu__login-btn">Войти</button>
-              <button class="btn menu__login-btn">Создать игру</button>
+            <div class="menu__profile">
+              <button class="btn menu__profile-btn menu__profile-btn--login">Войти</button>
+              <button class="btn menu__profile-btn">Создать игру</button>
             </div>
+            <picture>
+              <source srcset="assets/img/menu-santa.webp" type="image/webp"/>
+              <source srcset="assets/img/menu-santa.png" type="image/png"/><img class="menu__img" src="assets/img/menu-santa.png" width="147" height="170" alt=""/>
+            </picture>
           </div>
-          <button class="menu__toggle"><span class="menu__lines"></span></button>
+          <button class="menu__toggle" aria-label="Toggle menu"><span class="menu__lines"></span></button>
         </div>
       </div>
     </header>
@@ -40,29 +44,29 @@
             <div class="banner__phone">
               <picture>
                 <source srcset="assets/img/page-banner/left-hand.webp" type="image/webp"/>
-                <source srcset="assets/img/page-banner/left-hand.png" type="image/png"/><img class="banner__phone-hand banner__phone-hand--left" src="assets/img/page-banner/left-hand.png" alt=""/>
+                <source srcset="assets/img/page-banner/left-hand.png" type="image/png"/><img class="banner__phone-hand banner__phone-hand--left" src="assets/img/page-banner/left-hand.png" width="601" height="254" alt=""/>
               </picture>
               <picture>
                 <source srcset="assets/img/page-banner/right-hand.webp" type="image/webp"/>
-                <source srcset="assets/img/page-banner/right-hand.png" type="image/png"/><img class="banner__phone-hand banner__phone-hand--right" src="assets/img/page-banner/right-hand.png" alt=""/>
+                <source srcset="assets/img/page-banner/right-hand.png" type="image/png"/><img class="banner__phone-hand banner__phone-hand--right" src="assets/img/page-banner/right-hand.png" width="1235" height="720" alt=""/>
               </picture>
               <picture>
                 <source srcset="assets/img/page-banner/screen.webp" type="image/webp"/>
-                <source srcset="assets/img/page-banner/screen.png" type="image/png"/><img class="banner__phone-screen" src="assets/img/page-banner/screen.png" alt=""/>
+                <source srcset="assets/img/page-banner/screen.png" type="image/png"/><img class="banner__phone-screen" src="assets/img/page-banner/screen.png" width="220" height="490" alt=""/>
               </picture>
             </div>
             <div class="banner__candies">
               <picture>
                 <source srcset="assets/img/page-banner/candy.webp" type="image/webp"/>
-                <source srcset="assets/img/page-banner/candy.png" type="image/png"/><img class="banner__candy banner__candy--1" src="assets/img/page-banner/candy.png" alt=""/>
+                <source srcset="assets/img/page-banner/candy.png" type="image/png"/><img class="banner__candy banner__candy--1" src="assets/img/page-banner/candy.png" width="50" height="122" alt=""/>
               </picture>
               <picture>
                 <source srcset="assets/img/page-banner/candy.webp" type="image/webp"/>
-                <source srcset="assets/img/page-banner/candy.png" type="image/png"/><img class="banner__candy banner__candy--2" src="assets/img/page-banner/candy.png" alt=""/>
+                <source srcset="assets/img/page-banner/candy.png" type="image/png"/><img class="banner__candy banner__candy--2" src="assets/img/page-banner/candy.png" width="97" height="237" alt=""/>
               </picture>
               <picture>
                 <source srcset="assets/img/page-banner/candy.webp" type="image/webp"/>
-                <source srcset="assets/img/page-banner/candy.png" type="image/png"/><img class="banner__candy banner__candy--3" src="assets/img/page-banner/candy.png" alt=""/>
+                <source srcset="assets/img/page-banner/candy.png" type="image/png"/><img class="banner__candy banner__candy--3" src="assets/img/page-banner/candy.png" width="154" height="376" alt=""/>
               </picture>
             </div>
           </div>
@@ -71,7 +75,7 @@
       <section class="callback">
         <div class="container">
           <div class="callback__content">
-            <h2 class="title2 callback__title">А еще у нас есть чат-боты</h2>
+            <h2 class="title1 callback__title">А еще у нас есть чат-боты</h2>
             <p class="text text--big callback__text">Так играть стало еще удобнее</p>
             <div class="callback__btns"><a class="btn btn--line btn--flex callback__btn" href="#">
                 <svg class="icon icon--primary btn__icon" width="23px" height="20px">
@@ -95,7 +99,7 @@
               <div class="step steps__item">
                 <picture>
                   <source srcset="assets/img/steps/1.webp" type="image/webp"/>
-                  <source srcset="assets/img/steps/1.jpg" type="image/jpg"/><img class="step__img" src="assets/img/steps/1.jpg" alt=""/>
+                  <source srcset="assets/img/steps/1.jpg" type="image/jpg"/><img class="step__img" src="assets/img/steps/1.jpg" width="546" height="574" alt=""/>
                 </picture>
                 <div class="step__info">
                   <h3 class="title2 step__title">3 шага и игра создана</h3>
@@ -105,7 +109,7 @@
               <div class="step steps__item">
                 <picture>
                   <source srcset="assets/img/steps/2.webp" type="image/webp"/>
-                  <source srcset="assets/img/steps/2.jpg" type="image/jpg"/><img class="step__img" src="assets/img/steps/2.jpg" alt=""/>
+                  <source srcset="assets/img/steps/2.jpg" type="image/jpg"/><img class="step__img" src="assets/img/steps/2.jpg" width="546" height="574" alt=""/>
                 </picture>
                 <div class="step__info">
                   <h3 class="title2 step__title">Следите за вступлением игроков</h3>
@@ -115,10 +119,10 @@
               <div class="step steps__item">
                 <picture>
                   <source srcset="assets/img/steps/3.webp" type="image/webp"/>
-                  <source srcset="assets/img/steps/3.jpg" type="image/jpg"/><img class="step__img" src="assets/img/steps/3.jpg" alt=""/>
+                  <source srcset="assets/img/steps/3.jpg" type="image/jpg"/><img class="step__img" src="assets/img/steps/3.jpg" width="546" height="574" alt=""/>
                 </picture>
                 <div class="step__info">
-                  <h3 class="title2 step__title">Отслеживайте, все ли получили подарки</h3>
+                  <h3 class="title2 step__title">Отслеживайте, <br> все ли получили подарки</h3>
                   <p class="text step__text">Всем должны достаться подарки. В удобном интерфейсе можно отслеживать ход игры: увидите кто уже получил подарки, а кто еще нет.</p>
                 </div>
               </div>
@@ -136,7 +140,7 @@
                 <div class="play-item__img">
                   <picture>
                     <source srcset="assets/img/play/1.webp" type="image/webp"/>
-                    <source srcset="assets/img/play/1.png" type="image/png"/><img src="assets/img/play/1.png" alt=""/>
+                    <source srcset="assets/img/play/1.png" type="image/png"/><img src="assets/img/play/1.png" width="149" height="180" alt=""/>
                   </picture>
                 </div>
                 <h3 class="title3 play-item__title">Друзья</h3>
@@ -146,7 +150,7 @@
                 <div class="play-item__img">
                   <picture>
                     <source srcset="assets/img/play/2.webp" type="image/webp"/>
-                    <source srcset="assets/img/play/2.png" type="image/png"/><img src="assets/img/play/2.png" alt=""/>
+                    <source srcset="assets/img/play/2.png" type="image/png"/><img src="assets/img/play/2.png" width="147" height="200" alt=""/>
                   </picture>
                 </div>
                 <h3 class="title3 play-item__title">Коллеги</h3>
@@ -156,7 +160,7 @@
                 <div class="play-item__img">
                   <picture>
                     <source srcset="assets/img/play/3.webp" type="image/webp"/>
-                    <source srcset="assets/img/play/3.png" type="image/png"/><img src="assets/img/play/3.png" alt=""/>
+                    <source srcset="assets/img/play/3.png" type="image/png"/><img src="assets/img/play/3.png" width="167" height="180" alt=""/>
                   </picture>
                 </div>
                 <h3 class="title3 play-item__title">Семья</h3>
@@ -166,7 +170,7 @@
                 <div class="play-item__img">
                   <picture>
                     <source srcset="assets/img/play/4.webp" type="image/webp"/>
-                    <source srcset="assets/img/play/4.png" type="image/png"/><img src="assets/img/play/4.png" alt=""/>
+                    <source srcset="assets/img/play/4.png" type="image/png"/><img src="assets/img/play/4.png" width="240" height="180" alt=""/>
                   </picture>
                 </div>
                 <h3 class="title3 play-item__title">Онлайн-знакомые</h3>
@@ -176,23 +180,23 @@
             <div class="play__spheres">
               <picture>
                 <source srcset="assets/img/play/sphere.webp" type="image/webp"/>
-                <source srcset="assets/img/play/sphere.png" type="image/png"/><img class="play__sphere play__sphere--1" src="assets/img/play/sphere.png" alt=""/>
+                <source srcset="assets/img/play/sphere.png" type="image/png"/><img class="play__sphere play__sphere--1" src="assets/img/play/sphere.png" width="140" height="140" alt=""/>
               </picture>
               <picture>
                 <source srcset="assets/img/play/sphere.webp" type="image/webp"/>
-                <source srcset="assets/img/play/sphere.png" type="image/png"/><img class="play__sphere play__sphere--2" src="assets/img/play/sphere.png" alt=""/>
+                <source srcset="assets/img/play/sphere.png" type="image/png"/><img class="play__sphere play__sphere--2" src="assets/img/play/sphere.png" width="40" height="40" alt=""/>
               </picture>
               <picture>
                 <source srcset="assets/img/play/sphere.webp" type="image/webp"/>
-                <source srcset="assets/img/play/sphere.png" type="image/png"/><img class="play__sphere play__sphere--3" src="assets/img/play/sphere.png" alt=""/>
+                <source srcset="assets/img/play/sphere.png" type="image/png"/><img class="play__sphere play__sphere--3" src="assets/img/play/sphere.png" width="15" height="15" alt=""/>
               </picture>
               <picture>
                 <source srcset="assets/img/play/sphere.webp" type="image/webp"/>
-                <source srcset="assets/img/play/sphere.png" type="image/png"/><img class="play__sphere play__sphere--4" src="assets/img/play/sphere.png" alt=""/>
+                <source srcset="assets/img/play/sphere.png" type="image/png"/><img class="play__sphere play__sphere--4" src="assets/img/play/sphere.png" width="240" height="240" alt=""/>
               </picture>
               <picture>
                 <source srcset="assets/img/play/sphere.webp" type="image/webp"/>
-                <source srcset="assets/img/play/sphere.png" type="image/png"/><img class="play__sphere play__sphere--5" src="assets/img/play/sphere.png" alt=""/>
+                <source srcset="assets/img/play/sphere.png" type="image/png"/><img class="play__sphere play__sphere--5" src="assets/img/play/sphere.png" width="55" height="55" alt=""/>
               </picture>
             </div>
           </div>
@@ -208,14 +212,14 @@
             <p class="text text--big gifts__text">Подскажем игрокам какие подарки лучше подарить, чтобы гарантированно все остались довольны</p>
             <picture>
               <source srcset="assets/img/gifts/img.webp" type="image/webp"/>
-              <source srcset="assets/img/gifts/img.jpg" type="image/jpg"/><img class="gifts__img" src="assets/img/gifts/img.jpg" alt=""/>
+              <source srcset="assets/img/gifts/img.jpg" type="image/jpg"/><img class="gifts__img" src="assets/img/gifts/img.jpg" width="1066" height="963" alt=""/>
             </picture>
             <div class="gifts__list">
               <div class="gift-feature gifts__item">
                 <div class="gift-feature__img">
                   <picture>
                     <source srcset="assets/img/gifts/1.webp" type="image/webp"/>
-                    <source srcset="assets/img/gifts/1.png" type="image/png"/><img src="assets/img/gifts/1.png" alt=""/>
+                    <source srcset="assets/img/gifts/1.png" type="image/png"/><img src="assets/img/gifts/1.png" width="40" height="40" alt=""/>
                   </picture>
                 </div>
                 <h3 class="title3 gift-feature__title">Спросим<br>пожелания игрока</h3>
@@ -225,7 +229,7 @@
                 <div class="gift-feature__img">
                   <picture>
                     <source srcset="assets/img/gifts/2.webp" type="image/webp"/>
-                    <source srcset="assets/img/gifts/2.png" type="image/png"/><img src="assets/img/gifts/2.png" alt=""/>
+                    <source srcset="assets/img/gifts/2.png" type="image/png"/><img src="assets/img/gifts/2.png" width="40" height="40" alt=""/>
                   </picture>
                 </div>
                 <h3 class="title3 gift-feature__title">Обучим систему рекомендаций</h3>
@@ -235,7 +239,7 @@
                 <div class="gift-feature__img">
                   <picture>
                     <source srcset="assets/img/gifts/3.webp" type="image/webp"/>
-                    <source srcset="assets/img/gifts/3.png" type="image/png"/><img src="assets/img/gifts/3.png" alt=""/>
+                    <source srcset="assets/img/gifts/3.png" type="image/png"/><img src="assets/img/gifts/3.png" width="40" height="40" alt=""/>
                   </picture>
                 </div>
                 <h3 class="title3 gift-feature__title">Посоветуем<br>где купить подарок</h3>
@@ -256,20 +260,20 @@
             </div>
             <picture>
               <source srcset="assets/img/stats/santa.webp" type="image/webp"/>
-              <source srcset="assets/img/stats/santa.png" type="image/png"/><img class="stats__santa" src="assets/img/stats/santa.png" alt=""/>
+              <source srcset="assets/img/stats/santa.png" type="image/png"/><img class="stats__santa" src="assets/img/stats/santa.png" width="194" height="350" alt=""/>
             </picture>
             <div class="stats__stars">
               <picture>
                 <source srcset="assets/img/stats/star.webp" type="image/webp"/>
-                <source srcset="assets/img/stats/star.png" type="image/png"/><img class="stats__star stats__star--1" src="assets/img/stats/star.png" alt=""/>
+                <source srcset="assets/img/stats/star.png" type="image/png"/><img class="stats__star stats__star--1" src="assets/img/stats/star.png" width="150" height="141" alt=""/>
               </picture>
               <picture>
                 <source srcset="assets/img/stats/star.webp" type="image/webp"/>
-                <source srcset="assets/img/stats/star.png" type="image/png"/><img class="stats__star stats__star--2" src="assets/img/stats/star.png" alt=""/>
+                <source srcset="assets/img/stats/star.png" type="image/png"/><img class="stats__star stats__star--2" src="assets/img/stats/star.png" width="19" height="18" alt=""/>
               </picture>
               <picture>
                 <source srcset="assets/img/stats/star.webp" type="image/webp"/>
-                <source srcset="assets/img/stats/star.png" type="image/png"/><img class="stats__star stats__star--3" src="assets/img/stats/star.png" alt=""/>
+                <source srcset="assets/img/stats/star.png" type="image/png"/><img class="stats__star stats__star--3" src="assets/img/stats/star.png" width="55" height="52" alt=""/>
               </picture>
             </div>
           </div>
@@ -278,10 +282,10 @@
       <section class="features">
         <div class="features__content">
           <div class="container">
-            <h2 class="title1 features__title">Мой Санта, а не <span class="title1__icon-box">стикеры?
+            <h2 class="title1 features__title">Мой Санта, а&nbsp;не<span class="title1__icon-box">стикеры?
                 <picture>
                   <source srcset="assets/img/sticky-note.webp" type="image/webp"/>
-                  <source srcset="assets/img/sticky-note.png" type="image/png"/><img class="title1__icon title1__icon--3" src="assets/img/sticky-note.png" alt=""/>
+                  <source srcset="assets/img/sticky-note.png" type="image/png"/><img class="title1__icon title1__icon--3" src="assets/img/sticky-note.png" width="53" height="53" alt=""/>
                 </picture></span></h2>
             <p class="text text--big features__text">Игра в Тайного Санту со стикерами это классно, мы не спорим. Просто бывают моменты, когда использовать наш сервис удобнее.</p>
           </div>
@@ -293,9 +297,9 @@
                     <h3 class="title2 feature__title">Можно <span class="title2__second">играть удаленно</span></h3>
                     <p class="text feature__text">Сейчас особенно важно, что некоторые игроки могут быть в разных уголках планеты. Мой Санта поможет объеденить всех.</p>
                   </div>
-                  <picture>
+                  <picture class="feature__picture">
                     <source srcset="assets/img/features/1.webp" type="image/webp"/>
-                    <source srcset="assets/img/features/1.png" type="image/png"/><img class="feature__img" src="assets/img/features/1.png" alt=""/>
+                    <source srcset="assets/img/features/1.png" type="image/png"/><img class="feature__img" src="assets/img/features/1.png" width="228" height="404" alt=""/>
                   </picture>
                 </div>
               </div>
@@ -303,12 +307,12 @@
             <div class="feature feature--active features__item">
               <div class="container">
                 <div class="feature__content">
-                  <picture>
+                  <picture class="feature__picture">
                     <source srcset="assets/img/features/2.webp" type="image/webp"/>
-                    <source srcset="assets/img/features/2.png" type="image/png"/><img class="feature__img" src="assets/img/features/2.png" alt=""/>
+                    <source srcset="assets/img/features/2.png" type="image/png"/><img class="feature__img" src="assets/img/features/2.png" width="291" height="292" alt=""/>
                   </picture>
                   <div class="feature__info">
-                    <h3 class="title2 feature__title"><span class="title2__second">Прозрачный</span><br>ход игры</h3>
+                    <h3 class="title2 feature__title"><span class="title2__second">Прозрачный </span>ход&nbsp;игры</h3>
                     <p class="text feature__text">Не будет ситуации, что кто-то потерял стикер или забыл подарить. Все ходы записаны!</p>
                   </div>
                 </div>
@@ -318,12 +322,12 @@
               <div class="container">
                 <div class="feature__content">
                   <div class="feature__info">
-                    <h3 class="title2 feature__title">Помощь в <span class="title2__second">подборе подарков</span></h3>
+                    <h3 class="title2 feature__title">Помощь в <span class="title2__second">подборе&nbsp;подарков</span></h3>
                     <p class="text feature__text">Наша рекомендательная система подскажет, какой подарок более вероятно понравится игроку.</p>
                   </div>
-                  <picture>
+                  <picture class="feature__picture">
                     <source srcset="assets/img/features/3.webp" type="image/webp"/>
-                    <source srcset="assets/img/features/3.png" type="image/png"/><img class="feature__img" src="assets/img/features/3.png" alt=""/>
+                    <source srcset="assets/img/features/3.png" type="image/png"/><img class="feature__img" src="assets/img/features/3.png" width="254" height="320" alt=""/>
                   </picture>
                 </div>
               </div>
@@ -334,7 +338,7 @@
       <section class="reviews">
         <div class="container">
           <div class="reviews__content">
-            <h2 class="title1 title1--center">Как это было в прошлом году</h2>
+            <h2 class="title1 title1--center reviews__title">Как это было в&nbsp;прошлом году</h2>
             <div class="reviews__list">
               <div class="review reviews__item">
                 <div class="text review__text">
@@ -342,8 +346,8 @@
                 </div>
                 <div class="review__author">
                   <picture>
-                    <source srcset="assets/img/review-author.webp" type="image/webp"/>
-                    <source srcset="assets/img/review-author.png" type="image/png"/><img class="review__author-img" src="assets/img/review-author.png" alt=""/>
+                    <source srcset="assets/img/reviews/1.webp" type="image/webp"/>
+                    <source srcset="assets/img/reviews/1.png" type="image/png"/><img class="review__author-img" src="assets/img/reviews/1.png" width="50" height="50" alt=""/>
                   </picture>
                   <div class="review__author-info">
                     <div class="text text--bold">Виктор Бабичев</div>
@@ -357,8 +361,8 @@
                 </div>
                 <div class="review__author">
                   <picture>
-                    <source srcset="assets/img/review-author.webp" type="image/webp"/>
-                    <source srcset="assets/img/review-author.png" type="image/png"/><img class="review__author-img" src="assets/img/review-author.png" alt=""/>
+                    <source srcset="assets/img/reviews/2.webp" type="image/webp"/>
+                    <source srcset="assets/img/reviews/2.png" type="image/png"/><img class="review__author-img" src="assets/img/reviews/2.png" width="50" height="50" alt=""/>
                   </picture>
                   <div class="review__author-info">
                     <div class="text text--bold">Мария Кравцова</div>
@@ -372,8 +376,8 @@
                 </div>
                 <div class="review__author">
                   <picture>
-                    <source srcset="assets/img/review-author.webp" type="image/webp"/>
-                    <source srcset="assets/img/review-author.png" type="image/png"/><img class="review__author-img" src="assets/img/review-author.png" alt=""/>
+                    <source srcset="assets/img/reviews/3.webp" type="image/webp"/>
+                    <source srcset="assets/img/reviews/3.png" type="image/png"/><img class="review__author-img" src="assets/img/reviews/3.png" width="50" height="50" alt=""/>
                   </picture>
                   <div class="review__author-info">
                     <div class="text text--bold">Инна Светлакова</div>
@@ -387,8 +391,8 @@
                 </div>
                 <div class="review__author">
                   <picture>
-                    <source srcset="assets/img/review-author.webp" type="image/webp"/>
-                    <source srcset="assets/img/review-author.png" type="image/png"/><img class="review__author-img" src="assets/img/review-author.png" alt=""/>
+                    <source srcset="assets/img/reviews/4.webp" type="image/webp"/>
+                    <source srcset="assets/img/reviews/4.png" type="image/png"/><img class="review__author-img" src="assets/img/reviews/4.png" width="50" height="50" alt=""/>
                   </picture>
                   <div class="review__author-info">
                     <div class="text text--bold">Маша Томилина</div>
@@ -402,8 +406,8 @@
                 </div>
                 <div class="review__author">
                   <picture>
-                    <source srcset="assets/img/review-author.webp" type="image/webp"/>
-                    <source srcset="assets/img/review-author.png" type="image/png"/><img class="review__author-img" src="assets/img/review-author.png" alt=""/>
+                    <source srcset="assets/img/reviews/5.webp" type="image/webp"/>
+                    <source srcset="assets/img/reviews/5.png" type="image/png"/><img class="review__author-img" src="assets/img/reviews/5.png" width="50" height="50" alt=""/>
                   </picture>
                   <div class="review__author-info">
                     <div class="text text--bold">Андрей Мостков</div>
@@ -417,8 +421,8 @@
                 </div>
                 <div class="review__author">
                   <picture>
-                    <source srcset="assets/img/review-author.webp" type="image/webp"/>
-                    <source srcset="assets/img/review-author.png" type="image/png"/><img class="review__author-img" src="assets/img/review-author.png" alt=""/>
+                    <source srcset="assets/img/reviews/6.webp" type="image/webp"/>
+                    <source srcset="assets/img/reviews/6.png" type="image/png"/><img class="review__author-img" src="assets/img/reviews/6.png" width="50" height="50" alt=""/>
                   </picture>
                   <div class="review__author-info">
                     <div class="text text--bold">Варя Лостикова</div>
@@ -441,15 +445,15 @@
             <button class="btn btn--black start__btn">Создать игру</button>
             <picture>
               <source srcset="assets/img/start/deer.webp" type="image/webp"/>
-              <source srcset="assets/img/start/deer.png" type="image/png"/><img class="start__deer" src="assets/img/start/deer.png" alt=""/>
+              <source srcset="assets/img/start/deer.png" type="image/png"/><img class="start__deer" src="assets/img/start/deer.png" width="186" height="219" alt=""/>
             </picture>
             <picture>
               <source srcset="assets/img/start/tree.webp" type="image/webp"/>
-              <source srcset="assets/img/start/tree.png" type="image/png"/><img class="start__tree" src="assets/img/start/tree.png" alt=""/>
+              <source srcset="assets/img/start/tree.png" type="image/png"/><img class="start__tree" src="assets/img/start/tree.png" width="293" height="340" alt=""/>
             </picture>
             <picture>
               <source srcset="assets/img/start/santa.webp" type="image/webp"/>
-              <source srcset="assets/img/start/santa.png" type="image/png"/><img class="start__santa" src="assets/img/start/santa.png" alt=""/>
+              <source srcset="assets/img/start/santa.png" type="image/png"/><img class="start__santa" src="assets/img/start/santa.png" width="277" height="300" alt=""/>
             </picture>
           </div>
         </div>
@@ -501,10 +505,10 @@
                 </div>
               </div>
               <div class="faq-item faq__item accordion" data-only-one>
-                <button class="title3 faq-item__header accordion__btn">Здесь длинный вопрос<span class="faq-item__btn"></span></button>
+                <button class="title3 faq-item__header accordion__btn">Что делать, если еще есть вопросы?<span class="faq-item__btn"></span></button>
                 <div class="accordion__content">
                   <div class="text faq-item__main">
-                    <p>Напишите на<a href="mailto:hello@mysanta.ru">hello@mysanta.ru</a>. Мы ответим по любым вопросам максимально быстро.</p>
+                    <p>Напишите на <a href="mailto:hello@mysanta.ru">hello@mysanta.ru</a>. Мы ответим по любым вопросам максимально быстро.</p>
                   </div>
                 </div>
               </div>
@@ -522,7 +526,7 @@
           <div class="footer__img">
             <picture>
               <source srcset="assets/img/footer/deer.webp" type="image/webp"/>
-              <source srcset="assets/img/footer/deer.png" type="image/png"/><img src="assets/img/footer/deer.png" alt=""/>
+              <source srcset="assets/img/footer/deer.png" type="image/png"/><img src="assets/img/footer/deer.png" width="293" height="280" alt=""/>
             </picture>
           </div>
           <div class="social-links footer__social-links">
@@ -540,6 +544,6 @@
         </div>
       </div>
     </footer>
-    <script src="assets/js/index.js?v=17948455"></script>
+    <script src="assets/js/index.js?v=48970845"></script>
   </body>
 </html>

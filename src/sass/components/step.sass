@@ -4,9 +4,11 @@
 
   &__img
     box-shadow: 0px 10px 50px rgba($color-black, 0.1)
-
+    height: auto
+    
   &__info
     margin-left: 12.5%
+    flex: 0 0 400px
 
   &__title
     max-width: 330px
@@ -14,3 +16,29 @@
   &__text
     margin-top: 30px
     max-width: 400px
+
+  @media (max-width: 1200px)
+    &__info
+      margin-left: 6%
+
+  @media (max-width: 767px)
+    flex-direction: column
+
+    &__info
+      margin-top: 30px
+      margin-left: 0
+      flex: 1 1 auto
+      text-align: center
+
+    &__title
+      margin: 0 auto
+
+  @media (max-width: 640px)
+    &__info
+      max-width: 286px
+
+    &__text
+      margin-top: 10px
+
+    &__img
+      width: 380px

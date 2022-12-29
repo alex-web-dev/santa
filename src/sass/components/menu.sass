@@ -4,6 +4,8 @@
     align-items: center
 
   &__list
+    position: relative
+    z-index: 1
     list-style-type: none
     display: flex
     align-items: center
@@ -22,21 +24,21 @@
 
   &__toggle
     height: 24px
+    width: 24px
+    text-align: right
     display: none
 
   &__lines
     position: relative
     z-index: 6
 
-    &,
     &:before,
     &:after
-      height: 1.5px
-      border-radius: 3px
+      height: 2px
       background-color: $color-white
       display: block
       transform: rotate(0)
-      width: 28px
+      width: 14px
       transition: transform 0.3s, width 0.3s
 
     &:before,
@@ -46,69 +48,100 @@
       right: 0
 
     &:before
-      transform: translateY(-8px)
+      transform: translateY(-6px)
 
     &:after
-      transform: translateY(8px)
+      transform: translateY(2px)
 
-  &__login
+  &__profile
+    position: relative
+    z-index: 1
     margin-left: auto
     display: flex
 
-  &__login-btn:not(:first-child)
-    margin-left: 20px
+  &__profile-btn
+    &:not(:first-child)
+      margin-left: 20px
 
-  @media (max-width: 767px)
-    position: relative
+    &--login
+      background-color: rgba($color-white, 0.1)
 
+  &__img
+    display: none
+
+  @media (max-width: 991px)
     &__toggle
       display: block
+      margin-left: auto
 
     &__content
       position: fixed
       z-index: 3
       left: 0
       top: 0
-      padding: 34px 24px
+      transform: translateX(100%)
+      padding: 140px 20px 30px
+      flex-direction: column
       width: 100%
       height: 100%
-      transform: translateX(100%)
+      background: $color-white
       opacity: 0
       visibility: hidden
       overflow-y: auto
       transition: opacity 0.3s, visibility 0.3s, transform 0.3s
 
     &__list
+      flex-direction: column
       justify-content: flex-start
       align-items: center
-      flex-direction: column
 
     &__item
-      margin: 12px 0
-
       &:not(:last-child)
         margin-right: 0
+        margin-bottom: 60px
 
     &__link
-      font-size: 18px
+      font-size: 20px
       line-height: 24px
+      color: $color-black
 
-    &_active &__toggle
-      position: fixed
-      right: 20px
+    &__profile
+      margin-left: 0
+      margin-top: 80px
+      flex-direction: column
+
+    &__profile-btn
+      &:not(:first-child)
+        margin-top: 20px
+        margin-left: 0
+
+      &--login
+        background-color: rgba($color-black, 0.05)
+        color: $color-black
+
+    &__img
+      position: absolute
+      right: 0
+      top: 275px
+      display: block
+
+    &--active &__toggle
+      position: relative
       z-index: 3
-      top: 19px
 
-    &_active &__list
+    &--active &__content
       visibility: visible
       opacity: 1
       transform: translateX(0)
 
-    &_active &__lines
-      height: 0
+    &--active &__lines
+      &:before,
+      &:after
+        width: 20px
+        background-color: #000
 
-    &_active &__lines:before
-      transform: rotate(-45deg)
+      &:before
+        transform: rotate(-45deg)
 
-    &_active &__lines:after
-      transform: rotate(45deg)
+      &:after
+        transform: rotate(45deg)

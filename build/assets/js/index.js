@@ -52,18 +52,37 @@ function show($accordion) {
   $accordion.classList.add('accordion--activating', 'accordion--opening');
   $content.style.height = `${$content.scrollHeight}px`;
 }
+const $header = document.querySelector('.header');
+if ($header) {
+  scrollHandler();
+  window.addEventListener('scroll', scrollHandler);
+}
 
+function scrollHandler() {
+  if (window.innerWidth > 991) {
+    return;
+  }
+  
+  const scrollClass = 'header_active';
+  if (window.pageYOffset >= 50 && !$header.classList.contains(scrollClass)) {
+    $header.classList.add(scrollClass);
+  } else if (window.pageYOffset < 50 && $header.classList.contains(scrollClass)) {
+    $header.classList.remove(scrollClass);
+  }
+}
 window.addEventListener('load', () => {
   const $menu = document.querySelector('.menu');
   if ($menu) {
     const $menuToggle = $menu.querySelector('.menu__toggle');
     $menuToggle.addEventListener('click', () => {
-      $menu.classList.toggle('menu_active');
+      $menu.classList.toggle('menu--active');
+      document.body.classList.toggle('body--lock');
     });
 
     $menu.addEventListener('click', e => {
-      if ($menu === e.target && $menu.classList.contains('menu_active')) {
-        $menu.classList.remove('menu_active');
+      if ($menu === e.target && $menu.classList.contains('menu--active')) {
+        $menu.classList.remove('menu--active');
+        document.body.classList.remove('body--lock');
       }
     });
   }

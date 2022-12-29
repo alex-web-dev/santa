@@ -21,17 +21,61 @@
   &__btn
     margin-top: 50px
 
-  &__deer
+  &__deer,
+  &__tree,
+  &__santa
     position: absolute
-    top: -23%
+    height: auto
+
+  &__deer
+    top: -132px
     left: 17%
 
   &__tree
-    position: absolute
     bottom: -3%
     left: -3%
 
   &__santa
-    position: absolute
     bottom: -3%
     right: -3%
+
+  @media (max-width: 1200px)
+    &__tree
+      left: -7%
+
+  @media (max-width: 991px)
+    &__content
+      padding-bottom: 240px
+
+    &__deer
+      left: 10%
+
+    &__tree
+      left: -10%
+
+  @media (max-width: 640px)
+    &__content
+      padding-top: 60px
+
+    &__title
+      max-width: 340px
+
+    &__text
+      margin-top: 20px
+      max-width: 300px
+
+    &__btn
+      margin-top: 30px
+
+    &__deer
+      max-width: 125px
+      top: -88px
+      left: 35px
+
+    &__tree
+      max-width: 242px
+      left: -80px
+
+    &__santa
+      max-width: 202px
+      right: 0

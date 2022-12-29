@@ -21,3 +21,20 @@
     height: 50px
     border-radius: 50%
     object-fit: cover
+
+  @media (max-width: 640px)
+    &__text
+      &::before
+        width: 64px
+        left: -30px
+        top: -30px
+        height: 52px
+
+    &__author
+      margin-top: 20px
+      flex-direction: column
+      align-items: center
+
+    &__author-img
+      margin-right: 0
+      margin-bottom: 10px
