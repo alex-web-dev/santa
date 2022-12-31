@@ -7,9 +7,12 @@
     src: url('#{$file-path}.woff') format('woff')
     src: url('#{$file-path}.woff2') format('woff2')
 
-=before-icon($url, $width, $height)
-  content: ''
-  display: inline-block
+=icon($url, $width, $height)
   background: url($url) center / contain no-repeat
   width: $width
   height: $height
+
+=before-icon($url, $width, $height)
+  content: ''
+  display: inline-block
+  +icon($url, $width, $height)

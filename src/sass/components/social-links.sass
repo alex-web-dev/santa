@@ -14,18 +14,18 @@
     border-radius: 50%
     background-color: #6477a2
 
+    svg
+      fill: $color-white
+      max-width: 25px
+      max-height: 20px
+
     &:not(:first-child)
       margin-left: 20px
-
-  &__icon
-    fill: $color-white
-    max-width: 25px
-    max-height: 20px
 
   @media (max-width: 640px)
     &__link
       width: 40px
       height: 40px
 
-    &__icon
-      transform: scale(0.8)
+      svg
+        transform: scale(0.8)

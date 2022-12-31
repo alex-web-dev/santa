@@ -15,16 +15,18 @@ global.app = {
 import { clean } from './gulp/tasks/clean.js';
 import { pug } from './gulp/tasks/pug.js';
 import { styles } from './gulp/tasks/styles.js';
+import { imgToBase64 } from './gulp/tasks/imgToBase64.js';
 import { scripts } from './gulp/tasks/scripts.js';
 import { img } from './gulp/tasks/img.js';
 import { svg } from './gulp/tasks/svg.js';
+import { pngSprite } from './gulp/tasks/png-sprite/png-sprite.js';
 import { browsersync } from './gulp/tasks/browsersync.js';
 import { watcher } from './gulp/tasks/watcher.js';
 import { fonts } from './gulp/tasks/fonts.js';
 import { copy } from './gulp/tasks/copy.js';
 
-const dev = gulp.series(clean, gulp.parallel(pug, styles, scripts, img, fonts, svg), copy, browsersync, watcher);
-const build = gulp.series(clean, gulp.parallel(pug, styles, scripts, img, fonts, svg), copy);
+const dev = gulp.series(clean, pngSprite, gulp.parallel(styles, scripts, img, fonts, svg), imgToBase64, pug, copy, browsersync, watcher);
+const build = gulp.series(clean, pngSprite, gulp.parallel(styles, scripts, img, fonts, svg), imgToBase64, pug, copy, );
 // const build = gulp.series(clean, gulp.parallel(img), copy);
 
 gulp.task('dev', dev);

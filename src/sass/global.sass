@@ -1,6 +1,20 @@
+.preloader
+  position: fixed
+  left: 0
+  top: 0
+  z-index: 99
+  width: 100%
+  height: 100%
+  background: #fff
+  transition: visibility .4s, opacity .4s
+
+  &--hide
+    visibility: hidden
+    opacity: 0
+
 .body--lock
   overflow: hidden
-  
+
 .container
   max-width: $container-width
   margin: 0 auto
@@ -51,21 +65,27 @@
   font-size: 50px
   line-height: 1.22
 
-  &__icon
-    height: auto
+  &__sticker
+    position: relative
+    display: inline-block
 
-    &--2
-      position: absolute
-      left: 30px
-      top: 20px
-      width: 30px
-      height: 30px
-
-    &--3
+    &:before
+      content: ''
       position: absolute
       left: 45px
       top: 8px
-      max-width: 53px
+      +before-icon('../img/sticky-note.png', 53px, 53px)
+
+  &__like
+    position: relative
+    display: inline-block
+
+    &:before
+      content: ''
+      position: absolute
+      left: 29px
+      top: 18px
+      +before-icon('../icons/icons.svg#like-fill', 32px, 32px)
 
 .title2
   font-size: 40px
@@ -104,12 +124,14 @@
   &--primary
     fill: $color-primary
 
+.star
+  background: url('../img/star.png') center / contain no-repeat
+
+.sphere
+  background: url('../img/sphere.png') center / contain no-repeat
+
 .logo
-  &__img
-    height: auto
-    
-    &--black
-      display: none
+  +icon('../img/logo.png', 166px, 25px)
 
 @media (max-width: 1200px)
   .title3
@@ -119,16 +141,17 @@
   .title1
     font-size: 40px
 
-    &__icon
-      &--2
+    &__like
+      &:before
         left: 24px
         top: 16px
         width: 24px
         height: 24px
 
-      &--3
+    &__sticker
+      &:before
         left: 37px
-        top: 5px
+        top: 0
         max-width: 42px
 
   .title2
@@ -144,7 +167,8 @@
   .title1
     font-size: 28px
 
-    &__icon
+    &__like,
+    &__sticker
       display: none
 
   .title2
@@ -154,5 +178,4 @@
     font-size: 15px
 
   .logo
-    &__img
-      max-width: 132px
+    max-width: 132px

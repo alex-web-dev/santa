@@ -13,7 +13,7 @@ export const img = () => {
 		.pipe(app.gulp.dest(app.path.build.img))
 
 	return app.gulp.src(`${app.path.src.img}/**/*.{jpg,jpeg,png,svg,gif}`)
-		.pipe(gulpif(app.isProd, imagemin([
+		.pipe(gulpif(app.isProd || app.isDev, imagemin([
 			imagemin.gifsicle({ interlaced: true }),
 			imagemin.mozjpeg({ quality: 75, progressive: true }),
 			imagemin.optipng({

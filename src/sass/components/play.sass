@@ -30,45 +30,50 @@
     position: absolute
     height: auto
 
-    &--1
+    &:nth-child(1)
       left: 7%
       top: -2%
-      max-width: 140px
+      width: 140px
+      height: 140px
       filter: blur(10px)
 
-    &--2
+    &:nth-child(2)
       left: -3%
       top: 29.5%
-      max-width: 40px
+      width: 40px
+      height: 40px
 
-    &--3
+    &:nth-child(3)
       left: 1.5%
       top: 34%
-      max-width: 15px
+      width: 15px
+      height: 15px
 
-    &--4
+    &:nth-child(4)
       top: 44%
       right: -24%
-      max-width: 250px
+      width: 250px
+      height: 250px
       filter: blur(22.5px)
 
-    &--5
+    &:nth-child(5)
       right: -6%
       top: 67%
-      max-width: 55px
+      width: 55px
+      height: 55px
 
   @media (max-width: 1400px)
     &__sphere
-      &--2
+      &:nth-child(2)
         left: 0
 
-      &--3
+      &:nth-child(3)
         left: 4.5%
 
-      &--4
+      &:nth-child(4)
         right: -21%
 
-      &--5
+      &:nth-child(5)
         right: 0
 
   @media (max-width: 991px)
@@ -76,12 +81,12 @@
       max-width: 460px
 
     &__sphere
-      &--4
+      &:nth-child(4)
         top: 32%
         max-width: 200px
         filter: blur(18px)
 
-      &--5
+      &:nth-child(5)
         top: 58%
 
   @media (max-width: 767px)
@@ -108,26 +113,29 @@
       padding-top: 40px
 
     &__sphere
-      &--1
+      &:nth-child(1)
         left: -40px
-        max-width: 60px
+        width: 60px
+        height: 60px
         filter: blur(2.5px)
 
-      &--2
+      &:nth-child(2)
         top: 55%
         left: -28px
 
-      &--3
+      &:nth-child(3)
         left: 18px
         top: 58.5%
 
-      &--4
+      &:nth-child(4)
         right: -70px
-        max-width: 120px
+        width: 120px
+        height: 120px
         filter: blur(7.5px)
 
-      &--5
-        max-width: 31px
+      &:nth-child(5)
         top: unset
-        bottom: 16%
         right: 7px
+        bottom: 16%
+        width: 31px
+        height: 31px

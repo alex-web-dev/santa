@@ -9,7 +9,9 @@
   line-height: 1.22
   transition: background .3s, color .3s
 
+  svg,
   &__icon
+    fill: $color-primary
     transition: fill .3s
 
     &:first-child
@@ -52,7 +54,8 @@
     background-color: $color-white
     color: $color-primary
 
-  &--line:hover &__icon
+  &--line:hover &__icon,
+  &--line:hover svg
     fill: $color-white
 
   &--second
