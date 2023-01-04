@@ -12,8 +12,30 @@
     margin-top: 120px
 
   &__item
+    min-height: 1000px
+
     &:not(:first-child)
-      margin-top: 60px
+      margin-top: -500px
+      min-height: 1200px
+
+    &:last-child
+      min-height: 900px
+
+  @media (max-width: 1200px)
+    &__item
+      min-height: auto
+
+      &:not(:first-child)
+        margin-top: 150px
+        min-height: auto
+
+      &:last-child
+        min-height: auto
+
+  @media (max-width: 991px)
+    &__item
+      &:not(:first-child)
+        margin-top: 100px
 
   @media (max-width: 640px)
     padding: 50px 0 72px

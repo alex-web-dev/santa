@@ -19,14 +19,14 @@ export const styles = () => {
     .pipe(sass({
       importer: tildeImporter
     }).on('error', sass.logError))
-    .pipe(gulpif(app.isProd, postcss([autoprefixer])))
-    .pipe(gulpif(app.isProd, cleanCss({ compatibility: 'ie8' })))
-    .pipe(gulpif(app.isDev, sourcemaps.write()))
     .pipe(gulpif(app.isProd, modifyCssUrls({
       modify: function (url, filePath) {
         return url.replace('../', './assets/');
       },
     })))
+    .pipe(gulpif(app.isProd, postcss([autoprefixer])))
+    .pipe(gulpif(app.isProd, cleanCss({ compatibility: 'ie8' })))
+    .pipe(gulpif(app.isDev, sourcemaps.write()))
     .pipe(app.gulp.dest(app.path.build.css))
     .pipe(browserSync.stream());
 }

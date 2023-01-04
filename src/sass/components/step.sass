@@ -1,14 +1,56 @@
 .step
+  position: relative
   display: flex
-  align-items: center
+  flex-direction: column
+
+  &:last-child &__info
+    align-self: flex-end
+
+  &:not(:first-child) &__content
+    flex: 1 1 auto
+
+  &:not(:first-child):not(:last-child) &__info
+    align-self: center
+
+  &__content
+    display: flex
+    align-items: center
+    min-height: 540px
 
   &__img
-    box-shadow: 0px 10px 50px rgba($color-black, 0.1)
-    height: auto
-    
+    position: absolute
+    top: 0
+    left: 0
+    display: flex
+    align-items: center
+    height: 540px
+    transition: opacity .1s
+    flex: 1 1 auto
+
+    img
+      height: auto
+      box-shadow: 0px 10px 50px rgba($color-black, 0.1)
+
+    &--fixed
+      position: fixed
+      top: 50%
+      transform: translateY(-50%)
+      left: unset
+
+    &--bottom
+      top: unset
+      bottom: 0
+      visibility: hidden
+
+  &:last-child &__img
+    align-items: flex-end
+    visibility: visible
+
   &__info
-    margin-left: 12.5%
-    flex: 0 0 400px
+    margin-left: auto
+    flex: 0 0 485px
+    padding-right: 85px
+    transition: opacity .1s
 
   &__title
     max-width: 330px
@@ -17,12 +59,41 @@
     margin-top: 30px
     max-width: 400px
 
+  &--active &__content
+    position: fixed
+    top: 50%
+    transform: translateY(-50%)
+    width: 1160px
+
   @media (max-width: 1200px)
+    &:last-child &__info
+      align-self: center
+
+    &__content
+      min-height: auto
+
     &__info
       margin-left: 6%
 
+    &__img
+      position: static
+      height: auto
+
+      &--bottom
+        visibility: visible
+
+      &--fixed
+        transform: translateY(0)
+
+  @media (max-width: 991px)
+    &__info
+      padding-right: 0
+      margin-left: 4%
+      flex: 0 0 50%
+
   @media (max-width: 767px)
-    flex-direction: column
+    &__content
+      flex-direction: column
 
     &__info
       margin-top: 30px
@@ -42,3 +113,4 @@
 
     &__img
       width: 380px
+      max-width: 100%
