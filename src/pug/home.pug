@@ -59,7 +59,7 @@ block content
 						.step.steps__item
 							.step__content
 								.step__img
-									+picture('assets/img/steps/1', 'jpg', '', 546, 446)
+									+picture('assets/img/steps/1', 'jpg', '', 546, 446, true)
 								.step__info
 									h3.title2.step__title Играйте там, где вам удобно
 									p.text.step__text Можно играть в офисе и дома, с семьей и с друзьями. Игра подходит для офлайна, когда все живут рядом, и для онлайн-жеребьевки.
@@ -67,7 +67,7 @@ block content
 						.step.steps__item
 							.step__content
 								.step__img
-									+picture('assets/img/steps/2', 'jpg', '', 546, 345)
+									+picture('assets/img/steps/2', 'jpg', '', 546, 345, true)
 								.step__info
 									h3.title2.step__title Управляйте ходом игры
 									p.text.step__text Вы получите полный доступ к настройкам игры: админ может удалять тех, кто передумал участвовать, и вычислять тех, кто еще не отправил подарок.
@@ -75,7 +75,7 @@ block content
 						.step.steps__item
 							.step__content
 								.step__img
-									+picture('assets/img/steps/3', 'jpg', '', 546, 353)
+									+picture('assets/img/steps/3', 'jpg', '', 546, 353, true)
 								.step__info
 									h3.title2.step__title.step__title--long А кто чей Санта?
 									p.text.step__text Магия игры в том, что никто не знает, кто чей Санта. Но иногда бывает так, что кто-то забыл отправить подарок — а значит, кто-то его не получит и расстроится.
@@ -91,22 +91,22 @@ block content
 					.play__list
 						.play-item.play__item
 							.play-item__img
-								+picture('assets/img/play/1', 'png', '', 149, 180)
+								+picture('assets/img/play/1', 'png', '', 149, 180, true)
 							h3.title3.play-item__title Друзья
 							p.text.play-item__text Отмечайте НГ с друзьями и позаботьтесь о том, чтобы все нашли под ёлкой, что хотели.
 						.play-item.play__item
 							.play-item__img
-								+picture('assets/img/play/2', 'png', '', 147, 200)
+								+picture('assets/img/play/2', 'png', '', 147, 200, true)
 							h3.title3.play-item__title Коллеги
 							p.text.play-item__text С коллегами важно поддерживать не только рабочие отношения. Пусть каждый перед корпоративом заберет свой подарок и обрадуется.
 						.play-item.play__item
 							.play-item__img
-								+picture('assets/img/play/3', 'png', '', 167, 180)
+								+picture('assets/img/play/3', 'png', '', 167, 180, true)
 							h3.title3.play-item__title Семья
 							p.text.play-item__text Секретный Санта не оставит без внимания любимых (или просто уважаемых) родственников. Они оценят!
 						.play-item.play__item
 							.play-item__img
-								+picture('assets/img/play/4', 'png', '', 240, 180)
+								+picture('assets/img/play/4', 'png', '', 240, 180, true)
 							h3.title3.play-item__title Онлайн-знакомые
 							p.text.play-item__text Можно жить далеко и даже никогда не встречаться лично, но всё равно быть на связи и чувствовать поддержку друг друга.
 					.play__spheres
@@ -160,7 +160,7 @@ block content
 					.stats__footer
 						button.btn.btn--second.stats__footer-btn Создать игру
 						a.link.link--third.stats__footer-btn(href="#") Зачем откладывать?
-					+picture('assets/img/stats/santa', 'png', 'stats__santa', 194, 350)
+					+picture('assets/img/stats/santa', 'png', 'stats__santa', 194, 350, true)
 					.stats__stars
 						.star.stats__star
 						.star.stats__star
@@ -183,11 +183,11 @@ block content
 										| Можно 
 										span.title2__second играть удаленно
 									p.text.feature__text Сегодня многие близкие оказались географически далеко. Мой Санта поможет всех объединить.
-								+picture('assets/img/features/1', 'png', 'feature__img', 228, 404)(class="feature__picture")
+								+picture('assets/img/features/1', 'png', 'feature__img', 228, 404, true)(class="feature__picture")
 					.feature.feature--active.features__item
 						.container
 							.feature__content
-								+picture('assets/img/features/2', 'png', 'feature__img', 291, 292)(class="feature__picture")
+								+picture('assets/img/features/2', 'png', 'feature__img', 291, 292, true)(class="feature__picture")
 								.feature__info
 									h3.title2.feature__title
 										span.title2__second Прозрачный 
@@ -201,7 +201,7 @@ block content
 										| Помощь в 
 										span.title2__second подборе подарков
 									p.text.feature__text.feature__text--short Наша система рекомендаций подскажет, какой подарок скорее всего понравится вашему адресату.
-								+picture('assets/img/features/3', 'png', 'feature__img', 254, 320)(class="feature__picture")
+								+picture('assets/img/features/3', 'png', 'feature__img', 254, 320, true)(class="feature__picture")
 
 		section.reviews
 			.container
@@ -268,9 +268,9 @@ block content
 						|  сегодня!
 					p.text.text--big.start__text Приглашайте игроков и настраивайте игру. А мы позаботимся о том, чтобы всё прошло гладко.
 					button.btn.btn--black.start__btn Создать игру
-					+picture('assets/img/start/deer', 'png', 'start__deer', 240, 239)
-					+picture('assets/img/start/tree', 'png', 'start__tree', 293, 340)
-					+picture('assets/img/start/santa', 'png', 'start__santa', 277, 300)
+					+picture('assets/img/start/deer', 'png', 'start__deer', 240, 239, true)
+					+picture('assets/img/start/tree', 'png', 'start__tree', 293, 340, true)
+					+picture('assets/img/start/santa', 'png', 'start__santa', 277, 300, true)
 
 		section.faq
 			.container

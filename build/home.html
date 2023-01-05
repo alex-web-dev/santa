@@ -504,8 +504,8 @@ input {
     font-size: 28px;
   }
 
-  .title1__like,
-  .title1__sticker {
+  .title1__like:before,
+  .title1__sticker:before {
     display: none;
   }
 
@@ -1388,19 +1388,19 @@ input {
 }
 
 .gift-feature__icon--1 {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAAAb1BMVEVHcEybm5uLi4uOjo6SkpKWlpaLi4uqqqqVlZWnp6eQkJC1tbWxsbGurq68vLy7u7v8/Pz////+/v75+fn09PTl5eXs7Oze3t7X19fKysrR0dHBwcGbm5vw8PClpaW7u7uurq61tbVcXFxMTEx2dnZn/JBeAAAAH3RSTlMAI6vb/MFQYg08fbOH3svp///////////////////+bCchHAAAAjBJREFUOMuF1YlygjAQBmAE5PCokZAbkgC+/zP2TwDFo3WdqU792CS7zTZJnqOq6xJR17vk79idjhejlEYoZS7HU/2RlT9GS8F437d933PGhDY/ZfXKajDB+5YSQpqGEErbljOpLuVLOhcYVHONESyhkR63SU9GM45s103EvD0T6qfaOsHpmu1BZ6nvsnZK8PbNxaSQUp2W0p2VZD39AJET+xTS1I+DtOGwH2Le5jHCkPAfiKNrF/pUD2qpzOPbpZhkrZEpN6UhK8En0tx/0nZd+2ziUT4HDZALfcGZfagN4JU0m6/xIvFpum5yF2FcKf56JnR5YIGhQPEsgKEP+dhB9rdxAOG3UdE7LJNiyQgnpmlilA7TNCKVnaZbgO0TjEv14zjiETlGocax29an9kYukHDFw5tQbXzT6x6FdmVSWadZ+INtmvfqNPPSgOh2N3eG3ku8ZWvBB/Qw9XNrPtc81BtbPKMzBVLKsDj9ywnlQgurHLvE7WvfKZ2dNj5esUOHxcM9DTR0hsY603ARo1ODjZehylYJ2s5iYcFJ5exhmRB5kJIxDrsNvrj9egsLSKcwJkC3weZ1s8ccgrSDARXAjxAS5+iy7bxKIT2olgHPIbUyg+3Sp/Fz6BCgDtNsHWdm8DbPiufZEyGo9d4PIby3XZ6nxeswS62Fy/OsPKT7GGl6KKr34XjGMoBZlfwftXPYdr7/5pKjcb7L068OCVGu4hvDOPM2O3xNB4h/F1/RL55LWrDi1b5bAAAAAElFTkSuQmCC") center/contain no-repeat;
+  background: url("data:image/png;base64,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") center/contain no-repeat;
   width: 40px;
   height: 40px;
 }
 
 .gift-feature__icon--2 {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABAlBMVEVHcEwkJCMnJiUrJB03NzceHh0aGhpXPyI6MicsKifBeyEuLi4jIyIiIiI4ODcpKSkhISAfHx/stj+vcyIiISE/Pz+gWBBAQEDDjzPBgiX2tkEpKSkuLi4QEBAUEhFJSUnVmkjkkikyMjLloTW2dR/xrjb1ukgkJCRkWDL2uUX2tjkeHh4gIB8iISEuLi0kIyMnJiYyMjE2NTUsKyo+PTwbGhkcHBspKSlCQUE6OThLS0pGRkUWFRUODg7UiSDvqjbekiVgX19WVVTMiCbmmijmozXFfh1MOyG+dhyiilExJxphTzBvTx44MzGhbR7QoESdfDqNXxt5YTKFb0C2jT23sow6N1AqAAAAK3RSTlMAKsgcBE1xChE7X5Rd6O7c2oArhKXWObqWqpG0bJXu7EEcqfDo1fDxPcW9vESRWQAAAmxJREFUOMud1Wd72jAQAGD2hkAWIbOZHZZkW56STMDsldXx//9KT8IkLTgpT+8rLzrdoTsSif+PQiOX34JlKlWM69l/umJKR0hD6CT5cdayh8FBICOX+SBr3QCnoKbhneK7WQ0dSxhJDe+nY7Nahg5QSXlNuCj6vFF/prLjGQCljKiS6/mTKQuckoq+YoT0cuGPrCbxFJQUE8bIq4P6q6dR/dmaSSxPhpKmTwnxNPRWF0rJphZOTEKIpUJanTJGPSQhVj11IVAjk8hSE4KoADp+ngvKOHLxsgVwoOsEbhUuWqE2XWE27TzO5jM3aGvLutSRDjlQDS3uCJtRiX90+uPvw8dZO4ADVWFSYvsqKjydEj7Q+dNgMX8ajeXn+qoFGBPeeO1Pfl8IH7KOf3YXOlnVtuyCf/HXk8vZT93F8/BlRkxzVZykpHew9t6OuovhZExoFJFlYbOw9mN/a3VeHmwIxtiKmjwsbzzK27tWinPh+2+W9bizORJfrwtNy+9BUdICZX5oB+3cutu9u0kfMOOhxyNq85C47fbZOjweTPZqpqFbkRS90NBRzInHg1GpZsHvgOGiQvCQY88ynPP1mhNfptPkleG6jusIznloY8ukxG1sDtb0VzJddRwHLOM9SyeU2bS+uTFK/clhIhsEAUjXwOB8IWoxS+C4O9mDFwfQcTVN96gNN4ib69vu6AbyZM8lRAZhPr+Ic/nOYDQ6lONYdxwJbdGMG/7EZWdw3y+pr5wpWDuN3zy7Eu4tV0G2ivTYXbKE3RWEucwV391jn4YAj7ZYs1vDXYCj1hYwf33fn5S2+Se4LJUOPxa/ATRgkxmgaSJBAAAAAElFTkSuQmCC") center/contain no-repeat;
+  background: url("data:image/png;base64,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") center/contain no-repeat;
   width: 40px;
   height: 40px;
 }
 
 .gift-feature__icon--3 {
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAMAAAC7IEhfAAABiVBMVEVHcEy7gkqteSu4gSPGiyLEkGK2hzbJhHDMnY/XmBfJKiqyfiO9Ly+6fyC/fBjKjhXNki7cQ0C0fx+tJiLTmyqsdhfzTk7PqUO1hCiudRHQjxvYmyLSNC/oTlL7T1CIXwrnP0WoIiGbQx+tMjLXmyXuSErALzDCKy2UaRvaOD2/gR7grSTcZ0KnIB+6fw64fg7YKCinIiDipBnqqRm2fA29gg7nqBi8gA7mpBnhOD3goBjEgRfbNDrdMC6wXxLEhxDoPED6UlHbKyuyeA3onxnJhhf2SEnppRnHixH7V1TUMjWEGhqscw7fMjK9LCrefxu1IB5DCAitURWpLR7bnBbglBliSQHwQ0VVDQ7vvBnIHRzNcRmeQhPfihmcJBlvGhv5YFvmYEVwFRD1gRiXORPaUyLAUhnSkBr56hzfQEKhGRbRGhvzVFKOMRLXRirQYyCDNQ/ssBfXbhnzzhvoSUqpPBrRJSXLVR9qMwx3VAX52B3kiBigMC60bxGfZg6gbQ/gaDXvdBiyaxLr//AjAAAALXRSTlMALlmKqiBIEQj9/XWHwvv6ZnCb6InWqjZl7uHi2lLz/Z/yv2rKx8/vp7/eva2p4pCpAAADaUlEQVQ4y4XU+VfaWBQH8ChLWMRTa6t2d2a6zgwJCSGSECE0BiEJECoIiKxaWWvdqlbt4vzlc98LKo7MzPcnDufD5b17k0sQV3HMvVp8Zn3y+u47CHJmccZFjMlcQpaFdyS54JuORCLTfz5PyNrUGEc+L8qCID1FCvIzFU8Upddj4LN4UQAoeU4sl0rBF2/IO841F5cFCaQmy2ltN45gQsh4pm7TCdvvzTiUk7pCFwpJWjzVaKQAbmzMTt5c1+uLqCqCmibJR/GELGmJAa5otk6/vng7gdn8HypOMyVDRUk4asQBysVEAn5QW19f//rdsCP6oHOWV9VIpNmAy2hMXW8Mup6LLsCioO0BfGFAs+wO4l6+3Cm31elmM6OXcrlcqWau6blS/aIrS55TKPgjorZ53g5QFA/PPgYyLcxKLcRLeq2Vq2eY+un6D1XcF2O0nXACFLODI83UW7reM3utvc2aafrXLnS9XtfNz7w7RFP0fWI+L7JsNn3UEPr9/kZvO3pwUKnsbEDMXo/JZNYomqJogI48C3B5OT0YBDLRSiW7tXV5eVA5Oe73jz0mw6xRKABddqhYfQ9Sbh8WstnzLUg2m63uZhiUIbRBv2NttoBgulLuHBaq1fPzamF/P/+BGYEczId0u5MILqcrPH/YKRcKq2U+GVoagYphQ4+DmxWTGH7meX6/c1bOx0KhG0gbhsIhSDxhWTHwHsNgkF8tJ0OhUQiMpr1DyC6DRBDRGIYhC/q/AKMs+BLgbgDkCbBreFXxC4cuvYCgHeDHAMjaNxZJDJe4zSGk70Im2m7zGC4pxvc9C37AED+9DwAeWJAV22IwRhkGxxmfrDNiyFkQDRtgwIzyPOtWFQVNV/l0U5HmnAjeQzOEgjBqaCQfji1BqCH0R+HOI7CAKnowXE2OQiZKQ7h5BJ2iCB2HHCMYxBCOdQvi92siz1owADAIMIThth//9V83kLC5cccBhq2KqCHctnXGbwgqDuvNdj4WcSOjbPifkFGgnvLwaq2R9mu4upKkbkFgkyNLZQb99Q4bDmOIjjUcoeJz3t5SM9cwRtNX0M/MOu/ss4mnAFfC4RHo/2WKHLMhXVM7YngE+mfHMrzXbO6VFQw57tGvv7mIfw80CiCnPPKSxH+HtBdi3EOvi/j/TPomx7G/AZJyIxCNTUE7AAAAAElFTkSuQmCC") center/contain no-repeat;
+  background: url("data:image/png;base64,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") center/contain no-repeat;
   width: 40px;
   height: 40px;
 }
@@ -2270,11 +2270,15 @@ input {
 }
 
 .start__title {
+  position: relative;
+  z-index: 1;
   margin: 0 auto;
   max-width: 610px;
 }
 
 .start__text {
+  position: relative;
+  z-index: 1;
   margin: 0 auto;
   max-width: 610px;
 }
@@ -2284,6 +2288,8 @@ input {
 }
 
 .start__btn {
+  position: relative;
+  z-index: 1;
   margin-top: 50px;
 }
 
@@ -2348,8 +2354,8 @@ input {
   }
 
   .start__deer {
-    max-width: 125px;
-    top: -88px;
+    max-width: 160px;
+    top: -95px;
     left: 35px;
   }
 
@@ -2799,8 +2805,8 @@ input {
               <button class="btn menu__profile-btn">Создать игру</button>
             </div>
             <picture>
-              <source srcset="assets/img/menu-santa.webp" type="image/webp"/>
-              <source srcset="assets/img/menu-santa.png" type="image/png"/><img class="menu__img" src="assets/img/menu-santa.png" width="147" height="170" alt=""/>
+              <source srcset="assets/img/menu-santa.webp, assets/img/menu-santa@2x.webp 2x" type="image/webp"/>
+              <source srcset="assets/img/menu-santa.png, assets/img/menu-santa@2x.png 2x" type="image/png"/><img class="menu__img" src="assets/img/menu-santa.png" srcset="assets/img/menu-santa@2x.png 2x" width="147" height="170" alt=""/>
             </picture>
           </div>
           <button class="menu__toggle" aria-label="Toggle menu"><span class="menu__lines"></span></button>
@@ -2875,8 +2881,8 @@ input {
                 <div class="step__content">
                   <div class="step__img">
                     <picture>
-                      <source srcset="assets/img/steps/1.webp" type="image/webp"/>
-                      <source srcset="assets/img/steps/1.jpg" type="image/jpg"/><img src="assets/img/steps/1.jpg" width="546" height="446" alt=""/>
+                      <source srcset="assets/img/steps/1.webp, assets/img/steps/1@2x.webp 2x" type="image/webp"/>
+                      <source srcset="assets/img/steps/1.jpg, assets/img/steps/1@2x.jpg 2x" type="image/jpg"/><img src="assets/img/steps/1.jpg" srcset="assets/img/steps/1@2x.jpg 2x" width="546" height="446" alt=""/>
                     </picture>
                   </div>
                   <div class="step__info">
@@ -2890,8 +2896,8 @@ input {
                 <div class="step__content">
                   <div class="step__img">
                     <picture>
-                      <source srcset="assets/img/steps/2.webp" type="image/webp"/>
-                      <source srcset="assets/img/steps/2.jpg" type="image/jpg"/><img src="assets/img/steps/2.jpg" width="546" height="345" alt=""/>
+                      <source srcset="assets/img/steps/2.webp, assets/img/steps/2@2x.webp 2x" type="image/webp"/>
+                      <source srcset="assets/img/steps/2.jpg, assets/img/steps/2@2x.jpg 2x" type="image/jpg"/><img src="assets/img/steps/2.jpg" srcset="assets/img/steps/2@2x.jpg 2x" width="546" height="345" alt=""/>
                     </picture>
                   </div>
                   <div class="step__info">
@@ -2905,8 +2911,8 @@ input {
                 <div class="step__content">
                   <div class="step__img">
                     <picture>
-                      <source srcset="assets/img/steps/3.webp" type="image/webp"/>
-                      <source srcset="assets/img/steps/3.jpg" type="image/jpg"/><img src="assets/img/steps/3.jpg" width="546" height="353" alt=""/>
+                      <source srcset="assets/img/steps/3.webp, assets/img/steps/3@2x.webp 2x" type="image/webp"/>
+                      <source srcset="assets/img/steps/3.jpg, assets/img/steps/3@2x.jpg 2x" type="image/jpg"/><img src="assets/img/steps/3.jpg" srcset="assets/img/steps/3@2x.jpg 2x" width="546" height="353" alt=""/>
                     </picture>
                   </div>
                   <div class="step__info">
@@ -2929,8 +2935,8 @@ input {
               <div class="play-item play__item">
                 <div class="play-item__img">
                   <picture>
-                    <source srcset="assets/img/play/1.webp" type="image/webp"/>
-                    <source srcset="assets/img/play/1.png" type="image/png"/><img src="assets/img/play/1.png" width="149" height="180" alt=""/>
+                    <source srcset="assets/img/play/1.webp, assets/img/play/1@2x.webp 2x" type="image/webp"/>
+                    <source srcset="assets/img/play/1.png, assets/img/play/1@2x.png 2x" type="image/png"/><img src="assets/img/play/1.png" srcset="assets/img/play/1@2x.png 2x" width="149" height="180" alt=""/>
                   </picture>
                 </div>
                 <h3 class="title3 play-item__title">Друзья</h3>
@@ -2939,8 +2945,8 @@ input {
               <div class="play-item play__item">
                 <div class="play-item__img">
                   <picture>
-                    <source srcset="assets/img/play/2.webp" type="image/webp"/>
-                    <source srcset="assets/img/play/2.png" type="image/png"/><img src="assets/img/play/2.png" width="147" height="200" alt=""/>
+                    <source srcset="assets/img/play/2.webp, assets/img/play/2@2x.webp 2x" type="image/webp"/>
+                    <source srcset="assets/img/play/2.png, assets/img/play/2@2x.png 2x" type="image/png"/><img src="assets/img/play/2.png" srcset="assets/img/play/2@2x.png 2x" width="147" height="200" alt=""/>
                   </picture>
                 </div>
                 <h3 class="title3 play-item__title">Коллеги</h3>
@@ -2949,8 +2955,8 @@ input {
               <div class="play-item play__item">
                 <div class="play-item__img">
                   <picture>
-                    <source srcset="assets/img/play/3.webp" type="image/webp"/>
-                    <source srcset="assets/img/play/3.png" type="image/png"/><img src="assets/img/play/3.png" width="167" height="180" alt=""/>
+                    <source srcset="assets/img/play/3.webp, assets/img/play/3@2x.webp 2x" type="image/webp"/>
+                    <source srcset="assets/img/play/3.png, assets/img/play/3@2x.png 2x" type="image/png"/><img src="assets/img/play/3.png" srcset="assets/img/play/3@2x.png 2x" width="167" height="180" alt=""/>
                   </picture>
                 </div>
                 <h3 class="title3 play-item__title">Семья</h3>
@@ -2959,8 +2965,8 @@ input {
               <div class="play-item play__item">
                 <div class="play-item__img">
                   <picture>
-                    <source srcset="assets/img/play/4.webp" type="image/webp"/>
-                    <source srcset="assets/img/play/4.png" type="image/png"/><img src="assets/img/play/4.png" width="240" height="180" alt=""/>
+                    <source srcset="assets/img/play/4.webp, assets/img/play/4@2x.webp 2x" type="image/webp"/>
+                    <source srcset="assets/img/play/4.png, assets/img/play/4@2x.png 2x" type="image/png"/><img src="assets/img/play/4.png" srcset="assets/img/play/4@2x.png 2x" width="240" height="180" alt=""/>
                   </picture>
                 </div>
                 <h3 class="title3 play-item__title">Онлайн-знакомые</h3>
@@ -3016,8 +3022,8 @@ input {
               <button class="btn btn--second stats__footer-btn">Создать игру</button><a class="link link--third stats__footer-btn" href="#">Зачем откладывать?</a>
             </div>
             <picture>
-              <source srcset="assets/img/stats/santa.webp" type="image/webp"/>
-              <source srcset="assets/img/stats/santa.png" type="image/png"/><img class="stats__santa" src="assets/img/stats/santa.png" width="194" height="350" alt=""/>
+              <source srcset="assets/img/stats/santa.webp, assets/img/stats/santa@2x.webp 2x" type="image/webp"/>
+              <source srcset="assets/img/stats/santa.png, assets/img/stats/santa@2x.png 2x" type="image/png"/><img class="stats__santa" src="assets/img/stats/santa.png" srcset="assets/img/stats/santa@2x.png 2x" width="194" height="350" alt=""/>
             </picture>
             <div class="stats__stars">
               <div class="star stats__star"></div>
@@ -3042,8 +3048,8 @@ input {
                     <p class="text feature__text">Сегодня многие близкие оказались географически далеко. Мой Санта поможет всех объединить.</p>
                   </div>
                   <picture class="feature__picture">
-                    <source srcset="assets/img/features/1.webp" type="image/webp"/>
-                    <source srcset="assets/img/features/1.png" type="image/png"/><img class="feature__img" src="assets/img/features/1.png" width="228" height="404" alt=""/>
+                    <source srcset="assets/img/features/1.webp, assets/img/features/1@2x.webp 2x" type="image/webp"/>
+                    <source srcset="assets/img/features/1.png, assets/img/features/1@2x.png 2x" type="image/png"/><img class="feature__img" src="assets/img/features/1.png" srcset="assets/img/features/1@2x.png 2x" width="228" height="404" alt=""/>
                   </picture>
                 </div>
               </div>
@@ -3052,8 +3058,8 @@ input {
               <div class="container">
                 <div class="feature__content">
                   <picture class="feature__picture">
-                    <source srcset="assets/img/features/2.webp" type="image/webp"/>
-                    <source srcset="assets/img/features/2.png" type="image/png"/><img class="feature__img" src="assets/img/features/2.png" width="291" height="292" alt=""/>
+                    <source srcset="assets/img/features/2.webp, assets/img/features/2@2x.webp 2x" type="image/webp"/>
+                    <source srcset="assets/img/features/2.png, assets/img/features/2@2x.png 2x" type="image/png"/><img class="feature__img" src="assets/img/features/2.png" srcset="assets/img/features/2@2x.png 2x" width="291" height="292" alt=""/>
                   </picture>
                   <div class="feature__info">
                     <h3 class="title2 feature__title"><span class="title2__second">Прозрачный </span>ход&nbsp;игры</h3>
@@ -3070,8 +3076,8 @@ input {
                     <p class="text feature__text feature__text--short">Наша система рекомендаций подскажет, какой подарок скорее всего понравится вашему адресату.</p>
                   </div>
                   <picture class="feature__picture">
-                    <source srcset="assets/img/features/3.webp" type="image/webp"/>
-                    <source srcset="assets/img/features/3.png" type="image/png"/><img class="feature__img" src="assets/img/features/3.png" width="254" height="320" alt=""/>
+                    <source srcset="assets/img/features/3.webp, assets/img/features/3@2x.webp 2x" type="image/webp"/>
+                    <source srcset="assets/img/features/3.png, assets/img/features/3@2x.png 2x" type="image/png"/><img class="feature__img" src="assets/img/features/3.png" srcset="assets/img/features/3@2x.png 2x" width="254" height="320" alt=""/>
                   </picture>
                 </div>
               </div>
@@ -3188,16 +3194,16 @@ input {
             <p class="text text--big start__text">Приглашайте игроков и настраивайте игру. А мы позаботимся о том, чтобы всё прошло гладко.</p>
             <button class="btn btn--black start__btn">Создать игру</button>
             <picture>
-              <source srcset="assets/img/start/deer.webp" type="image/webp"/>
-              <source srcset="assets/img/start/deer.png" type="image/png"/><img class="start__deer" src="assets/img/start/deer.png" width="240" height="239" alt=""/>
+              <source srcset="assets/img/start/deer.webp, assets/img/start/deer@2x.webp 2x" type="image/webp"/>
+              <source srcset="assets/img/start/deer.png, assets/img/start/deer@2x.png 2x" type="image/png"/><img class="start__deer" src="assets/img/start/deer.png" srcset="assets/img/start/deer@2x.png 2x" width="240" height="239" alt=""/>
             </picture>
             <picture>
-              <source srcset="assets/img/start/tree.webp" type="image/webp"/>
-              <source srcset="assets/img/start/tree.png" type="image/png"/><img class="start__tree" src="assets/img/start/tree.png" width="293" height="340" alt=""/>
+              <source srcset="assets/img/start/tree.webp, assets/img/start/tree@2x.webp 2x" type="image/webp"/>
+              <source srcset="assets/img/start/tree.png, assets/img/start/tree@2x.png 2x" type="image/png"/><img class="start__tree" src="assets/img/start/tree.png" srcset="assets/img/start/tree@2x.png 2x" width="293" height="340" alt=""/>
             </picture>
             <picture>
-              <source srcset="assets/img/start/santa.webp" type="image/webp"/>
-              <source srcset="assets/img/start/santa.png" type="image/png"/><img class="start__santa" src="assets/img/start/santa.png" width="277" height="300" alt=""/>
+              <source srcset="assets/img/start/santa.webp, assets/img/start/santa@2x.webp 2x" type="image/webp"/>
+              <source srcset="assets/img/start/santa.png, assets/img/start/santa@2x.png 2x" type="image/png"/><img class="start__santa" src="assets/img/start/santa.png" srcset="assets/img/start/santa@2x.png 2x" width="277" height="300" alt=""/>
             </picture>
           </div>
         </div>
@@ -3269,8 +3275,8 @@ input {
           </div>
           <div class="footer__img">
             <picture>
-              <source srcset="assets/img/footer/deer.webp" type="image/webp"/>
-              <source srcset="assets/img/footer/deer.png" type="image/png"/><img src="assets/img/footer/deer.png" width="293" height="280" alt=""/>
+              <source srcset="assets/img/footer/deer.webp, assets/img/footer/deer@2x.webp 2x" type="image/webp"/>
+              <source srcset="assets/img/footer/deer.png, assets/img/footer/deer@2x.png 2x" type="image/png"/><img src="assets/img/footer/deer.png" srcset="assets/img/footer/deer@2x.png 2x" width="293" height="280" alt=""/>
             </picture>
           </div>
           <div class="footer__right"><a class="footer__agreement" href="#">Пользовательское соглашение</a></div>
