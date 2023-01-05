@@ -8,6 +8,7 @@ import dartSass from 'sass';
 import gulpSass from 'gulp-sass';
 import gulpif from 'gulp-if';
 import browserSync from 'browser-sync';
+import modifyCssUrls from 'gulp-modify-css-urls';
 
 const sass = gulpSass(dartSass);
 
@@ -19,8 +20,18 @@ export const styles = () => {
       importer: tildeImporter
     }).on('error', sass.logError))
     .pipe(gulpif(app.isProd, postcss([autoprefixer])))
-    .pipe(gulpif(app.isProd, cleanCss({ compatibility: 'ie8' })))
     .pipe(gulpif(app.isDev, sourcemaps.write()))
     .pipe(app.gulp.dest(app.path.build.css))
     .pipe(browserSync.stream());
+}
+
+export const modifyCss = () => {
+  return app.gulp.src(`${app.path.build.css}/${app.path.build.cssFile}`)
+    .pipe(gulpif(app.isProd, modifyCssUrls({
+      modify: function (url, filePath) {
+        return url.replace('../', './assets/');
+      },
+    })))
+    .pipe(gulpif(app.isProd, cleanCss({ compatibility: 'ie8' })))
+    .pipe(app.gulp.dest(app.path.build.css));
 }
