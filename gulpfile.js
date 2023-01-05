@@ -14,8 +14,7 @@ global.app = {
 
 import { clean } from './gulp/tasks/clean.js';
 import { pug } from './gulp/tasks/pug.js';
-import { styles } from './gulp/tasks/styles.js';
-import { modifyCss } from './gulp/tasks/modifyCss.js';
+import { styles, modifyCss } from './gulp/tasks/styles.js';
 import { imgToBase64 } from './gulp/tasks/imgToBase64.js';
 import { scripts } from './gulp/tasks/scripts.js';
 import { img } from './gulp/tasks/img.js';
