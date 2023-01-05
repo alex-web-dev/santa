@@ -3,14 +3,18 @@
   display: flex
   flex-direction: column
 
-  &:last-child &__info
-    align-self: flex-end
-
   &:not(:first-child) &__content
     flex: 1 1 auto
 
   &:not(:first-child):not(:last-child) &__info
     align-self: center
+
+  &:last-child &__info
+    align-self: flex-end
+
+  &:last-child &__img
+    align-items: flex-end
+    visibility: visible
 
   &__content
     display: flex
@@ -35,16 +39,12 @@
       position: fixed
       top: 50%
       transform: translateY(-50%)
-      left: unset
+      left: auto
 
     &--bottom
-      top: unset
+      top: auto
       bottom: 0
       visibility: hidden
-
-  &:last-child &__img
-    align-items: flex-end
-    visibility: visible
 
   &__info
     margin-left: auto
@@ -64,6 +64,23 @@
     top: 50%
     transform: translateY(-50%)
     width: 1160px
+
+  @media all and (-ms-high-contrast:none) and (min-width: 1201px)
+    &:not(:first-child):not(:last-child) &__info
+      position: absolute
+      top: 50%
+      right: 0
+      transform: translateY(-50%)
+
+    &:last-child &__info
+      align-self: flex-end
+      position: absolute
+      bottom: 0
+      right: 0
+
+    &__info,
+    &__img
+      transition: opacity 0s
 
   @media (max-width: 1200px)
     &:last-child &__info

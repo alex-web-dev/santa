@@ -6,7 +6,7 @@
     justify-content: space-between
 
   &__info
-    max-width: 440px
+    max-width: 460px
 
     &:first-child
       margin-left: 87px
@@ -14,8 +14,14 @@
     &:last-child
       margin-right: 70px
 
+  &__title
+    max-width: 440px
+
   &__text
     margin-top: 30px
+
+    &--short
+      max-width: 420px
 
   &__picture
     &:first-child
@@ -32,6 +38,10 @@
   &--active
     background: $color-white
     box-shadow: 0px 0px 100px rgba($color-black, 0.07)
+
+  @media all and (-ms-high-contrast:none) and (min-width: 1201px)
+    &__content
+      height: 444px
 
   @media (max-width: 991px)
     &__content

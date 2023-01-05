@@ -15,6 +15,7 @@ export const path = {
 		sassGen: `${srcFolder}/sass/generated`,
 		sassEntryFile: 'styles.sass',
 		js: `${srcFolder}/js`,
+		jsEntryFile: 'index.js',
 		img: `${srcFolder}/img`,
 		fonts: `${srcFolder}/fonts`,
 		svgIcons: `${srcFolder}/icons/svg`,

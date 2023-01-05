@@ -8,6 +8,7 @@
     "dev": "gulp dev --dev",
     "build": "gulp build --prod"
   },
+  "browserslist": ["ie 11"],
   "author": "",
   "license": "ISC",
   "devDependencies": {

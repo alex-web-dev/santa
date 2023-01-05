@@ -15,6 +15,7 @@ global.app = {
 import { clean } from './gulp/tasks/clean.js';
 import { pug } from './gulp/tasks/pug.js';
 import { styles } from './gulp/tasks/styles.js';
+import { modifyCss } from './gulp/tasks/modifyCss.js';
 import { imgToBase64 } from './gulp/tasks/imgToBase64.js';
 import { scripts } from './gulp/tasks/scripts.js';
 import { img } from './gulp/tasks/img.js';
@@ -26,8 +27,7 @@ import { fonts } from './gulp/tasks/fonts.js';
 import { copy } from './gulp/tasks/copy.js';
 
 const dev = gulp.series(clean, pngSprite, gulp.parallel(styles, scripts, img, fonts, svg), imgToBase64, pug, copy, browsersync, watcher);
-const build = gulp.series(clean, pngSprite, gulp.parallel(styles, scripts, img, fonts, svg), imgToBase64, pug, copy, );
-// const build = gulp.series(clean, gulp.parallel(img), copy);
+const build = gulp.series(clean, pngSprite, gulp.parallel(styles, scripts, img, fonts, svg), imgToBase64, modifyCss, pug, copy, );
 
 gulp.task('dev', dev);
 gulp.task('build', build);
