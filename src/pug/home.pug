@@ -16,7 +16,7 @@ block content
 							| Играйте в 
 							b Тайного Санту 
 							| с коллегами и друзьями, всей семьёй или просто со знакомыми и подписчиками.
-						button.btn.banner__btn Создать игру
+						a.btn.banner__btn(href="https://mysanta.ru/login")  Создать игру
 					.banner__phone
 						+picture('assets/img/page-banner/left-hand', 'png', 'banner__phone-hand banner__phone-hand--left', 601, 254)
 						+picture('assets/img/page-banner/right-hand', 'png', 'banner__phone-hand banner__phone-hand--right', 1235, 720)
@@ -54,7 +54,9 @@ block content
 						span.title1__primary легко 
 						| и 
 						span.title1__primary просто
-					p.text.text--big.steps__text Пара кликов и всё готово. Серьезно.
+					p.text.text--big.steps__text
+						| Пара кликов и всё готово.
+						em Серьезно.
 					.steps__list
 						.step.steps__item
 							.step__content
@@ -158,8 +160,8 @@ block content
 					h2.title1.stats__subtitle человек играли в прошлом году
 					p.text.stats__text Секретный Санта работал не покладая рук, чтобы никто не остался без подарка
 					.stats__footer
-						button.btn.btn--second.stats__footer-btn Создать игру
-						a.link.link--third.stats__footer-btn(href="#") Зачем откладывать?
+						a.btn.btn--second.stats__footer-btn(href="https://mysanta.ru/login")  Создать игру
+						.link.link--third.stats__footer-btn Зачем откладывать?
 					+picture('assets/img/stats/santa', 'png', 'stats__santa', 194, 350, true)
 					.stats__stars
 						.star.stats__star
@@ -170,7 +172,7 @@ block content
 			.features__content
 				.container
 					h2.title1.features__title
-						| Мой Санта, а&nbsp;не 
+						| Мой Санта, а не 
 						span.title1__sticker
 							| стикеры?
 					p.text.text--big.features__text Доставать стикеры с именами это классно, но не всегда есть такая возможность.
@@ -232,6 +234,7 @@ block content
 								.review__author-info
 									.text.text--bold Инна Светлакова
 									.text Москва
+					.reviews__list.reviews__list--more
 						.review.reviews__item
 							.text.review__text
 								p Новый год это прежде всего семейный праздник. В этом году решили поиграть в Тайного Санту, чтобы добавить новых эмоций) Я просто отправила ссылку в наш домашний чатик и дальше все самой получилось. Спасибо ребят)))
@@ -267,7 +270,7 @@ block content
 						span.title1__black.d-iblock устройте игру
 						|  сегодня!
 					p.text.text--big.start__text Приглашайте игроков и настраивайте игру. А мы позаботимся о том, чтобы всё прошло гладко.
-					button.btn.btn--black.start__btn Создать игру
+					a.btn.btn--black.start__btn(href="https://mysanta.ru/login") Создать игру
 					+picture('assets/img/start/deer', 'png', 'start__deer', 240, 239, true)
 					+picture('assets/img/start/tree', 'png', 'start__tree', 293, 340, true)
 					+picture('assets/img/start/santa', 'png', 'start__santa', 277, 300, true)

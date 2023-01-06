@@ -8,7 +8,9 @@
     "dev": "gulp dev --dev",
     "build": "gulp build --prod"
   },
-  "browserslist": ["ie 11"],
+  "browserslist": [
+    "ie 11"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
@@ -37,6 +39,7 @@
     "gulp-svg-sprite": "^1.5.0",
     "gulp-ttf2woff": "^1.1.1",
     "gulp-ttf2woff2": "^4.0.1",
+    "gulp-typograf": "^4.0.3",
     "gulp-uglify": "^3.0.2",
     "gulp-webp": "^4.0.1",
     "gulp.spritesmith": "^6.12.1",

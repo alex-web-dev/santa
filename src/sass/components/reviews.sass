@@ -1,6 +1,9 @@
 .reviews
   padding: 100px 0 130px
 
+  &__title
+    margin-bottom: 110px
+
   &__content
     margin-left: -60px
     margin-right: -30px
@@ -10,16 +13,18 @@
     display: flex
     flex-wrap: wrap
 
-    &:not(:first-child)
-      padding-top: 110px
+    &--more
+      padding-top: 55px
 
   &__item
     margin: 55px 35px
     width: calc(100% / 3 - 70px)
 
   &__footer
-    margin-top: 80px
     text-align: center
+
+  &__more
+    display: none
 
   @media (max-width: 1400px)
     &__content
@@ -45,6 +50,9 @@
       margin-top: -30px
       margin-bottom: -30px
 
+      &--more
+        padding-top: 30px
+
     &__item
       width: calc(50% - 30px)
       margin-top: 30px
@@ -54,6 +62,7 @@
     padding: 80px 0 100px
 
     &__title
+      margin-bottom: 50px
       max-width: 286px
       margin-left: auto
       margin-right: auto
@@ -62,13 +71,21 @@
       margin: -25px 0
       flex-direction: column
 
-      &:not(:first-child)
-        padding-top: 50px
+      &--more
+        padding-top: 25px
+        display: none
+
+      &--active
+        display: flex
 
     &__item
       text-align: center
       margin: 25px auto
       width: 286px
 
-    &__footer
+    &__more
       margin-top: 50px
+      display: inline-block
+
+      &--hide
+        display: none

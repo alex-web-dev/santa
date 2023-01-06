@@ -2,12 +2,14 @@ import gulpPug from 'gulp-pug';
 import replace from 'gulp-replace';
 import fs from 'fs';
 import gulpif from 'gulp-if';
+import typograf from 'gulp-typograf';
 
 export const pug = () => {
 	return app.gulp.src(`${app.path.src.pug}/*.pug`)
 		.pipe(gulpPug({
 			pretty: true
 		}))
+		.pipe(typograf({ locale: ['ru', 'en-US'] }))
 		.pipe(gulpif(app.isProd, replace(/<link rel="stylesheet" href="assets\/css\/styles.css"[^>]*>/, function (s) {
 			const style = fs.readFileSync('build/assets/css/styles.css', 'utf8');
 			return '<style>' + style + '</style>';
