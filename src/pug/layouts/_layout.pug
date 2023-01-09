@@ -1,7 +1,8 @@
 include ../mixins/_mixins.pug
-include ../data/_lang.pug
 
 block vars
+
+- var lang = langs[selectedLang];
 
 doctype html
 html(lang=selectedLang)
