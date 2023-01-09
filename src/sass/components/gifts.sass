@@ -29,8 +29,27 @@
   &__title
     margin: 0 auto
     justify-content: center
-    max-width: 690px
+    max-width: 960px
     text-align: center
+
+    &--en,
+    &--es,
+    &--de
+      .title1__like
+        &:before
+          top: 21px
+          width: 28px
+          height: 28px
+
+    &--en,
+    &--de
+      .title1__like
+        &:before
+          left: 1px
+    &--es
+      .title1__like
+        &:before
+          left: 50px
 
   &__text
     margin: 22px auto 0

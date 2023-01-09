@@ -1,15 +1,15 @@
 header.header
 	.header__content
-		a.logo.header__logo(href="#")
+		a.logo.header__logo(href="#" class="logo--" + selectedLang)
 
 		.menu.header__menu
 			.menu__content 
 				ul.menu__list
 					li.menu__item
-						a.menu__link(href="https://mysanta.ru/rules") Правила
+						a.menu__link(href="./rules")= lang.menuRules
 				.menu__profile
-					a.btn.menu__profile-btn.menu__profile-btn--login(href="https://mysanta.ru/login")  Войти
-					a.btn.menu__profile-btn(href="https://mysanta.ru/login")  Создать игру
+					a.btn.menu__profile-btn.menu__profile-btn--login(href="./login")= lang.menuLogin
+					a.btn.menu__profile-btn(href="./login")= lang.menuCreate
 				+picture('assets/img/menu-santa', 'png', 'menu__img', 147, 170, true)
 			button.menu__toggle(aria-label="Toggle menu")
 				span.menu__lines

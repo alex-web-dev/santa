@@ -3,9 +3,13 @@ import replace from 'gulp-replace';
 import fs from 'fs';
 import gulpif from 'gulp-if';
 import typograf from 'gulp-typograf';
+import data from 'gulp-data';
 
 export const pug = () => {
 	return app.gulp.src(`${app.path.src.pug}/*.pug`)
+		.pipe(data(function () {
+			return JSON.parse(fs.readFileSync(`${app.path.src.lang}/all.json`))
+		}))
 		.pipe(gulpPug({
 			pretty: true
 		}))

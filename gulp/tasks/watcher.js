@@ -8,6 +8,7 @@ import { svg } from './svg.js';
 import { pngSprite } from './png-sprite/png-sprite.js';
 import { pug } from './pug.js';
 import { fonts } from './fonts.js';
+import { lang } from './lang.js';
 
 function reload(done) {
   browserSync.reload();
@@ -23,4 +24,5 @@ export const watcher = () => {
   app.gulp.watch(`${app.path.src.favicon}`, app.gulp.series(reload));
   app.gulp.watch(`${app.path.src.js}/**/*.js`, app.gulp.series(scripts, reload));
   app.gulp.watch(`${app.path.src.fonts}/**/*.ttf`, app.gulp.series(fonts, reload));
+  app.gulp.watch(`${app.path.srcFolder}/lang/yaml/**/*.{yaml, yml}`, app.gulp.series(lang, pug, reload));
 }

@@ -21,7 +21,7 @@ export const path = {
 		svgIcons: `${srcFolder}/icons/svg`,
 		pngIcons: `${srcFolder}/icons/png`,
 		favicon: `${srcFolder}/img/favicon.ico`,
-
+		lang: `${srcFolder}/lang`,
 	},
 	build: {
 		css: `${buildFolder}/assets/css`,

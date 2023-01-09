@@ -131,7 +131,11 @@
   background: url('../img/sphere.png') center / contain no-repeat
 
 .logo
-  +icon('../img/logo.png', 166px, 25px)
+  +icon('../img/en/logo.png', 166px, 34px)
+
+  &--ru
+    background-image: url('../img/ru/logo.png')
+    height: 25px
 
 @media (max-width: 1200px)
   .title3

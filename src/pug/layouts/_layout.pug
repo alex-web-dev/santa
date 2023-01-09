@@ -1,9 +1,10 @@
 include ../mixins/_mixins.pug
+include ../data/_lang.pug
 
 block vars
 
 doctype html
-html(lang="ru")
+html(lang=selectedLang)
     head
         title
             block title

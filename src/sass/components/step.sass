@@ -11,6 +11,7 @@
 
   &:last-child &__info
     align-self: flex-end
+    min-height: 335px
 
   &:last-child &__img
     align-items: flex-end
@@ -53,11 +54,17 @@
     transition: opacity .1s
 
   &__title
-    max-width: 330px
+    max-width: 337px
+
+    &--long
+      max-width: 355px
 
   &__text
     margin-top: 30px
     max-width: 400px
+
+    p:not(:first-child)
+      margin-top: 30px
 
   &--active &__content
     position: fixed

@@ -24,10 +24,12 @@ import { browsersync } from './gulp/tasks/browsersync.js';
 import { watcher } from './gulp/tasks/watcher.js';
 import { fonts } from './gulp/tasks/fonts.js';
 import { copy } from './gulp/tasks/copy.js';
+import { lang } from './gulp/tasks/lang.js';
 
-const dev = gulp.series(clean, pngSprite, gulp.parallel(styles, scripts, img, fonts, svg), imgToBase64, pug, copy, browsersync, watcher);
-const build = gulp.series(clean, pngSprite, gulp.parallel(styles, scripts, img, fonts, svg), imgToBase64, modifyCss, pug, copy, );
+const dev = gulp.series(clean, pngSprite, gulp.parallel(styles, scripts, img, fonts, svg), imgToBase64, lang, pug, copy, browsersync, watcher);
+const build = gulp.series(clean, pngSprite, gulp.parallel(styles, scripts, img, fonts, svg), imgToBase64, modifyCss, lang, pug, copy, );
 
 gulp.task('dev', dev);
 gulp.task('build', build);
 gulp.task('default', dev);
+gulp.task('lang', lang);

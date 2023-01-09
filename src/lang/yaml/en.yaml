@@ -1,0 +1,183 @@
+#Global
+homeTitle: Secret Santa Generator 2023 | Become a Secret Santa this Christmas
+
+#Header
+menuRules: Rules
+menuLogin: Sign in
+menuCreate: Create a game
+
+#Banner
+bannerTitle: |
+  Become <br>
+  a Secret Santa <br>
+  this Christmas
+bannerText: |
+  Exchange <strong>Christmas gifts</strong> with coworkers, friends, extended family,
+  <br>
+  and your community members.
+bannerBtn: Get started
+bannerScreen:
+  url: assets/img/en/banner-screen
+  type: png
+
+#Callback
+callbackTitle: We also have chatbots
+callbackText: This made it even easier to play.
+
+callbackTelegram: Telegram
+callbackVK: VK
+callbackWhatsApp: WhatsApp
+callbackWhatsAppSoon: soon
+
+#Steps
+stepsTitle: |
+   Make your gift exchange <br>
+   <span class="title1__primary">nice</span>
+   and
+   <span class="title1__primary">easy</span>
+stepsText: ''
+
+step1Img:
+  url: assets/img/en/steps/1
+  type: jpg
+step1Title: You're set in three, two, one
+step1Text: |
+   <p>Set the name of the gift exchange game and the date when the gifts will be given. Tell participants how you prefer receiving the gifts. Create the link for new players to join.</p>
+
+step2Img:
+  url: assets/img/en/steps/2
+  type: jpg
+step2Title: Watch the numbers grow
+step2Text: |
+   <p>The progress is displayed in the gift exchange generator interface. If someone changes their mind or joins by mistake, you can easily remove the player from the game.</p>
+
+step3Img:
+  url: assets/img/en/steps/3
+  type: jpg
+step3Title: Keep an eye on those gifts
+step3Text: |
+   <p>Every player should receive a gift. On the website, you can track the game's progress and see who has already sent a gift or needs a nudge.</p>
+
+#Play
+playTitle: Play with those you <br> <span class="title2__third">truly care about</span>
+playText: Start a gifts exchange game for each circle of dear ones <br> you are blessed to have
+
+playItem1Title: friends
+playItem1Text: Add some extra joy to your Christmas <br> or New Year party
+
+playItem2Title: coworkers
+playItem2Text: Secret Santa tradition brings even remote teammates closer to each other
+
+playItem3Title: family
+playItem3Text: Exchange gifts at your family gathering <br> to share the joy (and some costs)
+
+playItem4Title: online community
+playItem4Text: You may have never met in person, but it doesn't mean you don't care
+
+#Gifts
+giftsTitle: |
+  <span>You will definitely</span>
+  <span class="title1__primary">like the</span>
+  <span class="title1__primary title1__like">gifts</span>
+giftsText: |
+  Each participant creates their own <em>personal</em> Wishlist
+giftsImg:
+  url: assets/img/en/gifts-img
+  type: jpg
+
+gift1Title: Everyone creates <br> a wishlist
+gift1Text: Specify what to look for and what to avoid buying for a gift
+
+gift2Title: Consider our recommendations
+gift2Text: Individual recommendations are provided for each participant
+
+gift3Title: Hint on where <br> to purchase a gift
+gift3Text: We partner with trusted dropshipping companies
+
+#Stats
+statsTitle: 250 000
+statsSubtitle: people played in 2021
+statsText: Secret Santa worked tirelessly to make sure no one was left without a gift
+statsCreate:  Create a game
+statsWhy: Why put it off?
+
+#Features
+featuresTitle: Why deal with My Santa?
+featuresText: That's easy and free
+
+feature1Title: You can <span class="title2__second">play remotely</span>
+feature1Text: It's essential today when participants may be <br> on different sides of the country and the world.
+
+feature2Title: <span class="title2__second">A transparent</span> process of the exchange
+feature2Text: No one will be left without a gift. <br> Everything is recorded.
+
+feature3Title: <span class="title2__second">Gift-giving</span> assistance
+feature3Text: Our recommendations will suggest which <br> gift is likely to appeal to the participant
+
+#Reviews
+reviewsTitle: How was it last year
+
+review1Text: We played Secret Santa with the whole office. I created a link to the game in the service and just wrote about it in Slack in the work chat room. Everyone was cool about it and supported the game. No one was left without presents :)
+review1Name: Victor
+review1City: 
+
+review2Text: I've been looking for a service where I can arrange Secret Santa for a long time. Before that I had to gather all my friends in one place and pull stickers from the basket. The service is certainly more convenient in this respect. Thank you!
+review2Name: Mary
+review2City: 
+
+review3Text: I work as an HR in a large company and accidentally came across the My Santa service on the internet. I tried it and had no regrets! All 320 employees played, and afterwards I received a lot of messages of gratitude for the holiday we had organized.
+review3Name: Ingrid
+review3City: 
+
+review4Text: Christmas is first of all a family holiday. This year we decided to play Secret Santa to add some new emotions) I just sent a link to our home chat room and then it worked out by myself. Thanks guys)))
+review4Name: Mary
+review4City: 
+
+review5Text: We were playing Secret Santa at work, I just thought why not have a Santa for the guys. I created a link, sent it to the chat room at work, everyone joined in and then found out who got who. It turned out great)
+review5Name: Andrew
+review5City: 
+
+review6Text: We played with our whole group on Telegram, of course we never saw each other, but it was quite interesting to send a gift to a stranger. He was happy with it.
+review6Name: Jane
+review6City: 
+
+reviewsMore: Load more
+
+#Start
+startTitle: Don't postpone, <span class="title1__black">organise the gift exchange</span> today!
+startText: Invite the participants and set up the game. We'll make sure the game goes great.
+startCreate: Create a game
+
+#FAQ
+faqTitle: FAQ
+
+faq1Title: What is Secret Santa anyway?
+faq1Main: |
+  <p>A Christmas game with simple rules: each participant works as a Secret Santa and secretly prepares a gift for another participant. In the end, everyone gets both the joy of preparing a surprise and a gift. And we are the service that automates this game.</p>
+
+faq2Title: How much does it cost?
+faq2Main: |
+  <p>We have 3 plans:</p>
+  <p>the <b>Friends</b> plan is free of charge and up to 10 players can play. It includes all basic features for a comfortable game.</p>
+  <p><b>Company</b> plan: It's suitable if you have up to 35 players and need additional control over the players, for example, the function "Who's Santa". Price: $9</p>
+  <p><b>Business</b> plan: for games with more than 35 players. Price: $19</p>
+
+faq3Title: What are the mechanics of the game?
+faq3Main: |
+  <p>After you create the game we will prepare a special link that you need to distribute to the players. After they sign up, they need to tell us what they want for Christmas and exactly what not to give. And we will make sure that Secret Santa does his job.</p>
+
+faq4Title: What if one of the players does not have mail for the game?
+faq4Main: |
+  <p>We advise you to create a temporary email on one of the popular email services. Without an individual mail for each player it will not be possible to play.</p>
+
+faq5Title: What to do if there are still questions?
+faq5Main: |
+  <p>Write to <a href="mailto:hello@mysanta.ru">hello@mysanta.ru</a>. We will answer any questions as quickly as possible</p>
+
+#Footer
+footerCopyright: © 2022 MySanta
+footerAgreement: Privacy Policy
+
+#Cookie
+cookieText: We use cookies to improve your experience on the site.
+cookieBtn: OK

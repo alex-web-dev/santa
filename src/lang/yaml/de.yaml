@@ -1,0 +1,186 @@
+#Global
+homeTitle: DE of Secret Santa Generator 2023 | Werden Sie dieses Jahr zum Secret Santa
+
+#Header
+menuRules: Regeln
+menuLogin: Anmelden
+menuCreate: Spiel erstellen
+
+#Banner
+bannerTitle: |
+  Werden Sie dieses Jahr zum Secret Santa
+bannerText: |
+  Tauschen Sie Weihnachtsgeschenke mit Kollegen, Freunden, der Großfamilie und Mitgliedern Ihrer Online-Gemeinschaft.
+bannerBtn: Los geht`s
+bannerScreen:
+  url: assets/img/en/banner-screen
+  type: png
+
+#Callback
+callbackTitle: Wir haben auch Chatbots
+callbackText: Dies machte es noch einfacher zu spielen.
+
+callbackTelegram: Telegramm
+callbackVK: VK
+callbackWhatsApp: WhatsApp
+callbackWhatsAppSoon: bald
+
+#Steps
+stepsTitle: |
+   Wichteln —
+   <span class="title1__primary">nice</span>
+   &
+   <span class="title1__primary">easy</span>
+stepsText: ''
+
+step1Img:
+  url: assets/img/en/steps/1
+  type: jpg
+step1Title: In drei, zwei, eins sind Sie bereit
+step1Text: |
+   <p>Legen Sie den Namen des Spiels und das Datum fest, an dem die Geschenke übergeben werden. Teilen Sie den Teilnehmern mit, wie die Geschenke überreicht werden sollen.
+    <br>
+    Erstellen Sie den Link, über den neue Spieler teilnehmen können.</p>
+
+step2Img:
+  url: assets/img/en/steps/2
+  type: jpg
+step2Title: Sehen Sie, wie die Zahlen wachsen
+step2Text: |
+   <p>Sie können den Fortschritt des Spiels leicht verfolgen. Wenn jemand seine Meinung ändert oder aus Versehen mitspielt, können Sie
+      <br>
+      den Spieler einfach aus dem Spiel entfernen.</p>
+
+step3Img:
+  url: assets/img/en/steps/3
+  type: jpg
+step3Title: Behalten Sie die Geschenke im Auge
+step3Text: |
+   <p>Every player should receive a gift. On the website, you can track the game’s progress and see who has already sent a gift or needs a nudge.</p>
+
+#Play
+playTitle: Spielen Sie mit denen, <br> <span class="title2__third">die Ihnen von Bedeutung sind</span>
+playText: Starten Sie ein Geschenketauschspiel für jeden Kreis der Lieben die Sie glücklich sind, in Ihrem Leben zu haben
+
+playItem1Title: Freunde
+playItem1Text: Würzen Sie Ihre Weihnachts- oder Neujahrsfeier mit extra viel Freude
+
+playItem2Title: Arbeitskollegen
+playItem2Text: Die Tradition des Wichtelns bringt sogar entfernte Kollegen einander näher
+
+playItem3Title: Familie
+playItem3Text: Tauschen Sie bei Ihrem Familientreffen Geschenke aus um die Freude <br> (und einige Kosten) zu teilen
+
+playItem4Title: Online-Gemeinschaft
+playItem4Text: Sie sind sich vielleicht noch nie persönlich begegnet, aber das heißt nicht, <br> dass Sie nicht interessiert sind.
+
+#Gifts
+giftsTitle: |
+  <span>Die</span>
+  <span class="title1__primary">Geschenke</span>
+  <span>werden</span>
+  <span class="title1__primary">sicher</span>
+  <span class="title1__primary title1__like">gefallen</span>
+giftsText: |
+  Jeder Teilnehmer erstellt seine eigene <em>persönliche</em> Wunschliste
+giftsImg:
+  url: assets/img/en/gifts-img
+  type: jpg
+
+gift1Title: Jeder erstellt <br> einen Wunschzettel
+gift1Text: Legen Sie fest, wonach Sie suchen und was Sie nicht als Geschenk kaufen wollen
+
+gift2Title: Beachten Sie unsere Empfehlungen
+gift2Text: Für jeden Teilnehmer gibt es individuelle Empfehlungen
+
+gift3Title: Tipps zum <br> Geschenkekauf
+gift3Text: Wir arbeiten mit vertrauenswürdigen Dropshipping-Unternehmen zusammen
+
+#Stats
+statsTitle: 250 000
+statsSubtitle: Menschen spielten im Jahr 2021
+statsText: Secret Santa arbeitete unermüdlich, um sicherzustellen, dass niemand ohne ein Geschenk dastand
+statsCreate: Spiel erstellen
+statsWhy: Warum auf Eis legen?
+
+#Features
+featuresTitle: Warum mit My Santa spielen?
+featuresText: |
+  Erstens: Es ist einfach und kostenlos. Aber auch…
+
+feature1Title: Sie können <span class="title2__second">aus <br> der Ferne spielen</span>
+feature1Text: Das ist heute unerlässlich, wenn sich die Teilnehmer <br> in verschiedenen Städten oder sogar Ländern befinden.
+
+feature2Title: <span class="title2__second">Ein transparenter</span> Prozess der Geschenkübergabe
+feature2Text: Niemand wird ohne ein Geschenk dastehen. <br> Alles wird aufgezeichnet.
+
+feature3Title: <span class="title2__second">Hilfe</span> beim Schenken
+feature3Text: Unsere Empfehlungen schlagen vor, welches Geschenk bei den Teilnehmern am besten ankommt.
+
+#Reviews
+reviewsTitle: So war es im letzten Jahr
+
+review1Text: Für mein Büro habe ich einen Link zu dem Spiel erstellt und einfach im Slack-Arbeits-Chat darüber geschrieben. Alle waren begeistert und haben das Spiel unterstützt. Niemand wurde ohne Geschenke zurückgelassen :)
+review1Name: Victor
+review1City: 
+
+review2Text: Ich habe schon lange nach einem Dienst gesucht, mit dem ich ein Wichtelspiel veranstalten kann. Vorher musste ich alle meine Freunde an einem Ort versammeln und Sticker aus dem Korb ziehen. Mz Santa sicher, sicher bequemer. Vielen Dank dafür!
+review2Name: Mary
+review2City: 
+
+review3Text: Ich arbeite in der Personalabteilung eines großen Unternehmens und bin im Internet zufällig auf den Dienst My Santa gestoßen. Alle unsere 320 Mitarbeiter haben mitgespielt, und danach habe ich viele Dankesbekundungen für das Fest erhalten, das wir organisiert hatten.
+review3Name: Ingrid
+review3City: 
+
+review4Text: Weihnachten ist in erster Linie ein Familienfest. Wir haben beschlossen, Secret Santa zu spielen, um neue Emotionen zu wecken. Ich habe einen Link zu unserem Chat geschickt, und es hat alles perfekt geklappt. Danke sehr!
+review4Name: Mary
+review4City: 
+
+review5Text: Ich wollte ein Wichtelspiel für meine tollen Kollegen veranstalten. Ich erstellte einen Link, schickte ihn in den Chatroom auf der Arbeit und alle machten mit. Es hat sich auch als ein wirklich tolles Teambuilding herausgestellt)
+review5Name: Andrew
+review5City: 
+
+review6Text: Ich habe mit meinen Online-Freunden gespielt. Wir haben uns nie gesehen, aber es war sehr cool, ein Geschenk auszuwählen. Derjenige, der mein Geschenk bekommen hat, hat sich sehr darüber gefreut. Tolles Spiel!
+review6Name: Jane
+review6City: 
+
+reviewsMore: Mehr laden
+
+#Start
+startTitle: Zögern Sie nicht, <span class="title1__black">erstellen Sie einen Geschenkaustausch</span> noch heute!
+startText: Laden Sie die Teilnehmer ein und bereiten Sie das Spiel vor. <br> Wir werden dafür sorgen, dass das Spiel gut läuft.
+startCreate: Spiel erstellen
+
+#FAQ
+faqTitle: FAQ
+
+faq1Title: Was ist eigentlich Secret Santa?
+faq1Main: |
+  <p>Ein Weihnachtsspiel mit einfachen Regeln: Jeder Teilnehmer arbeitet als Wichtel und bereitet heimlich ein Geschenk für einen anderen Teilnehmer vor. Am Ende hat jeder sowohl die Freude, eine Überraschung vorzubereiten, als auch ein Geschenk. Und wir sind der Dienst, der dieses Spiel automatisiert.</p>
+
+faq2Title: Wie hoch sind die Kosten?
+faq2Main: |
+  <p>Wir haben 3 Tarifoptionen:</p>
+  <p>Die <b>Friende Option</b> ist kostenlos und bis zu 10 Spieler können mitspielen. Sie enthält alle grundlegenden Funktionen für ein komfortables Spiel.</p>
+  <p><b>Firmen Option</b>: Sie ist geeignet, wenn Sie bis zu 35 Spieler haben und zusätzliche Kontrolle über die Spieler benötigen, zum Beispiel die Funktion «Wer ist der Santa». Preis: $9.</p>
+  <p><b>Business Option</b> : für Spiele mit mehr als 35 Spielern. Preis: $19.</p>
+
+faq3Title: Wie funktioniert das Spiel?
+faq3Main: |
+  <p>Nachdem Sie das Spiel erstellt haben, werden wir einen speziellen Link vorbereiten, den Sie an die Spieler weitergeben müssen. Nachdem sie sich angemeldet haben, müssen sie uns sagen, was sie sich zu Weihnachten wünschen und was sie nicht schenken wollen. Und wir werden dafür sorgen, dass der Wichtel seinen Job macht.</p>
+
+faq4Title: Was ist, wenn einer der Spieler keine E-Mail für das Spiel hat?
+faq4Main: |
+  <p>Wir raten Ihnen, eine temporäre E-Mail bei einem der gängigen E-Mail-Dienste zu erstellen. Ohne eine individuelle E-Mail für jeden Spieler wird es nicht möglich sein zu spielen.</p>
+
+faq5Title: Es gibt noch Fragen offen, was ist zu tun?
+faq5Main: |
+  <p>Schreiben Sie uns an <a href="mailto:hello@mysanta.ru">hello@mysanta.ru</a>. Wir freuen uns, Ihre Fragen so schnell wie möglich zu beantworten.</p>
+
+#Footer
+footerCopyright: © 2022 MySanta
+footerAgreement: Privacy Policy
+
+#Cookie
+cookieText: Wir verwenden Cookies, um Ihre Erfahrung auf der Website zu verbessern.
+cookieBtn: OK
