@@ -2,6 +2,7 @@
 	"langs": {
 		"de": {
 			"homeTitle": "DE of Secret Santa Generator 2023 | Werden Sie dieses Jahr zum Secret Santa",
+			"homeDescription": "Tauschen Sie Weihnachtsgeschenke mit Kollegen, Freunden, der Großfamilie und Mitgliedern Ihrer Online-Gemeinschaft",
 			"menuRules": "Regeln",
 			"menuLogin": "Anmelden",
 			"menuCreate": "Spiel erstellen",
@@ -114,6 +115,7 @@
 		},
 		"en": {
 			"homeTitle": "Secret Santa Generator 2023 | Become a Secret Santa this Christmas",
+			"homeDescription": "Exchange Christmas gifts with coworkers, friends, extended family, and your community members.",
 			"menuRules": "Rules",
 			"menuLogin": "Sign in",
 			"menuCreate": "Create a game",
@@ -226,6 +228,7 @@
 		},
 		"es": {
 			"homeTitle": "Amigo Invisible Online 2023 | ¡Conviértase en un Amigo Invisible esta Navidad",
+			"homeDescription": "Intercambie regalos de Navidad con compañeros de trabajo, amigos, familiares, y los miembros de su comunidad.",
 			"menuRules": "Reglas",
 			"menuLogin": "Iniciar sesión",
 			"menuCreate": "Crear un juego",
@@ -338,6 +341,7 @@
 		},
 		"ru": {
 			"homeTitle": "Тайный Санта 2023 | Организуйте онлайн жеребьевку",
+			"homeDescription": "Играйте в Тайного Санту с коллегами и друзьями, всей семьёй или просто со знакомыми и подписчиками.",
 			"menuRules": "Правила",
 			"menuLogin": "Войти",
 			"menuCreate": "Создать игру",
