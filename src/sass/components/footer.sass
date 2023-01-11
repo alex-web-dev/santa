@@ -10,10 +10,11 @@
     align-items: center
     justify-content: space-between
 
-  &__info:not(:first-child),
-  &__img:not(:first-child),
-  &__right:not(:first-child)
-    margin-left: 20px
+  &__info,
+  &__img,
+  &__right
+    &:not(:first-child)
+      margin-left: 20px
 
   &__info
     display: flex
@@ -69,13 +70,13 @@
 
     &__info,
     &__img,
-    &__social-links
+    &__right
       &:not(:first-child)
         margin-left: 0
 
     &__info
       margin-top: 30px
-      order: 2
+      order: 3
       align-items: center
 
     &__copyright
@@ -86,18 +87,16 @@
       font-size: 15px
       line-height: 1.73
 
-    &__agreement
-      margin-top: 30px
+    &__menu-link
       font-size: 15px
 
     &__img
       order: -1
 
     &__right
-      order: 3
-
-    &__social-links
-      margin-top: 30px
+      text-align: center
+      margin-top: 35px
+      order: 2
 
   @media (max-width: 640px)
     &__img
