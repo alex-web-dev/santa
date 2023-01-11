@@ -18,7 +18,8 @@ html(lang=selectedLang)
     body
         .preloader
 
-        include ../partials/_header.pug
+        if !hideHeader
+            include ../partials/_header.pug
 
         block content
 

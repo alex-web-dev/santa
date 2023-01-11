@@ -1,9 +1,11 @@
 #Global
-homeTitle: DE of Secret Santa Generator 2023 | Werden Sie dieses Jahr zum Secret Santa
-homeDescription: Tauschen Sie Weihnachtsgeschenke mit Kollegen, Freunden, der Großfamilie und Mitgliedern Ihrer Online-Gemeinschaft
+homePageTitle: DE of Secret Santa Generator 2023 | Werden Sie dieses Jahr zum Secret Santa
+homePageDescription: Tauschen Sie Weihnachtsgeschenke mit Kollegen, Freunden, der Großfamilie und Mitgliedern Ihrer Online-Gemeinschaft
 
 #Header
-menuRules: Regeln
+menuRules:
+  link: ./rules-en
+  text: Regeln
 menuLogin: Anmelden
 menuCreate: Spiel erstellen
 
@@ -18,13 +20,13 @@ bannerScreen:
   type: png
 
 #Callback
-callbackTitle: Wir haben auch Chatbots
-callbackText: Dies machte es noch einfacher zu spielen.
+callbackTitle: 
+callbackText: 
 
-callbackTelegram: Telegramm
-callbackVK: VK
-callbackWhatsApp: WhatsApp
-callbackWhatsAppSoon: bald
+callbackTelegram: 
+callbackVK: 
+callbackWhatsApp: 
+callbackWhatsAppSoon: 
 
 #Steps
 stepsTitle: |
@@ -180,7 +182,15 @@ faq5Main: |
 
 #Footer
 footerCopyright: © 2022 MySanta
-footerAgreement: Privacy Policy
+footerAgreement:
+  link: ./privacy-policy-en
+  text: Privacy Policy
+footerTerms: 
+  link: ./tos-en
+  text: Terms Of Service
+footerRefund: 
+  link: ./refund-policy-en
+  text: Refund Policy
 
 #Cookie
 cookieText: Wir verwenden Cookies, um Ihre Erfahrung auf der Website zu verbessern.

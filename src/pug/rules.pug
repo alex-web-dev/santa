@@ -1,0 +1,37 @@
+extends layouts/_layout.pug
+
+block vars
+	- var selectedLang = 'ru';
+
+block title
+	| !{lang.rulesPageTitle}
+
+block description
+	meta(name="description" content=lang.rulesPageDescription)
+
+block content
+	main.main
+		section.banner
+			.container
+				.banner__content 
+					.banner__info
+						h1.title1.banner__title !{ lang.rulesTitle }
+						.text.banner__text !{ lang.rulesText }
+
+		section.info
+			.container
+				.info__content
+					.info__main !{ lang.rulesContent }
+					if lang.rulesCreate
+						a.btn.info__btn(href="./login.html") !{ lang.rulesCreate }
+
+		if selectedLang != 'ru'
+			section.start.main__start
+				.container
+					.start__content
+						h2.title1.start__title !{ lang.startTitle }
+						p.text.text--big.start__text !{ lang.startText }
+						a.btn.btn--black.start__btn(href="./login") !{ lang.startCreate }
+						+picture('assets/img/start/deer', 'png', 'start__deer', 240, 239, true)
+						+picture('assets/img/start/tree', 'png', 'start__tree', 293, 340, true)
+						+picture('assets/img/start/santa', 'png', 'start__santa', 277, 300, true)

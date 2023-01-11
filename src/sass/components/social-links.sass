@@ -9,8 +9,8 @@
     display: flex
     align-items: center
     justify-content: center
-    width: 50px
-    height: 50px
+    width: 40px
+    height: 40px
     border-radius: 50%
     background-color: #6477a2
 
@@ -18,14 +18,7 @@
       fill: $color-white
       max-width: 25px
       max-height: 20px
+      transform: scale(0.8)
 
     &:not(:first-child)
       margin-left: 20px
-
-  @media (max-width: 640px)
-    &__link
-      width: 40px
-      height: 40px
-
-      svg
-        transform: scale(0.8)

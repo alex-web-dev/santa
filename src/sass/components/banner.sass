@@ -4,20 +4,21 @@
 
   &__content
     position: relative
-    padding: 263px 0 212px
+    padding: 192px 0 97px
 
   &__info
     position: relative
     z-index: 5
-    padding-left: 86px
-    max-width: 632px
+    max-width: 840px
+
+    p:not(:first-child)
+      margin-top: 30px
 
   &__title
     color: inherit
 
   &__text
     margin-top: 30px
-    max-width: 465px
     color: inherit
 
   &__btn
@@ -78,6 +79,16 @@
       bottom: -20%
       filter: blur(7.5px)
 
+  &--home &__content
+    padding: 263px 0 212px
+
+  &--home &__info
+    max-width: 632px
+    padding-left: 86px
+
+  &--home &__text
+    max-width: 465px
+
   @media (max-width: 1400px)
     &__candy
       &--2
@@ -87,7 +98,7 @@
         right: -3%
 
   @media (max-width: 1200px)
-    &__info
+    &--home &__info
       padding-left: 0
       max-width: 546px
 
@@ -97,10 +108,9 @@
 
   @media (max-width: 991px)
     &__content
-      padding: 150px 0 780px
+      padding: 140px 0 90px
 
     &__info
-      text-align: center
       margin: 0 auto
 
     &__phone
@@ -122,13 +132,19 @@
         max-width: 115px
         filter: blur(5px)
 
+    &--home &__content
+      padding: 150px 0 780px
+
+    &--home &__info
+      text-align: center
+
   @media (max-width: 767px)
     &__phone
       left: 0
 
   @media (max-width: 640px)
     &__content
-      padding: 87px 0 487px
+      padding: 90px 0 42px
 
     &__info
       max-width: 340px
@@ -176,4 +192,6 @@
         max-width: 70px
         bottom: -6%
         right: -5%
-      
+
+    &--home &__content
+      padding: 87px 0 487px

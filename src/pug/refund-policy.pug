@@ -1,0 +1,17 @@
+extends layouts/_layout.pug
+
+block vars
+	- var selectedLang = 'ru';
+	- var hideHeader = true
+
+block title
+	| !{lang.refundPolicyPageTitle}
+
+block description
+	meta(name="description" content=lang.refundPolicyPageDescription)
+
+block content
+	main.main
+		.terms-info
+			.container
+				.terms-info__main !{ lang.refundPolicyContent }

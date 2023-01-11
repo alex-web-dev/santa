@@ -1,9 +1,11 @@
 #Global
-homeTitle: Amigo Invisible Online 2023 | ¡Conviértase en un Amigo Invisible esta Navidad
-homeDescription: Intercambie regalos de Navidad con compañeros de trabajo, amigos, familiares, y los miembros de su comunidad.
+homePageTitle: Amigo Invisible Online 2023 | ¡Conviértase en un Amigo Invisible esta Navidad
+homePageDescription: Intercambie regalos de Navidad con compañeros de trabajo, amigos, familiares, y los miembros de su comunidad.
 
 #Header
-menuRules: Reglas
+menuRules:
+  link: ./rules-en
+  text: Reglas
 menuLogin: Iniciar sesión
 menuCreate: Crear un juego
 
@@ -18,13 +20,13 @@ bannerScreen:
   type: png
 
 #Callback
-callbackTitle: También tenemos chatbots
-callbackText: Esto hizo que fuera aún más fácil de jugar.
+callbackTitle: 
+callbackText: 
 
-callbackTelegram: Telegrama
-callbackVK: VK
-callbackWhatsApp: WhatsApp
-callbackWhatsAppSoon: pronto
+callbackTelegram: 
+callbackVK: 
+callbackWhatsApp: 
+callbackWhatsAppSoon: 
 
 #Steps
 stepsTitle: |
@@ -173,7 +175,15 @@ faq5Main: |
 
 #Footer
 footerCopyright: © 2022 MySanta
-footerAgreement: Privacy Policy
+footerAgreement:
+  link: ./privacy-policy-en
+  text: Privacy Policy
+footerTerms: 
+  link: ./tos-en
+  text: Terms Of Service
+footerRefund: 
+  link: ./refund-policy-en
+  text: Refund Policy
 
 #Cookie
 cookieText: Utilizamos cookies para mejorar su experiencia en el sitio.

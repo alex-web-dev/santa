@@ -1,3 +1,12 @@
 .message-alert.message-alert--primary.message-alert--cookie
     .message-alert__text !{ lang.cookieText }
     button.btn.btn--black.message-alert__btn !{ lang.cookieBtn }
+
+if selectedLang == 'ru'
+    .popup(data-name="whatsapp")
+        .popup__content
+            .popup__message WhatsApp скоро начнёт работать
+            button.popup__close
+                svg(width="15" height="15" viewBox="0 0 15 15")
+                    path(d="M13.7742 13.7742L1 1" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round")
+                    path(d="M13.7742 1L1 13.7742" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round")

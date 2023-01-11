@@ -10,11 +10,10 @@
     align-items: center
     justify-content: space-between
 
-  &__info,
-  &__img,
-  &__social-links
-    &:not(:first-child)
-      margin-left: 20px
+  &__info:not(:first-child),
+  &__img:not(:first-child),
+  &__right:not(:first-child)
+    margin-left: 20px
 
   &__info
     display: flex
@@ -30,7 +29,11 @@
     line-height: 1.9
     color: #6477a2
 
-  &__agreement
+  &__menu-item
+    &:not(:first-child)
+      margin-top: 10px
+
+  &__menu-link
     display: inline-block
     font-size: 18px
     line-height: 1.67
@@ -39,7 +42,7 @@
   &__img
     margin-top: -40px
     max-width: 293px
-    
+
     img
       height: auto
 
@@ -69,7 +72,7 @@
     &__social-links
       &:not(:first-child)
         margin-left: 0
-    
+
     &__info
       margin-top: 30px
       order: 2

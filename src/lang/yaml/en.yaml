@@ -1,9 +1,20 @@
 #Global
-homeTitle: Secret Santa Generator 2023 | Become a Secret Santa this Christmas
-homeDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
+homePageTitle: Secret Santa Generator 2023 | Become a Secret Santa this Christmas
+homePageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
+
+rulesPageTitle: Secret Santa Rules | Best Online Randomizer | Become a Secret Santa this Christmas
+rulesPageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
+
+privacyPolicyPageTitle: Secret Santa Generator 2023 | Privacy
+privacyPolicyPageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
+
+tosPageTitle: Secret Santa Generator 2023 | Privacy
+tosPageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
 
 #Header
-menuRules: Rules
+menuRules:
+  link: ./rules-en
+  text: Rules
 menuLogin: Sign in
 menuCreate: Create a game
 
@@ -22,13 +33,13 @@ bannerScreen:
   type: png
 
 #Callback
-callbackTitle: We also have chatbots
-callbackText: This made it even easier to play.
+callbackTitle: 
+callbackText: 
 
-callbackTelegram: Telegram
-callbackVK: VK
-callbackWhatsApp: WhatsApp
-callbackWhatsAppSoon: soon
+callbackTelegram: 
+callbackVK: 
+callbackWhatsApp: 
+callbackWhatsAppSoon: 
 
 #Steps
 stepsTitle: |
@@ -177,8 +188,717 @@ faq5Main: |
 
 #Footer
 footerCopyright: © 2022 MySanta
-footerAgreement: Privacy Policy
+footerAgreement:
+  link: ./privacy-policy-en
+  text: Privacy Policy
+footerTerms: 
+  link: ./tos-en
+  text: Terms Of Service
+footerRefund: 
+  link: ./refund-policy-en
+  text: Refund Policy
 
 #Cookie
 cookieText: We use cookies to improve your experience on the site.
 cookieBtn: OK
+
+#Rules
+rulesTitle: Secret Santa rules
+rulesText: |
+  <p>Secret Santa is a game in which all participants anonymously exchange gifts for the Christmas. The rules of Secret Santa are as follows: one person creates the game, specifies the date when everyone will know who is whose Santa. We give a link, it must be distributed among the players. Afterwards, we help you choose a gift.</p>
+rulesContent: |
+  <h2>What is the game Secret Santa?</h2>
+  <p><b>MySanta</b> is an online randomizer. Our service will help you easily and simply distribute the names and addresses of participants among each other, so that everyone gives and receives a gift.</p>
+  <h2>Who is the game of Secret Santa for?</h2>
+  <p><b>Secret Santa</b> is a Christmas quest that everyone can participate in! Play Anonymous Santa with co-workers in the office, offer to host it in your child's classroom, or exchange gifts with friends. Secret Santa allows you to give each other valuable inexpensive gifts, saving time and money.</p>
+  <h2>What to give?</h2>
+  <p>The most difficult question, of course, is not how to allocate addresses for Secret Santa, but what to give - to the boss, colleague, girlfriend, young man, classmates and classmates. We took care of you here, too, and collected the coolest gift ideas this year, for every taste and budget.</p>
+  <h2>How do I play Secret Santa through the app on the website?</h2>
+  <p><b>Mysanta</b> is an online randomizer. Our service will help you easily and simply distribute the names and addresses of participants among each other, so that everyone gives and receives a gift.</p>
+  <p>All you need to start playing Secret Santa on our website - is to register in our service, specify your e-mail, get a link to invite other participants - and send it to all who will play the game.</p>
+  <p>Each participant goes to the link and indicates their name and the desired gift within the specified amount (set by you). Then our algorithm itself will distribute who gives whom a gift.</p>
+  <p>On the appointed day, all participants who have registered through the link will receive an email with instructions on who to give a gift to and what it might be.</p>
+rulesCreate:
+
+#Privacy policy
+privacyPolicyContent: |
+  <strong>PRIVACY POLICY</strong><br />
+  <br />
+  This Privacy Policy was last updated on September 1, 2022.<br />
+  <br />
+  Our Policy:<br />
+  Welcome to www.mysanta.co (together with its subdomains, the “Site”), the website of MySanta (“MySanta”, “we”, “us”
+  and/or “our”). The Site is operated by MySanta and has been created to provide you with information about MySanta and
+  our social gift-giving services and related services (the “Services”). This Privacy Policy described how MySanta
+  collects, aggregates, stores, safeguards and uses the data and information (including non-public personal information,
+  or
+  “Personal Data”) provided by users through the Site, as well as information collected by us through other means,
+  including by email, over the phone, or in offline communications.<br />
+  <br />
+  We take your privacy and the security of your information seriously.<br />
+  <br />
+  This policy explains:<br />
+  What information we collect, and how we use it<br />
+  Choices you can make about the way your information is collected and used<br />
+  How we protect personal information electronically and physically<br />
+  <br />
+  This policy is incorporated into and a material term of your registration and/or use of MySanta’s products and Services,
+  including the Site. By using the Site or Services, you consent to the practices set forth in this Privacy Policy.
+  <br />
+  <br />
+  Information We Collect:<br />
+  When you interact with us through the Site or by using the Services, we may collect Personal Data and other information
+  from you, as further described below.<br />
+  <br />
+  Information You Provide:<br />
+  We collect Personal Data and other information from you when you voluntarily provide such information, such as when you
+  contact us with inquiries, respond to one of our surveys, register for access to the Site or use certain Services.
+  The information we collect may include your name, address, email address, telephone or mobile phone number, and related
+  information. You may be required to provide certain Personal Data and other information to register for and receive
+  the Services.<br />
+  <br />
+  By voluntarily providing us with Personal Data and other information, you are consenting to our use of it in accordance
+  with this Privacy Policy, including the transfer of such Personal Data from your current location to the offices and
+  servers of MySanta and the authorized third parties referred to in this Privacy Policy.<br />
+  <br />
+  Information We Automatically Collect:<br />
+  We may use cookies or other technologies to automatically collect certain information when you visit our Site or
+  interact with the Services. For example, if you are responding to an offer, promotional email or other email from us, we
+  may automatically populate your personal information into our system once you enter your offer code or similar
+  identifying device or otherwise accept your offer or promotion. Additionally, we may automatically collect certain non-
+  information from you such as your browser type, operating system, software version, and Internet Protocol ("IP")
+  address. We also may collect information about your use of the Site, including the date and time of access, the areas or
+  pages that you visit, the amount of time you spend using the Site, the number of times you return, whether you open,
+  forward, or click-through emails, and other Site usage data.<br />
+  <br />
+  You may adjust your browser or operating system settings to limit this tracking or to decline cookies, but by doing so,
+  you may not be able to use certain features on the Site or take full advantage of all of our offerings. Check the
+  "Help" menu of your browser or operating system to learn how to adjust your tracking settings or cookie preferences.
+  Please note that our system may not respond to Do Not Track requests or headers from some or all browsers.<br />
+  <br />
+  Use of Personal Data and Other Information:<br />
+  MySanta uses the Personal Data and other information you provide in a manner that is consistent with this Privacy
+  Policy. If you provide Personal Data for a certain reason, we may use the Personal Data in connection with the reason
+  for
+  which it was provided. For instance, if you contact us by email, we will use the Personal Data you provide to answer
+  your question or resolve your problem. Also, if you provide Personal Data in order to obtain access to the Site or use
+  the Services, we will use your Personal Data to provide you with access to the Site and the Services. MySanta may also
+  use your Personal Data and other information collected through the Site and the Services to help us improve the
+  content and functionality of the Site, to better understand our users and to improve the nature and quality of our
+  Services. Subject to applicable law, MySanta may use this information to contact you in the future to tell you about
+  services we believe will be of interest to you. If we do so, each marketing communication we send you will contain
+  instructions permitting you to "opt-out" of receiving future marketing communications. In addition, if at any time you
+  wish not to receive any future marketing communications or you wish to have your name deleted from our mailing lists,
+  please contact us as indicated below.<br />
+  <br />
+  Aggregated Personal Data:<br />
+  In an ongoing effort to better understand and serve its users and customers, MySanta may conduct research on its
+  customer demographics, interests and behavior based on the Personal Data and other information provided to us. This
+  research may be compiled and analyzed on an aggregate basis, and MySanta may share this aggregate data with its
+  affiliates, agents and business partners. This aggregate information will not identify you personally. MySanta may also
+  disclose aggregated user statistics in order to describe our services to current and prospective business partners, and
+  to other third parties for other lawful purposes.<br />
+  <br />
+  Sharing of Personal Data and Other Information:<br />
+  MySanta is not in the business of selling your Personal Data or information. We consider this information to be a vital
+  part of our relationship with you. There are, however, certain circumstances in which we may share your Personal
+  Data with certain third parties without further notice to you, as set forth below:<br />
+  <br />
+  Business Transfers:<br />
+  As we develop our business, we might sell or buy businesses or assets. In the event of a corporate sale, merger,
+  reorganization, dissolution or similar event, Personal Data may be part of the assets transferred in such transaction.
+  <br />
+  <br />
+  Related Companies:<br />
+  We may share your Personal Data with any of our corporate affiliates or subsidiaries, if any, for purposes consistent
+  with this Privacy Policy.<br />
+  <br />
+  Agents, Consultants and Third Party Service Providers:<br />
+  MySanta, like many businesses, sometimes hires other companies to perform certain business-related functions. Examples
+  of such functions include mailing information, maintaining databases and processing payments. When we employ another
+  entity to perform a function of this nature, we only provide them with the information that they need to perform their
+  specific function, and we ensure that they are obligated to keep such information confidential.<br />
+  <br />
+  Legal Requirements:<br />
+  MySanta may disclose your Personal Data or other information if required to do so by law or in the good faith belief
+  that such action is necessary to (i) comply with a legal obligation, (ii) protect and defend the rights or property of
+  MySanta, (iii) act in urgent circumstances to protect the personal safety of users of the Site, the Services or the
+  public, or (iv) protect against legal liability.<br />
+  <br />
+  Your Choices:<br />
+  You can visit the Site without providing any Personal Data. If you choose not to provide any Personal Data, you may not
+  be able to use certain Services.<br />
+  <br />
+  Children and Minors:<br />
+  MySanta does not knowingly collect Personal Data from children under the age of 13. If you are under the age of 13,
+  please do not submit any Personal Data through the Services. We encourage parents and legal guardians to monitor their
+  children’s Internet usage and to help enforce our Privacy Policy by instructing their children never to provide Personal
+  Data on the Site or through the Services without their permission. If you have reason to believe that a child under
+  the age of 13 has provided Personal Data to MySanta through the Site or the Services, please contact us, and we will
+  endeavor to delete that information from our databases.<br />
+  <br />
+  Links to Other Web Sites:<br />
+  The Site may have links to third-party websites not operated or controlled by MySanta, which may have privacy policies
+  that differ from our own. We are not responsible for the practices of such sites, nor does any such link imply that
+  MySanta endorses or has reviewed the third party site subject to such link. The policies and procedures we described
+  here do not apply to the Third Party Sites. We suggest contacting those sites directly for information on their privacy
+  policies.<br />
+  <br />
+  Integrating Social Networking Services:<br />
+  One of the special features of our Site and Service is that you may log in via various social networking services like
+  Facebook or Twitter (“Social Networking Services”). By directly integrating these services, we make your online
+  experiences richer and more personalized. To take advantage of this feature, we will ask you to log into or grant us
+  permission to access certain of your information via the relevant Social Networking Service. When you add a Social
+  Networking Services account to the Service or log into the Service using your Social Networking Services account, we
+  will collect relevant information necessary to enable the Service to access that Social Networking Service and your
+  data contained within that Social Networking Service. As part of such integration, the Social Networking Service will
+  provide us with access to certain information that you have provided to the Social Networking Service, and we will
+  use, store and disclose such information in accordance with this Privacy Policy. However, please remember that the
+  manner in which Social Networking Services use, store and disclose your information is governed by the policies of each
+  such Social Networking Service, and MySanta shall have no liability or responsibility for the privacy practices or other
+  actions of any Social Networking Services that may be enabled within our Site or our Services.<br />
+  <br />
+  You may also have the option of posting your Site or Services activities to Social Networking Services when you access
+  content through the Site or the Services (for example, you may post to Facebook that you performed an activity on the
+  Service); you acknowledge that if you choose to use this feature, your friends, followers and subscribers on any Social
+  Networking Services you have enabled will be able to view such activity.<br />
+  <br />
+  Data Security:<br />
+  MySanta takes reasonable steps to protect the Personal Data and other information that you provide to us via the Site
+  and the Services from loss, misuse, and unauthorized access, disclosure, alteration, or destruction. However, no
+  Internet or email transmission is ever fully secure or error free. Therefore, you should take special care in deciding
+  what information you send to us via email. Please keep this in mind when disclosing any Personal Data to MySanta via
+  the Internet.<br />
+  <br />
+  INFORMATION FOR EEA USERS<br />
+  <br />
+  What Rights Do I Have?<br />
+  Individuals located in the European Economic Area (EEA) have certain rights in respect of your Personal Data, including
+  the right of access, rectification, restriction, opposition, erasure and data portability. Where possible, we rely
+  on user consent as a lawful basis for processing personal data and obtain such consent in compliance with applicable
+  laws. In some cases, MySanta may process Personal Data pursuant to legal obligation or to protect your vital interests
+  or those of another person.<br />
+  <br />
+  How May I Exercise My Individual Rights?<br />
+  MySanta users may access and update their Personal Data through their account settings in the MySanta platform. Users
+  located within the EEA may contact us with questions or requests regarding their Personal Data using the contact
+  information below. Please note that MySanta may request additional information from you to verify your identity before
+  we disclose any personal or account information. We only send marketing communications to users we believe to be
+  located in the EEA with your prior consent, and you may opt out of such communications at any time by clicking the
+  “unsubscribe” link found within MySanta email updates and changing your contact preferences. Please note, you will
+  continue to receive essential account-related information, even if you unsubscribe from promotional emails.<br />
+  <br />
+  Who Can I Contact at MySanta Regarding Data Protection Issues?<br />
+  MySanta has designated a Data Protection Officer to assist with data privacy and data protection issues. You may contact
+  him or her by emailing hello@mysanta.co and addressing your questions or concerns to the Data Protection Officer.
+  <br />
+  <br />
+  Other Terms and Conditions:<br />
+  Your access to and use of the Site is subject to our Terms of Use, available at www.mysanta.co/tos.<br />
+  <br />
+  Changes to This Privacy Policy:<br />
+  The Site and the Services and our business may change from time to time. As a result, at times it may be necessary for
+  MySanta to make changes to this Privacy Policy. MySanta reserves the right to update or modify this Privacy Policy at
+  any time and from time to time without prior notice. Please review this policy periodically, and especially before you
+  provide any Personal Data. This Privacy Policy was last updated on the date indicated above. Your continued use of
+  the Services after any changes or revisions to this Privacy Policy shall indicate your agreement with the terms of such
+  revised Privacy Policy.<br />
+  <br />
+  Access to Information; Contacting MySanta:<br />
+  To keep your Personal Data accurate, current, and complete, please contact us as specified below. We will take
+  reasonable steps to update or correct Personal Data in our possession that you have previously submitted via the Site or
+  the
+  Services.<br />
+  <br />
+  Please also feel free to contact us if you have any questions about MySanta’s Privacy Policy or information
+  practices.<br />
+  <br />
+  You may contact us as follows: hello@mysanta.co
+
+#Terms of service
+tosContent: |
+  <strong>TERMS OF SERVICE</strong><br>
+  <br>
+  These Terms of Service were last updated on September 1, 2022<br>
+  <br>
+  These Terms of Service ("Terms") constitute a legally binding agreement ("Agreement") between you and Mysanta (as
+  defined below) governing your access to and use of www.mysanta.co, the Mysanta website, including any subdomains
+  thereof,
+  and any other websites through which Mysanta makes the Services available (collectively, "Website"), our mobile, tablet
+  and other smart device applications, and application program interfaces (collectively, "Application") and all
+  associated services (collectively, "Services"). The Website, Application and Services together are hereinafter
+  collectively referred to as the “Site”.<br>
+  <br>
+  Please read these Terms of Service carefully as they contain important information about your legal rights, remedies and
+  obligations. By accessing or using the Site, you agree to comply with and be bound by these Terms.<br>
+  <br>
+  Please note: Section 11 of these Terms of Service contains an arbitration clause and class action waiver that applies to
+  all Users. If you reside in the United Kingdom, this provision applies to all disputes with Mysanta. If you reside
+  outside of the United Kingdom, this provision applies to any action you bring against Mysanta in the United Kingdom. It
+  affects how disputes with Mysanta are resolved. By accepting these Terms of Service, you agree to be bound by this
+  arbitration clause and class action waiver. Please read it carefully.<br>
+  <br>
+  When these Terms mention “Mysanta,” “we,” “us,” or “our,” it refers to Mysanta.<br>
+  <br>
+  <br>
+  1. Scope of Services<br>
+  <br>
+  1.1 The Site is an online platform that enables users (“Users”) to connect with friends and family to simplify gift
+  giving, and to perform related activities and receive related services (the “Purpose”).<br>
+  <br>
+  1.2 If you choose to use the Site as a User, your relationship with Mysanta is limited to being an independent user, and
+  not an employee, agent, joint venturer or partner of Mysanta for any reason, and you act exclusively on your own
+  behalf and for your own benefit, and not on behalf, or for the benefit, of Mysanta.<br>
+  <br>
+  1.3 The Site may contain links to third-party websites or resources (“Third-Party Services”). Such Third-Party Services
+  may be subject to different terms and conditions and privacy practices. Mysanta is not responsible or liable for the
+  availability or accuracy of such Third-Party Services, or the content, products, or services available from such
+  Third-Party Services. Links to such Third-Party Services are not an endorsement by Mysanta of such Third-Party Services.
+  <br>
+  <br>
+  1.4 Due to the nature of the Internet, Mysanta cannot guarantee the continuous and uninterrupted availability and
+  accessibility of the Site. Mysanta may restrict the availability of the Site or certain areas or features thereof, if
+  this
+  is necessary in view of capacity limits, the security or integrity of our servers, or to carry out maintenance measures
+  that ensure the proper or improved functioning of the Site. Mysanta may improve, enhance and modify the Site and
+  introduce new Services from time to time.<br>
+  <br>
+  2. Registration, Eligibility, Using the Site, User Verification<br>
+  <br>
+  2.1 You may be required to register with Mysanta in order to access and use certain features of the Site or the
+  Services. If you choose to register, you agree to provide and maintain true, accurate, current and complete information
+  about yourself as prompted by the Site’s registration form. Registration data and certain other information about you
+  are governed by our Privacy Policy.<br>
+  <br>
+  2.2 You are responsible for maintaining the confidentiality of your password and account, if any, and are fully
+  responsible for any and all activities that occur under your password or account. You agree to (a) immediately notify
+  Mysanta of any unauthorized use of your password or account or any other breach of security, and (b) ensure that you
+  exit from your account at the end of each session when accessing the Site. Mysanta will not be liable for any loss or
+  damage arising from your failure to comply with this Section 2.2.<br>
+  <br>
+  2.3 Use of the Site is not available to persons under the age of 13. If you are between the ages of 13 and 18 (or
+  between 13 and the age of legal majority in your country of residence), you may only use the Site under the supervision
+  of
+  a parent or legal guardian who agrees to be bound by these Terms of Service.<br>
+  <br>
+  2.4 You must be at least 18 years old and able to enter into legally binding contracts to register a Mysanta account and
+  use certain Services associated with such registered account. By registering a Mysanta account, you represent and
+  warrant that you are 18 or older and have the legal capacity and authority to enter into a contract.<br>
+  <br>
+  2.5 Mysanta may make the access to and use of the Site, or certain areas or features of the Site, subject to certain
+  conditions or requirements, such as completing a verification process or meeting specific quality or eligibility
+  criteria.<br>
+  <br>
+  3. Social Networking Services<br>
+  <br>
+  You may enable or log in to the Site via various online third party services, such as social media and social networking
+  services like Facebook or Twitter (“Social Networking Services”). By logging in or directly integrating these
+  Social Networking Services into the Site, we make your online experiences richer and more personalized. To take
+  advantage of this feature and capabilities, we may ask you to authenticate, register for or log into Social Networking
+  Services on the websites of their respective providers. As part of such integration, the Social Networking Services will
+  provide us with access to certain information that you have provided to such Social Networking Services, and we
+  will use, store and disclose such information in accordance with our Privacy Policy. For more information about the
+  implications of activating these Social Networking Services and Mysanta’s use, storage and disclosure of information
+  related to you and your use of such services within Mysanta, please see our Privacy Policy at www.mysanta.co/privacy.
+  Please remember that the manner in which Social Networking Services use, store and disclose your information is
+  governed solely by the policies of such third party Social Networking Services, and Mysanta shall have no liability or
+  responsibility for the privacy practices or other actions of any third-party site or service that may be enabled
+  within the Site. In addition, Mysanta is not responsible for the accuracy, availability or reliability of any
+  information, content, goods, data, opinions, advice or statements made available in connection with Social Networking
+  Services. Mysanta enables these features merely as a convenience and the integration or inclusion of such features does
+  not imply an endorsement or recommendation.<br>
+  <br>
+  4. Modification of These Terms<br>
+  <br>
+  Mysanta reserves the right to modify these Terms at any time in accordance with this provision. If we make changes to
+  these Terms, we will post the revised Terms on the Site. If you disagree with the revised Terms, you may terminate
+  this Agreement with immediate effect. If you do not terminate your Agreement before the date the revised Terms become
+  effective, your continued access to or use of the Site will constitute acceptance of the revised Terms.<br>
+  <br>
+  5. Content<br>
+  <br>
+  5.1 Mysanta may, at its sole discretion, enable Users to (i) create, upload, post, send, receive and store content, such
+  as text, photos, audio, video, or other materials and information on or through the Site ("User Content"); and (ii)
+  access and view User Content and any content that Mysanta itself makes available on or through the Site, including
+  proprietary Content and any content licensed or authorized for use by or through Mysanta from a third party ("Content"
+  and together with User Content, "Collective Content").<br>
+  <br>
+  5.2 The Site, Content, and User Content may in its entirety or in part be protected by copyright, trademark, and/or
+  other laws of the United Kingdom and other countries. You acknowledge and agree that the Site and Content, including all
+  associated intellectual property rights, are the exclusive property of Mysanta and/or its licensors or authorizing
+  third-parties. You will not remove, alter or obscure any copyright, trademark, service mark or other proprietary rights
+  notices incorporated in or accompanying the Site, Content or User Content. All trademarks, service marks, logos, trade
+  names, and any other source identifiers of Mysanta used on or in connection with the Site and Content are trademarks
+  or registered trademarks of Mysanta in the United Kingdom and abroad. Trademarks, service marks, logos, trade names and
+  any other proprietary designations of third parties used on or in connection with the Site, Content, and/or
+  Collective Content are used for identification purposes only and may be the property of their respective owners.<br>
+  <br>
+  5.3 You will not use, copy, adapt, modify, prepare derivative works of, distribute, license, sell, transfer, publicly
+  display, publicly perform, transmit, broadcast or otherwise exploit the Site or Collective Content, except to the
+  extent you are the legal owner of certain User Content or as expressly permitted in these Terms or in any other
+  agreement entered into between you and Mysanta. No licenses or rights are granted to you by implication or otherwise
+  under
+  any intellectual property rights owned or controlled by Mysanta or its licensors, except for the licenses and rights
+  expressly granted in these Terms.<br>
+  <br>
+  5.4 Subject to your compliance with these Terms, Mysanta grants you a limited, non-exclusive, non-sublicensable,
+  revocable, non-transferable license to (i) download and use the Application on your personal device(s); and (ii) access
+  and
+  view any Collective Content made available on or through the Site and accessible to you, solely for your personal and
+  non-commercial use.<br>
+  <br>
+  5.5 By creating, uploading, posting, sending, receiving, storing, or otherwise making available any User Content on or
+  through the Site, you grant to Mysanta a non-exclusive, worldwide, royalty-free, irrevocable, perpetual (or for the
+  term of the protection), sub-licensable and transferable license to such User Content to access, use, store, copy,
+  modify, prepare derivative works of, distribute, publish, transmit, stream, broadcast, and otherwise exploit in any
+  manner such User Content to provide and/or promote the Site, in any media or platform. Unless you provide specific
+  consent, Mysanta does not claim any ownership rights in any User Content and nothing in these Terms will be deemed to
+  restrict any rights that you may have to use or exploit your User Content.<br>
+  <br>
+  5.6 You are solely responsible for all User Content that you make available on or through the Site. Accordingly, you
+  represent and warrant that: (i) you either are the sole and exclusive owner of all User Content that you make available
+  on or through the Site or you have all rights, licenses, consents and releases that are necessary to grant to Mysanta
+  the rights in and to such User Content, as contemplated under these Terms; and (ii) neither the User Content nor your
+  posting, uploading, publication, submission or transmittal of the User Content or Mysanta's use of the User Content (or
+  any portion thereof) will infringe, misappropriate or violate a third party's patent, copyright, trademark, trade
+  secret, moral rights or other proprietary or intellectual property rights, or rights of publicity or privacy, or result
+  in the violation of any applicable law or regulation.<br>
+  <br>
+  5.7 You will not post, upload, publish, submit or transmit any User Content that: (i) is fraudulent, false, misleading
+  (directly or by omission or failure to update information) or deceptive; (ii) is defamatory, libelous, obscene,
+  pornographic, vulgar or offensive; (iii) promotes discrimination, bigotry, racism, hatred, harassment or harm against
+  any individual or group; (iv) is violent or threatening or promotes violence or actions that are threatening to any
+  other person; (v) promotes illegal or harmful activities or substances; or (vi) violates any other Mysanta policy.
+  Mysanta may, without prior notice, remove or disable access to any User Content that Mysanta finds to be in violation of
+  these Terms, or otherwise may be harmful or objectionable to Mysanta, its Users, third parties, or property.<br>
+  <br>
+  5.8 Mysanta respects copyright law and expects its Users to do the same. If you believe that any content on the Site
+  infringes copyrights you own, please notify Mysanta at hello@mysanta.co.<br>
+  <br>
+  6. Prohibited Activities<br>
+  <br>
+  6.1 You are solely responsible for compliance with any and all laws, rules, regulations, and tax obligations that may
+  apply to your use of the Site. In connection with your use of the Site, you will not and will not assist or enable
+  others to:<br>
+  <br>
+  • breach or circumvent any applicable laws or regulations, agreements with third-parties, third-party rights, or our
+  Terms;<br>
+  <br>
+  • use the Site for any purpose other than the Purpose;<br>
+  <br>
+  • use the Site or Collective Content for any commercial or other purposes that are not expressly permitted by these
+  Terms or in a manner that falsely implies Mysanta endorsement, partnership or otherwise misleads others as to your
+  affiliation with Mysanta;<br>
+  <br>
+  • copy, store or otherwise access or use any information, including personally identifiable information about any other
+  User, contained on the Site in any way that is inconsistent with these Terms or that otherwise violates the privacy
+  rights of Users or third parties;<br>
+  <br>
+  • use the Site in connection with the distribution of unsolicited commercial messages ("spam");<br>
+  <br>
+  • discriminate against or harass anyone on the basis of race, national origin, religion, gender, gender identity,
+  physical or mental disability, medical condition, marital status, age or sexual orientation, or otherwise engage in any
+  abusive or disruptive behavior;<br>
+  <br>
+  • use, display, mirror or frame the Site or Collective Content, or any individual element within the Site, Mysanta's
+  name, any Mysanta trademark, logo or other proprietary information, or the layout and design of any page or form
+  contained on a page in the Site, without Mysanta's express written consent;<br>
+  <br>
+  • dilute, tarnish or otherwise harm the Mysanta brand in any way, including through unauthorized use of Collective
+  Content, registering and/or using Mysanta or derivative terms in domain names, trade names, trademarks or other source
+  identifiers, or registering and/or using domains names, trade names, trademarks or other source identifiers that closely
+  imitate or are confusingly similar to Mysanta domains, trademarks, taglines, promotional campaigns or Collective
+  Content;<br>
+  <br>
+  • use any robots, spider, crawler, scraper or other automated means or processes to access, collect data or other
+  content from or otherwise interact with the Site for any purpose;<br>
+  <br>
+  • avoid, bypass, remove, deactivate, impair, descramble, or otherwise attempt to circumvent any technological measure
+  implemented by Mysanta or any of Mysanta's providers or any other third party to protect the Site;<br>
+  <br>
+  • attempt to decipher, decompile, disassemble or reverse engineer any of the software used to provide the Site;<br>
+  <br>
+  • take any action that damages or adversely affects, or could damage or adversely affect the performance or proper
+  functioning of the Site;<br>
+  <br>
+  • violate or infringe anyone else’s rights or otherwise cause harm to anyone.<br>
+  <br>
+  6.2 You acknowledge that Mysanta has no obligation to monitor the access to or use of the Site by any User or to review,
+  disable access to, or edit any User Content, but has the right to do so to (i) operate, secure and improve the Site
+  (including without limitation for fraud prevention, risk assessment, investigation and customer support purposes); (ii)
+  ensure Users’ compliance with these Terms; (iii) comply with applicable law or the order or requirement of a court,
+  law enforcement or other administrative agency or governmental body; (iv) respond to User Content that it determines is
+  harmful or objectionable; or (v) as otherwise set forth in these Terms. Users agree to cooperate with and assist
+  Mysanta in good faith, and to provide Mysanta with such information and take such actions as may be reasonably requested
+  by Mysanta with respect to any investigation undertaken by Mysanta or a representative of Mysanta regarding the use
+  or abuse of the Site.<br>
+  <br>
+  6.3 If you feel that any User you interact with, whether online or in person, is acting or has acted inappropriately,
+  including but not limited to anyone who (i) engages in offensive, violent or sexually inappropriate behavior, (ii) you
+  suspect of stealing from you, or (iii) engages in any other disturbing conduct, you should immediately report such
+  person to the appropriate authorities and then to Mysanta by contacting us at hello@mysanta.co; provided that your
+  report
+  will not obligate us to take any action beyond that required by law (if any) or cause us to incur any liability to
+  you.<br>
+  <br>
+  7. Term and Termination, Suspension and other Measures<br>
+  <br>
+  7.1 This Agreement shall be effective for a 30-day term, at the end of which it will automatically and continuously
+  renew for subsequent 30-day terms until such time when you or Mysanta terminate the Agreement in accordance with this
+  provision.<br>
+  <br>
+  7.2 You may terminate this Agreement at any time by contacting us at hello@mysanta.co and providing notice of your
+  intent to terminate. You may also contact us at the forgoing address to submit (i) a data access request, pursuant to
+  which we will provide you with confirmation of all personal data currently being stored or otherwise used by us and
+  relating to you, and access to the same; (ii) a data rectification request, pursuant to which we will rectify any
+  incorrect data currently being stored or otherwise used by us and relating to you; and/or (iii) a data deletion request,
+  pursuant to which we will delete all personal data currently being stored or otherwise used by us and relating to
+  you. <br>
+  <br>
+  7.3 Without limiting our rights specified below, Mysanta may terminate this Agreement for convenience at any time by
+  giving you thirty (30) days' notice via email to your registered email address.<br>
+  <br>
+  7.4 Mysanta may immediately, without notice terminate this Agreement if (i) you have breached your obligations under
+  these Terms, (ii) you have violated applicable laws, regulations or third party rights, or (iii) Mysanta believes in
+  good faith that such action is reasonably necessary to protect the personal safety or property of Mysanta, its Users, or
+  third parties (for example in the case of fraudulent behavior of a User).<br>
+  <br>
+  7.5 In addition, Mysanta may take any of the following measures (i) to comply with applicable law, or the order or
+  request of a court, law enforcement or other administrative agency or governmental body; (ii) if you have breached these
+  Terms, applicable laws, regulations, or third party rights; (iii) if you have provided inaccurate, fraudulent, outdated
+  or incomplete information during the Mysanta Account registration, listing process or thereafter; (iv) if Mysanta
+  believes in good faith that such action is reasonably necessary to protect the personal safety or property of Mysanta,
+  its Users, or third parties, or to prevent fraud or other illegal activity; (v) for any other bona fide reason
+  determined by Mysanta in a good faith exercise of its reasonable business judgment:<br>
+  <br>
+  • Limit, restrict or prohibit your access to or use of the Site;<br>
+  <br>
+  • temporarily or permanently revoke any special status associated with your Mysanta account; or<br>
+  <br>
+  • temporarily or in case of severe or repeated offenses permanently suspend your Mysanta account.<br>
+  <br>
+  7.6 When this Agreement has been terminated, you are not entitled to a restoration of your Mysanta account or any of
+  your User Content. If your access to or use of the Site has been limited or your Mysanta account has been suspended or
+  this Agreement has been terminated by us, you may not register a new Mysanta account or access and use the Site through
+  a Mysanta account of another User.<br>
+  <br>
+  7.7 If you or we terminate this Agreement, the clauses of these Terms that reasonably should survive termination of the
+  Agreement will remain in effect.<br>
+  <br>
+  8. Disclaimers<br>
+  <br>
+  If you choose to use the Site or Collective Content, you do so voluntarily and at your sole risk. The Site and
+  Collective Content is provided “as is”, without warranty of any kind, either express or implied.<br>
+  <br>
+  You agree that you have had whatever opportunity you deem necessary to investigate the Services, laws, rules, or
+  regulations that may be applicable to your use of the Site and that you are not relying upon any statement of law or
+  fact
+  made by Mysanta relating to such use.<br>
+  <br>
+  The foregoing disclaimers apply to the maximum extent permitted by law. You may have other statutory rights. However,
+  the duration of statutorily required warranties, if any, shall be limited to the maximum extent permitted by law.
+  <br>
+  <br>
+  9. Liability<br>
+  <br>
+  You acknowledge and agree that, to the maximum extent permitted by law, the entire risk arising out of your access to
+  and use of the Site and Collective Content, your publishing or viewing of any content via the Site or any other
+  interaction you have with other Users whether in person or online remains with you. Neither Mysanta nor any other party
+  involved in creating, producing, or delivering the Site or Collective Content will be liable for any incidental,
+  special, exemplary or consequential damages, including lost profits, loss of data or loss of goodwill, service
+  interruption, computer damage or system failure or the cost of substitute products or services, or for any damages for
+  personal or bodily injury or emotional distress arising out of or in connection with (i) these Terms, (ii) from the use
+  of or inability to use the Site or Collective Content, or (iii) from any communications, interactions or meetings
+  with other Users or other persons with whom you communicate, interact or meet with as a result of your use of the Site,
+  whether based on warranty, contract, tort (including negligence), product liability or any other legal theory, and
+  whether or not Mysanta has been informed of the possibility of such damage, even if a limited remedy set forth herein is
+  found to have failed of its essential purpose. In no event will Mysanta’s aggregate liability arising out of or in
+  connection with these Terms and your use of the Site, or from the use of or inability to use the Site or Collective
+  Content and in connection therewith, exceed the amounts you have paid or owe for use of the Site in the twelve (12)
+  month period prior to the event giving rise to the liability, or one hundred U.S. dollars (US$100), if no such payments
+  have been made, as applicable. The limitations of damages set forth above are fundamental elements of the basis of
+  the bargain between Mysanta and you. Some jurisdictions do not allow the exclusion or limitation of liability for
+  consequential or incidental damages, so the above limitation may not apply to you.<br>
+  <br>
+  10. Indemnification<br>
+  <br>
+  You agree to release, defend (at Mysanta’s option), indemnify, and hold Mysanta and its affiliates and subsidiaries, and
+  their officers, directors, employees and agents, harmless from and against any claims, liabilities, damages,
+  losses, and expenses, including, without limitation, reasonable legal and accounting fees, arising out of or in any way
+  connected with (i) your breach of these Terms, (ii) your improper use of the Site or any Services, (iii) your
+  interaction with any User, including without limitation any injuries, losses or damages (whether compensatory, direct,
+  incidental, consequential or otherwise) of any kind arising in connection with or as a result of such interaction or
+  use, or (iv) your breach of any laws, regulations or third party rights.<br>
+  <br>
+  11. Dispute Resolution and Arbitration Agreement<br>
+  <br>
+  11.1 This Dispute Resolution and Arbitration Agreement shall apply if you (i) reside in the United Kingdom; or (ii) do
+  not reside in the United Kingdom, but bring any claim against Mysanta in the United Kingdom.<br>
+  <br>
+  11.2 Overview of Dispute Resolution Process. Mysanta is committed to participating in a consumer-friendly dispute
+  resolution process. To that end, these Terms provide for a two-part process for individuals to whom Section 11.1
+  applies:
+  (1) an informal negotiation directly with Mysanta’s customer service team, and (2) a binding arbitration administered by
+  the Angel Arbitration Association (“AAA”) using its specially designed Consumer Arbitration Rules (as modified by
+  this Section 11). Specifically, the process provides:<br>
+  <br>
+  • Claims can be filed with AAA online (www.adr.org);<br>
+  <br>
+  • Arbitrators must be neutral and no party may unilaterally select an arbitrator;<br>
+  <br>
+  • Arbitrators must disclose any bias, interest in the result of the arbitration, or relationship with any party;<br>
+  <br>
+  • Parties retain the right to seek relief in small claims court for certain claims, at their option;<br>
+  <br>
+  • The initial filing fee for the consumer is capped at $200;<br>
+  <br>
+  • The consumer gets to elect the hearing location and can elect to participate live, by phone, video conference, or, for
+  claims under $25,000, by the submission of documents;<br>
+  <br>
+  • The arbitrator can grant any remedy that the parties could have received in court to resolve the party’s individual
+  claim.<br>
+  <br>
+  11.3 Pre-Arbitration Dispute Resolution and Notification. Prior to initiating an arbitration, you and Mysanta each agree
+  to notify the other party of the dispute and attempt to negotiate an informal resolution to it first. We will
+  contact you at the email address you have provided to us; you can contact Mysanta’s customer service team by emailing us
+  at hello@mysanta.co, or at the contact addresses provided on the Site. If after a good faith effort to negotiate
+  one of us feels the dispute has not and cannot be resolved informally, the party intending to pursue arbitration agrees
+  to notify the other party via email prior to initiating the arbitration. In order to initiate arbitration, a claim
+  must be filed with the AAA and the written Demand for Arbitration (available at www.adr.org) provided to the other
+  party, as specified in the AAA Rules.<br>
+  <br>
+  11.4 AGREEMENT TO ARBITRATE. YOU AND Mysanta MUTUALLY AGREE THAT ANY DISPUTE, CLAIM OR CONTROVERSY ARISING OUT OF OR
+  RELATING TO THESE TERMS OR THE BREACH, TERMINATION, ENFORCEMENT OR INTERPRETATION THEREOF, OR TO THE USE OF THE SITE,
+  ANY Mysanta SERVICE OR THE COLLECTIVE CONTENT (COLLECTIVELY, “DISPUTES”) WILL BE SETTLED BY BINDING ARBITRATION (THE
+  “ARBITRATION AGREEMENT”). IF THERE IS A DISPUTE ABOUT WHETHER THIS ARBITRATION AGREEMENT CAN BE ENFORCED OR APPLIES TO
+  OUR DISPUTE, YOU AND Mysanta AGREE THAT THE ARBITRATOR WILL DECIDE THAT ISSUE.<br>
+  <br>
+  11.5 Exceptions to Arbitration Agreement. You and Mysanta each agree that the following claims are exceptions to the
+  Arbitration Agreement and will be brought in a judicial proceeding in a court of competent jurisdiction: (i) Any claim
+  related to actual or threatened infringement, misappropriation or violation of a party’s copyrights, trademarks, trade
+  secrets, patents, or other intellectual property rights; (ii) Any claim seeking emergency injunctive relief based on
+  exigent circumstances (e.g., imminent danger or commission of a crime, hacking, cyber-attack).<br>
+  <br>
+  11.6 Arbitration Rules and Governing Law. This Arbitration Agreement evidences a transaction in interstate commerce and
+  thus the Federal Arbitration Act governs the interpretation and enforcement of this provision. The arbitration will
+  be administered by AAA in accordance with the Consumer Arbitration Rules (the “AAA Rules“) then in effect, except as
+  modified here. The AAA Rules are available at www.adr.org or by calling the AAA at 1–800–778–7879.<br>
+  <br>
+  11.7 Modification to AAA Rules - Arbitration Hearing/Location. In order to make the arbitration most convenient to you,
+  Mysanta agrees that any required arbitration hearing may be conducted, at your option, (a) in the county where you
+  reside; (b) in San Francisco County; (c) in any other location to which you and Mysanta both agree; (d) via phone or
+  video conference; or (e) for any claim or counterclaim under $25,000, by solely the submission of documents to the
+  arbitrator.<br>
+  <br>
+  11.8 Arbitrator’s Decision. The arbitrator’s decision will include the essential findings and conclusions upon which the
+  arbitrator based the award. Judgment on the arbitration award may be entered in any court with proper jurisdiction.
+  The arbitrator may award declaratory or injunctive relief only on an individual basis and only to the extent necessary
+  to provide relief warranted by the claimant’s individual claim.<br>
+  <br>
+  11.9 JURY TRIAL WAIVER. YOU AND Mysanta ACKNOWLEDGE AND AGREE THAT WE ARE EACH WAIVING THE RIGHT TO A TRIAL BY JURY AS
+  TO ALL ARBITRABLE DISPUTES.<br>
+  <br>
+  11.10 NO CLASS ACTIONS OR REPRESENTATIVE PROCEEDINGS. YOU AND Mysanta ACKNOWLEDGE AND AGREE THAT WE ARE EACH WAIVING THE
+  RIGHT TO PARTICIPATE AS A PLAINTIFF OR CLASS USER IN ANY PURPORTED CLASS ACTION LAWSUIT, CLASS-WIDE ARBITRATION,
+  PRIVATE ATTORNEY-GENERAL ACTION, OR ANY OTHER REPRESENTATIVE PROCEEDING AS TO ALL DISPUTES. FURTHER, UNLESS YOU AND
+  Mysanta BOTH OTHERWISE AGREE IN WRITING, THE ARBITRATOR MAY NOT CONSOLIDATE MORE THAN ONE PARTY’S CLAIMS AND MAY NOT
+  OTHERWISE PRESIDE OVER ANY FORM OF ANY CLASS OR REPRESENTATIVE PROCEEDING. IF THIS PARAGRAPH IS HELD UNENFORCEABLE WITH
+  RESPECT TO ANY DISPUTE, THEN THE ENTIRETY OF THE ARBITRATION AGREEMENT WILL BE DEEMED VOID WITH RESPECT TO SUCH
+  DISPUTE.<br>
+  <br>
+  11.11 Severability. Except as provided in Section 11.10, in the event that any portion of this Arbitration Agreement is
+  deemed illegal or unenforceable, such provision shall be severed and the remainder of the Arbitration Agreement
+  shall be given full force and effect.<br>
+  <br>
+  11.12 Changes. Notwithstanding the provisions of Section 3 (“Modification of These Terms”), if Mysanta changes this
+  Section 11 (“Dispute Resolution and Arbitration Agreement”) after the date you last accepted these Terms (or accepted
+  any subsequent changes to these Terms), you may reject any such change by sending us written notice (including by email)
+  within thirty (30) days of the date such change became effective. By rejecting any change, you are agreeing that
+  you will arbitrate any Dispute between you and Mysanta in accordance with the provisions of the “Dispute Resolution and
+  Arbitration Agreement” section as of the date you last accepted these Terms (or accepted any subsequent changes to
+  these Terms).<br>
+  <br>
+  11.13 Survival. Except as provided in Section 11.10, this Section 11 will survive any termination of these Terms and
+  will continue to apply even if you stop using the Site or terminate your Mysanta account.<br>
+  <br>
+  12. Feedback<br>
+  <br>
+  We welcome and encourage you to provide feedback, comments and suggestions for improvements to the Site (“Feedback“).
+  You may submit Feedback by emailing us at hello@mysanta.co, or through the “Help” or “Contact Us” sections of the
+  Site, or by other means of communication. Any Feedback you submit to us will be considered non-confidential and
+  non-proprietary to you. By submitting Feedback to us, you grant us a non-exclusive, worldwide, royalty-free,
+  irrevocable,
+  sub-licensable, perpetual license to use and publish those ideas and materials for any purpose, without compensation to
+  you.<br>
+  <br>
+  <br>
+  13. General Provisions<br>
+  <br>
+  13.1 Except as they may be supplemented by additional terms and conditions, policies, guidelines or standards, these
+  Terms constitute the entire Agreement between Mysanta and you pertaining to the subject matter hereof, and supersede
+  any and all prior oral or written understandings or agreements between Mysanta and you in relation to the access to and
+  use of the Site.<br>
+  <br>
+  13.2 No joint venture, partnership, employment, or agency relationship exists between you and Mysanta as a result of
+  this Agreement or your use of the Site.<br>
+  <br>
+  13.3 These Terms do not and are not intended to confer any rights or remedies upon any person other than the
+  parties.<br>
+  <br>
+  13.4 If any provision of these Terms is held to be invalid or unenforceable, such provision will be struck and will not
+  affect the validity and enforceability of the remaining provisions.<br>
+  <br>
+  13.5 Mysanta’s failure to enforce any right or provision in these Terms will not constitute a waiver of such right or
+  provision unless acknowledged and agreed to by us in writing. Except as expressly set forth in these Terms, the
+  exercise by either party of any of its remedies under these Terms will be without prejudice to its other remedies under
+  these Terms or otherwise permitted under law.<br>
+  <br>
+  13.6 You may not assign, transfer or delegate this Agreement and your rights and obligations hereunder without Mysanta's
+  prior written consent. Mysanta may without restriction assign, transfer or delegate this Agreement and any rights
+  and obligations hereunder, at its sole discretion, with 30 days prior notice. Your right to terminate this Agreement at
+  any time remains unaffected.<br>
+  <br>
+  13.7 Unless specified otherwise, any notices or other communications to Users permitted or required under this
+  Agreement, will be in writing and given by Mysanta via email, Site notification, or messaging service (including
+  SMS).<br>
+  <br>
+  13.8 If you have any questions about these Terms please email us at hello@mysanta.co, or at the contact information
+  provided in the “Help” or “Contact Us” section of the Site.<br>
+  <br>
+
+#refundPolicy
+refundPolicyContent: |
+  <strong>Refund Policy</strong><br>
+  <br>
+  We have a 30-day return policy, which means you have 30 days after receiving your item to request a return.<br>
+  <br>
+  To be eligible for a return, your item must be in the same condition that you received it, unworn or unused, with tags, and in its original packaging. You'll also need the receipt or proof of purchase.<br>
+  <br>
+  To start a return, you can contact us at hello@mysanta.co.<br>
+  <br>
+  If your return is accepted, we’ll send you a return shipping label, as well as instructions on how and where to send your package. Items sent back to us without first requesting a return will not be accepted.<br>
+  <br>
+  You can always contact us for any return questions at hello@mysanta.co.<br>
+  <br>
+  <strong>Damages and Issues</strong><br>
+  <br>
+  Please inspect your order upon receipt and contact us immediately if the item is defective, damaged, or if you receive the wrong item, so that we may evaluate the issue and make it right.<br>
+  Certain types of items cannot be returned, like perishable goods (such as food, flowers, or plants), custom products (such as special orders or personalized items), and personal care goods (such as beauty products). We also do not
+  accept returns for hazardous materials, flammable liquids, or gases. Please get in touch if you have questions or concerns about your specific item.<br>
+  <br>
+  Unfortunately, we cannot accept returns on sale items or gift cards.<br>
+  <br>
+  <strong>Exchanges</strong><br>
+  <br>
+  The fastest way to ensure you get what you want is to return the item you have, and once the return is accepted, make a separate purchase for the new item.<br>
+  <br>
+  European Union 14 day cooling off period<br>
+  Notwithstanding the above, if merchandise is being shipped into the European Union, you have the right to cancel or return your order within 14 days for any reason and without justification. As above, your item must be in the same
+  condition that you received it, unworn or unused, with tags, and in its original packaging. You’ll also need the receipt or proof of purchase.<br>
+  <br>
+  <strong>Refunds</strong><br>
+  <br>
+  We will notify you once we’ve received and inspected your return to let you know if the refund was approved or not. If approved, you’ll be automatically refunded on your original payment method within 10 business days. Please remember
+  it can take some time for your bank or credit card company to process and post the refund too.<br>
+  <br>
+  If more than 15 business days have passed since we’ve approved your return, please contact us at hello@mysanta.co.
