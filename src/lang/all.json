@@ -271,7 +271,7 @@
 			"homePageTitle": "Amigo Invisible Online 2023 | ¡Conviértase en un Amigo Invisible esta Navidad",
 			"homePageDescription": "Intercambie regalos de Navidad con compañeros de trabajo, amigos, familiares, y los miembros de su comunidad.",
 			"menuRules": {
-				"link": "./rules-en",
+				"link": "./rules-es",
 				"text": "Reglas"
 			},
 			"menuLogin": "Iniciar sesión",
@@ -392,7 +392,10 @@
 				"text": "Refund Policy"
 			},
 			"cookieText": "Utilizamos cookies para mejorar su experiencia en el sitio.",
-			"cookieBtn": "OK"
+			"cookieBtn": "OK",
+			"rulesTitle": "Reglas del juego de Amigo Invisible",
+			"rulesText": "<p>Amigo Invisible es un juego en el que todos los participantes intercambian regalos para la Navidad en la forma anónima. Las reglas de Amigo Invisible son las siguientes: una persona crea el juego y especifica la fecha en la que todos sabrán quién es cuyo amigo. Proporcionamos un enlace que debe ser distribuido entre los jugadores. Después, le ayudamos a elegir un regalo.</p>\n",
+			"rulesContent": "<h2>¿Qué es el juego Amigo Invisible?</h2>\n<p><b>MySanta</b> es un aleatorizador en línea. Nuestro servicio le ayudará a distribuir de forma fácil y sencilla los nombres y direcciones de los participantes entre jugadores, para que todos den y reciban un regalo.</p>\n<h2>¿Para quién es el juego de Amigo Invisible?</h2>\n<p><b>Amigo Invisible</b> es una búsqueda navideña en la que todos pueden participar! Juegue a Amigo Invisible con compañeros de trabajo en la oficina, ofrézca organizar un juego en la aula de su hijo o intercambie regalos con amigos. Amigo Invisible les permite darse valiosos regalos económicos, ahorrando tiempo y dinero.</p>\n<h2>¿Qué regalar?</h2>\n<p>La pregunta más difícil, por supuesto, no es cómo asignar direcciones para Amigo Invisible, sino qué regalar: al jefe, colega, novia o novio, compañeros de clase o de universidad. Aquí también le cuidamos y recogemos las ideas de regalos más geniales de este año, para todos los gustos y presupuestos.</p>\n<h2>¿Cómo juego a Amigo Invisible a través de la aplicación en el sitio web?</h2>\n<p><b>MySanta</b> es un aleatorizador en línea. Nuestro servicio le ayudará a distribuir de forma fácil y sencilla los nombres y direcciones de los participantes entre jugadores, para que todos den y reciban un regalo.</p>\n<p>Todo lo que necesita para comenzar a jugar Amigo Invisible en nuestro sitio web es registrarse en nuestro servicio, especificar su correo electrónico, obtener un enlace para invitar a otros participantes y enviarlo a todos los que jugarán el juego.</p>\n<p>Cada participante sigue el enlace e indica su nombre y el regalo deseado dentro del monto especificado (establecido por usted). Entonces nuestro algoritmo distribuirá quién le dará a quién un regalo.</p>\n<p>El día señalado, todos los participantes que se hayan registrado a través del enlace recibirán un correo electrónico con instrucciones sobre a quién regalar y qué.</p>\n"
 		},
 		"ru": {
 			"homePageTitle": "Тайный Санта 2023 | Организуйте онлайн жеребьевку",
