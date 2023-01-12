@@ -7,3 +7,4 @@ import './accordion.js';
 import './cookie.js';
 import './reviews.js';
 import './popup.js';
+import './lazyload.js';

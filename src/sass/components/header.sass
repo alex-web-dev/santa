@@ -26,6 +26,26 @@
     flex: 1 1 auto
     margin-left: 125px
 
+  &--black
+    .menu__link
+      color: #000
+
+    .menu__profile-btn
+      &--login
+        color: #000
+        background-color: rgba(0, 0, 0, 0.05)
+
+    .menu__lines
+      &:before,
+      &:after
+        background-color: #000
+
+  &--black &__logo
+    background-image: url('../img/en/logo-black.png')
+
+    &.logo--ru
+      background-image: url('../img/ru/logo-black.png')
+
   &--active
     position: fixed
 

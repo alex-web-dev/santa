@@ -5,13 +5,25 @@ mixin icon(name, className = '')
 mixin picon(name)
     span(class='picon picon-' + name)
 
-mixin picture(src, fileType, className, width, height, retina = false, alt="")
+mixin picture(src, fileType, className, width, height, retina = false, lazy = true, alt="")
     picture&attributes(attributes)
         if retina
-            source(srcset=src + ".webp, " + src + "@2x.webp 2x"  type="image/webp")
-            source(srcset=src + "." + fileType + ", " + src + "@2x." + fileType + ' 2x' type="image/" + fileType)
-            img(class=className src=src + "." + fileType srcset=src + "@2x." + fileType + ' 2x' width=width height=height alt=alt)
+            if (lazy)
+                - className = className + ' lazy';
+                source(data-srcset=src + ".webp, " + src + "@2x.webp 2x"  type="image/webp")
+                source(data-srcset=src + "." + fileType + ", " + src + "@2x." + fileType + ' 2x' type="image/" + fileType)
+                img(class=className data-src=src + "." + fileType data-srcset=src + "@2x." + fileType + ' 2x' width=width height=height alt=alt )
+            else
+                source(srcset=src + ".webp, " + src + "@2x.webp 2x"  type="image/webp")
+                source(srcset=src + "." + fileType + ", " + src + "@2x." + fileType + ' 2x' type="image/" + fileType)
+                img(class=className src=src + "." + fileType srcset=src + "@2x." + fileType + ' 2x' width=width height=height alt=alt )
         else
-            source(srcset=src + ".webp" type="image/webp")
-            source(srcset=src + "." + fileType type="image/" + fileType)
-            img(class=className src=src + "." + fileType width=width height=height alt=alt)
+            if (lazy)
+                - className = className + ' lazy';
+                source(data-srcset=src + ".webp" type="image/webp")
+                source(data-srcset=src + "." + fileType type="image/" + fileType)
+                img(class=className data-src=src + "." + fileType width=width height=height alt=alt)
+            else 
+                source(srcset=src + ".webp" type="image/webp")
+                source(srcset=src + "." + fileType type="image/" + fileType)
+                img(class=className src=src + "." + fileType width=width height=height alt=alt)
