@@ -2,6 +2,18 @@
 homePageTitle: Amigo Invisible Online 2023 | ¡Conviértase en un Amigo Invisible esta Navidad
 homePageDescription: Intercambie regalos de Navidad con compañeros de trabajo, amigos, familiares, y los miembros de su comunidad.
 
+rulesPageTitle: Secret Santa Rules | Best Online Randomizer | Become a Secret Santa this Christmas
+rulesPageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
+
+privacyPolicyPageTitle: Secret Santa Generator 2023 | Privacy
+privacyPolicyPageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
+
+tosPageTitle: Secret Santa Generator 2023 | Privacy
+tosPageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
+
+fbDomainVerification: 10br3uj84bkhcz7ujo5wzfc8k1ikfq
+gtmCode: GTM-TJX6L4V
+
 #Header
 menuRules:
   link: ./rules-es
@@ -171,10 +183,10 @@ faq4Main: |
 
 faq5Title: ¿Qué hacer si todavía hay preguntas?
 faq5Main: |
-  <p>Escriba a <a href="mailto:hello@mysanta.ru">hello@mysanta.ru</a>. Responderemos cualquier pregunta lo más rápido posible.</p>
+  <p>Escriba a <a href="mailto:hello@mysanta.co">hello@mysanta.co</a>. Responderemos cualquier pregunta lo más rápido posible.</p>
 
 #Footer
-footerCopyright: © 2022 MySanta
+footerCopyright: © 2023 MySanta
 footerAgreement:
   link: ./privacy-policy-en
   text: Privacy Policy
@@ -184,6 +196,9 @@ footerTerms:
 footerRefund: 
   link: ./refund-policy-en
   text: Refund Policy
+footerEmail: 
+  link: mailto:hello@mysanta.co
+  text: hello@mysanta.co
 
 #Cookie
 cookieText: Utilizamos cookies para mejorar su experiencia en el sitio.

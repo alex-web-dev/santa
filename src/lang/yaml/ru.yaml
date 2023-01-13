@@ -10,6 +10,8 @@ privacyPolicyPageDescription: ПОЛИТИКА КОНФИДЕНЦИАЛЬНОС�
 
 tosPageTitle: Пользовательское соглашение
 tosPageDescription: Пользовательское соглашение сервиса «Мой Санта»
+fbDomainVerification: 10br3uj84bkhcz7ujo5wzfc8k1ikfq
+gtmCode: GTM-TJX6L4V
 
 #Header
 menuRules:
@@ -186,7 +188,7 @@ faq5Main: |
   <p>Напишите на <a href="mailto:hello@mysanta.ru">hello@mysanta.ru</a>. Мы ответим по любым вопросам максимально быстро.</p>
 
 #Footer
-footerCopyright: © 2022 Мой Санта
+footerCopyright: © 2023 Мой Санта
 footerAgreement:
   link: ./privacy-policy
   text: Пользовательское соглашение
@@ -196,6 +198,9 @@ footerTerms:
 footerRefund: 
   link: ./refund-policy
   text: Политика возврата денежных средств
+footerEmail: 
+  link: ./mailto:hello@mysanta.ru
+  text: hello@mysanta.ru
 
 #Cookie
 cookieText: Мы используем куки, чтобы вам было удобнее пользоваться сайтом.

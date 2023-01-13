@@ -3,6 +3,8 @@
 		"de": {
 			"homePageTitle": "DE of Secret Santa Generator 2023 | Werden Sie dieses Jahr zum Secret Santa",
 			"homePageDescription": "Tauschen Sie Weihnachtsgeschenke mit Kollegen, Freunden, der Großfamilie und Mitgliedern Ihrer Online-Gemeinschaft",
+			"fbDomainVerification": "10br3uj84bkhcz7ujo5wzfc8k1ikfq",
+			"gtmCode": "GTM-TJX6L4V",
 			"menuRules": {
 				"link": "./rules-en",
 				"text": "Regeln"
@@ -110,8 +112,8 @@
 			"faq4Title": "Was ist, wenn einer der Spieler keine E-Mail für das Spiel hat?",
 			"faq4Main": "<p>Wir raten Ihnen, eine temporäre E-Mail bei einem der gängigen E-Mail-Dienste zu erstellen. Ohne eine individuelle E-Mail für jeden Spieler wird es nicht möglich sein zu spielen.</p>\n",
 			"faq5Title": "Es gibt noch Fragen offen, was ist zu tun?",
-			"faq5Main": "<p>Schreiben Sie uns an <a href=\"mailto:hello@mysanta.ru\">hello@mysanta.ru</a>. Wir freuen uns, Ihre Fragen so schnell wie möglich zu beantworten.</p>\n",
-			"footerCopyright": "© 2022 MySanta",
+			"faq5Main": "<p>Schreiben Sie uns an <a href=\"mailto:hello@mysanta.co\">hello@mysanta.co</a>. Wir freuen uns, Ihre Fragen so schnell wie möglich zu beantworten.</p>\n",
+			"footerCopyright": "© 2023 MySanta",
 			"footerAgreement": {
 				"link": "./privacy-policy-en",
 				"text": "Privacy Policy"
@@ -123,6 +125,10 @@
 			"footerRefund": {
 				"link": "./refund-policy-en",
 				"text": "Refund Policy"
+			},
+			"footerEmail": {
+				"link": "mailto:hello@mysanta.co",
+				"text": "hello@mysanta.co"
 			},
 			"cookieText": "Wir verwenden Cookies, um Ihre Erfahrung auf der Website zu verbessern.",
 			"cookieBtn": "OK"
@@ -136,6 +142,8 @@
 			"privacyPolicyPageDescription": "Exchange Christmas gifts with coworkers, friends, extended family, and your community members.",
 			"tosPageTitle": "Secret Santa Generator 2023 | Privacy",
 			"tosPageDescription": "Exchange Christmas gifts with coworkers, friends, extended family, and your community members.",
+			"fbDomainVerification": "10br3uj84bkhcz7ujo5wzfc8k1ikfq",
+			"gtmCode": "GTM-TJX6L4V",
 			"menuRules": {
 				"link": "./rules-en",
 				"text": "Rules"
@@ -243,8 +251,8 @@
 			"faq4Title": "What if one of the players does not have mail for the game?",
 			"faq4Main": "<p>We advise you to create a temporary email on one of the popular email services. Without an individual mail for each player it will not be possible to play.</p>\n",
 			"faq5Title": "What to do if there are still questions?",
-			"faq5Main": "<p>Write to <a href=\"mailto:hello@mysanta.ru\">hello@mysanta.ru</a>. We will answer any questions as quickly as possible</p>\n",
-			"footerCopyright": "© 2022 MySanta",
+			"faq5Main": "<p>Write to <a href=\"mailto:hello@mysanta.co\">hello@mysanta.co</a>. We will answer any questions as quickly as possible</p>\n",
+			"footerCopyright": "© 2023 MySanta",
 			"footerAgreement": {
 				"link": "./privacy-policy-en",
 				"text": "Privacy Policy"
@@ -256,6 +264,10 @@
 			"footerRefund": {
 				"link": "./refund-policy-en",
 				"text": "Refund Policy"
+			},
+			"footerEmail": {
+				"link": "mailto:hello@mysanta.co",
+				"text": "hello@mysanta.co"
 			},
 			"cookieText": "We use cookies to improve your experience on the site.",
 			"cookieBtn": "OK",
@@ -270,6 +282,14 @@
 		"es": {
 			"homePageTitle": "Amigo Invisible Online 2023 | ¡Conviértase en un Amigo Invisible esta Navidad",
 			"homePageDescription": "Intercambie regalos de Navidad con compañeros de trabajo, amigos, familiares, y los miembros de su comunidad.",
+			"rulesPageTitle": "Secret Santa Rules | Best Online Randomizer | Become a Secret Santa this Christmas",
+			"rulesPageDescription": "Exchange Christmas gifts with coworkers, friends, extended family, and your community members.",
+			"privacyPolicyPageTitle": "Secret Santa Generator 2023 | Privacy",
+			"privacyPolicyPageDescription": "Exchange Christmas gifts with coworkers, friends, extended family, and your community members.",
+			"tosPageTitle": "Secret Santa Generator 2023 | Privacy",
+			"tosPageDescription": "Exchange Christmas gifts with coworkers, friends, extended family, and your community members.",
+			"fbDomainVerification": "10br3uj84bkhcz7ujo5wzfc8k1ikfq",
+			"gtmCode": "GTM-TJX6L4V",
 			"menuRules": {
 				"link": "./rules-es",
 				"text": "Reglas"
@@ -377,8 +397,8 @@
 			"faq4Title": "¿Qué hacer si uno de los jugadores no tiene correo electrónico para el juego?",
 			"faq4Main": "<p>Le recomendamos crear un correo electrónico temporal en uno de los servicios populares. Sin un correo individual para cada jugador no se podrá jugar.</p>\n",
 			"faq5Title": "¿Qué hacer si todavía hay preguntas?",
-			"faq5Main": "<p>Escriba a <a href=\"mailto:hello@mysanta.ru\">hello@mysanta.ru</a>. Responderemos cualquier pregunta lo más rápido posible.</p>\n",
-			"footerCopyright": "© 2022 MySanta",
+			"faq5Main": "<p>Escriba a <a href=\"mailto:hello@mysanta.co\">hello@mysanta.co</a>. Responderemos cualquier pregunta lo más rápido posible.</p>\n",
+			"footerCopyright": "© 2023 MySanta",
 			"footerAgreement": {
 				"link": "./privacy-policy-en",
 				"text": "Privacy Policy"
@@ -390,6 +410,10 @@
 			"footerRefund": {
 				"link": "./refund-policy-en",
 				"text": "Refund Policy"
+			},
+			"footerEmail": {
+				"link": "mailto:hello@mysanta.co",
+				"text": "hello@mysanta.co"
 			},
 			"cookieText": "Utilizamos cookies para mejorar su experiencia en el sitio.",
 			"cookieBtn": "OK",
@@ -406,6 +430,8 @@
 			"privacyPolicyPageDescription": "ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ сервиса «Мой Санта»",
 			"tosPageTitle": "Пользовательское соглашение",
 			"tosPageDescription": "Пользовательское соглашение сервиса «Мой Санта»",
+			"fbDomainVerification": "10br3uj84bkhcz7ujo5wzfc8k1ikfq",
+			"gtmCode": "GTM-TJX6L4V",
 			"menuRules": {
 				"link": "./rules",
 				"text": "Правила"
@@ -514,7 +540,7 @@
 			"faq4Main": "<p>Мы советуем создать временную почту на одном из популярных почтовых сервисов. Без индивидуальной почты для каждого игрока играть не получится.</p>\n",
 			"faq5Title": "Что делать, если еще есть вопросы?",
 			"faq5Main": "<p>Напишите на <a href=\"mailto:hello@mysanta.ru\">hello@mysanta.ru</a>. Мы ответим по любым вопросам максимально быстро.</p>\n",
-			"footerCopyright": "© 2022 Мой Санта",
+			"footerCopyright": "© 2023 Мой Санта",
 			"footerAgreement": {
 				"link": "./privacy-policy",
 				"text": "Пользовательское соглашение"
@@ -526,6 +552,10 @@
 			"footerRefund": {
 				"link": "./refund-policy",
 				"text": "Политика возврата денежных средств"
+			},
+			"footerEmail": {
+				"link": "./mailto:hello@mysanta.ru",
+				"text": "hello@mysanta.ru"
 			},
 			"cookieText": "Мы используем куки, чтобы вам было удобнее пользоваться сайтом.",
 			"cookieBtn": "OK",

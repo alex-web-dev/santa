@@ -2,6 +2,19 @@
 homePageTitle: DE of Secret Santa Generator 2023 | Werden Sie dieses Jahr zum Secret Santa
 homePageDescription: Tauschen Sie Weihnachtsgeschenke mit Kollegen, Freunden, der Großfamilie und Mitgliedern Ihrer Online-Gemeinschaft
 
+rulesPageTitle: Secret Santa Rules | Best Online Randomizer | Become a Secret Santa this Christmas
+rulesPageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
+
+privacyPolicyPageTitle: Secret Santa Generator 2023 | Privacy
+privacyPolicyPageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
+
+tosPageTitle: Secret Santa Generator 2023 | Privacy
+tosPageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
+
+fbDomainVerification: 10br3uj84bkhcz7ujo5wzfc8k1ikfq
+gtmCode: GTM-TJX6L4V
+
+
 #Header
 menuRules:
   link: ./rules-en
@@ -178,10 +191,10 @@ faq4Main: |
 
 faq5Title: Es gibt noch Fragen offen, was ist zu tun?
 faq5Main: |
-  <p>Schreiben Sie uns an <a href="mailto:hello@mysanta.ru">hello@mysanta.ru</a>. Wir freuen uns, Ihre Fragen so schnell wie möglich zu beantworten.</p>
+  <p>Schreiben Sie uns an <a href="mailto:hello@mysanta.co">hello@mysanta.co</a>. Wir freuen uns, Ihre Fragen so schnell wie möglich zu beantworten.</p>
 
 #Footer
-footerCopyright: © 2022 MySanta
+footerCopyright: © 2023 MySanta
 footerAgreement:
   link: ./privacy-policy-en
   text: Privacy Policy
@@ -191,6 +204,9 @@ footerTerms:
 footerRefund: 
   link: ./refund-policy-en
   text: Refund Policy
+footerEmail: 
+  link: mailto:hello@mysanta.co
+  text: hello@mysanta.co
 
 #Cookie
 cookieText: Wir verwenden Cookies, um Ihre Erfahrung auf der Website zu verbessern.
