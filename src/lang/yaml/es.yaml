@@ -1,4 +1,6 @@
 #Global
+websiteDomain: https://mysanta.co
+
 homePageTitle: Amigo Invisible Online 2023 | ¡Conviértase en un Amigo Invisible esta Navidad
 homePageDescription: Intercambie regalos de Navidad con compañeros de trabajo, amigos, familiares, y los miembros de su comunidad.
 
@@ -16,7 +18,7 @@ gtmCode: GTM-TJX6L4V
 
 #Header
 menuRules:
-  link: ./rules-es
+  link: ./es/rules
   text: Reglas
 menuLogin: Iniciar sesión
 menuCreate: Crear un juego
@@ -28,7 +30,7 @@ bannerText: |
   Intercambie <strong>regalos de Navidad</strong> con compañeros de trabajo, amigos, familiares, y los miembros de su comunidad.
 bannerBtn: Crear un juego
 bannerScreen:
-  url: assets/img/es/banner-screen
+  url: static/img/es/banner-screen
   type: png
 
 #Callback
@@ -49,21 +51,21 @@ stepsTitle: |
 stepsText: ''
 
 step1Img:
-  url: assets/img/en/steps/1
+  url: static/img/en/steps/1
   type: jpg
 step1Title: Está listo en tres, dos, uno
 step1Text: |
    <p>Elija el nombre del juego de intercambio de regalos y la fecha en que se entregarán los regalos. Cuente a los participantes cómo prefiere recibir los regalos. Cree el enlace para que se unan nuevos jugadores.</p>
 
 step2Img:
-  url: assets/img/en/steps/2
+  url: static/img/en/steps/2
   type: jpg
 step2Title: Mire cómo crecen los números
 step2Text: |
    <p>El progreso se muestra en la interfaz del generador de intercambio de regalos. Si alguien cambia de opinión o se une por error, puede eliminar fácilmente al jugador del juego.</p>
 
 step3Img:
-  url: assets/img/en/steps/3
+  url: static/img/en/steps/3
   type: jpg
 step3Title: Mantenga un ojo en esos regalos
 step3Text: |
@@ -93,7 +95,7 @@ giftsTitle: |
 giftsText: |
   Cada participante crea su propia lista de deseos <em>personal</em>
 giftsImg:
-  url: assets/img/en/gifts-img
+  url: static/img/en/gifts-img
   type: jpg
 
 gift1Title: Todos crean una <br> lista de deseos
@@ -106,8 +108,8 @@ gift3Title: Insinúe dónde <br> comprar un regalo
 gift3Text: Nos asociamos con empresas de dropshipping de confianza
 
 #Stats
-statsTitle: 250 000
-statsSubtitle: personas jugaron en 2021
+statsTitle: 450 000
+statsSubtitle: personas jugaron en 2022
 statsText: El Amigo Invisible trabajó incansablemente para asegurarse de que nadie se quedara sin un regalo
 statsCreate: Crear un juego
 statsWhy: ¿Por qué retrasarlo?
@@ -188,13 +190,13 @@ faq5Main: |
 #Footer
 footerCopyright: © 2023 MySanta
 footerAgreement:
-  link: ./privacy-policy-en
+  link: ./es/privacy-policy
   text: Privacy Policy
 footerTerms: 
-  link: ./tos-en
+  link: ./es/tos
   text: Terms Of Service
 footerRefund: 
-  link: ./refund-policy-en
+  link: ./es/refund-policy
   text: Refund Policy
 footerEmail: 
   link: mailto:hello@mysanta.co
@@ -220,3 +222,4 @@ rulesContent: |
   <p>Todo lo que necesita para comenzar a jugar Amigo Invisible en nuestro sitio web es registrarse en nuestro servicio, especificar su correo electrónico, obtener un enlace para invitar a otros participantes y enviarlo a todos los que jugarán el juego.</p>
   <p>Cada participante sigue el enlace e indica su nombre y el regalo deseado dentro del monto especificado (establecido por usted). Entonces nuestro algoritmo distribuirá quién le dará a quién un regalo.</p>
   <p>El día señalado, todos los participantes que se hayan registrado a través del enlace recibirán un correo electrónico con instrucciones sobre a quién regalar y qué.</p>
+rulesCreate: 'Crear juego'

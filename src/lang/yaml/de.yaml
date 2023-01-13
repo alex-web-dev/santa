@@ -1,4 +1,6 @@
 #Global
+websiteDomain: https://mysanta.co
+
 homePageTitle: DE of Secret Santa Generator 2023 | Werden Sie dieses Jahr zum Secret Santa
 homePageDescription: Tauschen Sie Weihnachtsgeschenke mit Kollegen, Freunden, der Großfamilie und Mitgliedern Ihrer Online-Gemeinschaft
 
@@ -17,7 +19,7 @@ gtmCode: GTM-TJX6L4V
 
 #Header
 menuRules:
-  link: ./rules-en
+  link: ./de/rules
   text: Regeln
 menuLogin: Anmelden
 menuCreate: Spiel erstellen
@@ -29,7 +31,7 @@ bannerText: |
   Tauschen Sie Weihnachtsgeschenke mit Kollegen, Freunden, der Großfamilie und Mitgliedern Ihrer Online-Gemeinschaft.
 bannerBtn: Los geht`s
 bannerScreen:
-  url: assets/img/en/banner-screen
+  url: static/img/de/banner-screen
   type: png
 
 #Callback
@@ -50,7 +52,7 @@ stepsTitle: |
 stepsText: ''
 
 step1Img:
-  url: assets/img/en/steps/1
+  url: static/img/de/steps/1
   type: jpg
 step1Title: In drei, zwei, eins sind Sie bereit
 step1Text: |
@@ -59,7 +61,7 @@ step1Text: |
     Erstellen Sie den Link, über den neue Spieler teilnehmen können.</p>
 
 step2Img:
-  url: assets/img/en/steps/2
+  url: static/img/de/steps/2
   type: jpg
 step2Title: Sehen Sie, wie die Zahlen wachsen
 step2Text: |
@@ -68,7 +70,7 @@ step2Text: |
       den Spieler einfach aus dem Spiel entfernen.</p>
 
 step3Img:
-  url: assets/img/en/steps/3
+  url: static/img/de/steps/3
   type: jpg
 step3Title: Behalten Sie die Geschenke im Auge
 step3Text: |
@@ -100,7 +102,7 @@ giftsTitle: |
 giftsText: |
   Jeder Teilnehmer erstellt seine eigene <em>persönliche</em> Wunschliste
 giftsImg:
-  url: assets/img/en/gifts-img
+  url: static/img/de/gifts-img
   type: jpg
 
 gift1Title: Jeder erstellt <br> einen Wunschzettel
@@ -113,8 +115,8 @@ gift3Title: Tipps zum <br> Geschenkekauf
 gift3Text: Wir arbeiten mit vertrauenswürdigen Dropshipping-Unternehmen zusammen
 
 #Stats
-statsTitle: 250 000
-statsSubtitle: Menschen spielten im Jahr 2021
+statsTitle: 450 000
+statsSubtitle: Menschen spielten im Jahr 2022
 statsText: Secret Santa arbeitete unermüdlich, um sicherzustellen, dass niemand ohne ein Geschenk dastand
 statsCreate: Spiel erstellen
 statsWhy: Warum auf Eis legen?
@@ -196,13 +198,13 @@ faq5Main: |
 #Footer
 footerCopyright: © 2023 MySanta
 footerAgreement:
-  link: ./privacy-policy-en
+  link: ./de/privacy-policy
   text: Privacy Policy
 footerTerms: 
-  link: ./tos-en
+  link: ./de/tos
   text: Terms Of Service
 footerRefund: 
-  link: ./refund-policy-en
+  link: ./de/refund-policy
   text: Refund Policy
 footerEmail: 
   link: mailto:hello@mysanta.co
@@ -211,3 +213,22 @@ footerEmail:
 #Cookie
 cookieText: Wir verwenden Cookies, um Ihre Erfahrung auf der Website zu verbessern.
 cookieBtn: OK
+
+
+#Rules
+rulesTitle: Regeln für das Wichteln
+rulesText: |
+  <p>Das Wichteln ist ein Spiel, bei dem alle Teilnehmer anonym Geschenke für das Weihnachtsfest austauschen. Die Regeln des Wichtelns sind wie folgt: Eine Person erstellt das Spiel, legt das Datum fest, an dem alle wissen, wer wessen Weihnachtsmann ist. Wir geben einen Link, der unter den Spielern verteilt werden muss. Danach helfen wir Ihnen bei der Auswahl eines Geschenks.</p>
+rulesContent: |
+  <h2>Was ist das Spiel Secret Santa?</h2>
+  <p><b>MySanta</b> ist ein Online-Zufallsgenerator. Unser Service hilft Ihnen dabei, die Namen und Adressen der Teilnehmer einfach und schnell untereinander zu verteilen, damit jeder ein Geschenk erhält und verschenkt.</p>
+  <h2>Für wen ist das Wichtelspiel gedacht?</h2>
+  <p><b>Secret Santa</b> ist eine Weihnachtsaktion, an der sich jeder beteiligen kann! Spielen Sie Anonymer Weihnachtsmann mit Ihren Kollegen im Büro, bieten Sie an, es im Klassenzimmer Ihres Kindes zu veranstalten, oder tauschen Sie Geschenke mit Freunden aus. Mit dem Wichteln können Sie sich gegenseitig wertvolle und preiswerte Geschenke machen und so Zeit und Geld sparen.</p>
+  <h2>Was soll man geben?</h2>
+  <p>Die schwierigste Frage ist natürlich nicht, wie man die Adressen für das Wichteln verteilt, sondern was man schenken soll - dem Chef, dem Kollegen, der Freundin, dem jungen Mann, den Klassenkameraden und Mitschülern. Auch hier haben wir uns um Sie gekümmert und die coolsten Geschenkideen in diesem Jahr gesammelt, für jeden Geschmack und jedes Budget.</p>
+  <h2>Wie kann ich das Wichteln über die App auf der Website spielen?</h2>
+  <p><b>Mysanta</b> ist ein Online-Zufallsgenerator. Unser Service hilft Ihnen dabei, die Namen und Adressen der Teilnehmer einfach und unkompliziert untereinander zu verteilen, so dass jeder ein Geschenk erhält und verschenkt.</p>
+  <p>Alles, was Sie brauchen, um das Wichteln auf unserer Website zu beginnen, ist, sich in unserem Service zu registrieren, Ihre E-Mail anzugeben, einen Link zu erhalten, um andere Teilnehmer einzuladen - und ihn an alle zu senden, die das Spiel spielen werden.</p>
+  <p>Jeder Teilnehmer geht auf den Link und gibt seinen Namen und das gewünschte Geschenk im Rahmen des von Ihnen festgelegten Betrags an. Dann wird unser Algorithmus selbst verteilen, wer wem ein Geschenk macht.</p>
+  <p>Am festgelegten Tag erhalten alle Teilnehmer, die sich über den Link angemeldet haben, eine E-Mail mit Anweisungen, wem sie ein Geschenk machen sollen und was es sein könnte.</p>
+rulesCreate: 'Ein Spiel erstellen'

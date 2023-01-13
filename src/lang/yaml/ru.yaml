@@ -1,4 +1,5 @@
 #Global
+websiteDomain: https://mysanta.ru
 homePageTitle: Тайный Санта 2023 | Организуйте онлайн жеребьевку
 homePageDescription: Играйте в Тайного Санту с коллегами и друзьями, всей семьёй или просто со знакомыми и подписчиками.
 
@@ -13,6 +14,7 @@ tosPageDescription: Пользовательское соглашение сер
 fbDomainVerification: 10br3uj84bkhcz7ujo5wzfc8k1ikfq
 gtmCode: GTM-TJX6L4V
 
+
 #Header
 menuRules:
   link: ./rules
@@ -25,7 +27,7 @@ bannerTitle: Организуйте новогодний обмен подарк
 bannerText: Играйте в <strong>Тайного санту</strong> с коллегами и друзьями, всей семьёй или просто со знакомыми и подписчиками.
 bannerBtn: Создать игру
 bannerScreen:
-  url: assets/img/ru/banner-screen
+  url: static/img/ru/banner-screen
   type: png
 
 #Callback
@@ -46,7 +48,7 @@ stepsTitle: |
 stepsText: Пара кликов и всё готово. <em>Серьезно.</em>
 
 step1Img:
-  url: assets/img/ru/steps/1
+  url: static/img/ru/steps/1
   type: jpg
 step1Title: Играйте там, где вам удобно
 step1Text: |
@@ -54,7 +56,7 @@ step1Text: |
    <p>Тайный Санта справится даже если все в разных местах — подарки всё равно найдут своих адресатов.</p>
 
 step2Img:
-  url: assets/img/ru/steps/2
+  url: static/img/ru/steps/2
   type: jpg
 step2Title: Управляйте ходом игры
 step2Text: |
@@ -62,7 +64,7 @@ step2Text: |
    <p>Сразу видно, кто уже подготовился, а кому лучше напомнить о праздничных обязанностях.</p>
 
 step3Img:
-  url: assets/img/ru/steps/3
+  url: static/img/ru/steps/3
   type: jpg
 step3Title: А кто чей Санта?
 step3Text: |
@@ -94,7 +96,7 @@ giftsText: |
   <em>персональный</em>
   вишлист
 giftsImg:
-  url: assets/img/ru/gifts-img
+  url: static/img/ru/gifts-img
   type: jpg
 
 gift1Title: Спросим <br> пожелания игрока
@@ -107,7 +109,7 @@ gift3Title: Посоветуем <br> где купить подарок
 gift3Text: Работаем только с надежными интернет-магазинами
 
 #Stats
-statsTitle: 250 000
+statsTitle: 450 000
 statsSubtitle: человек играли в прошлом году
 statsText: Секретный Санта работал не покладая рук, чтобы никто не остался без подарка
 statsCreate:  Создать игру

@@ -2,6 +2,7 @@ extends layouts/_layout.pug
 
 block vars
 	- var selectedLang = 'ru';
+	- var pageUrl = '/tos';	
 	- var headerClass = 'header--black';
 
 block title
@@ -9,6 +10,25 @@ block title
 
 block description
 	meta(name="description" content=lang.tosPageDescription)
+	link(rel='canonical' href=lang.websiteDomain + pageUrl)
+
+block og
+	meta(name="og:title" content=lang.tosPageTitle)
+	meta(name="og:description" content=lang.tosPageDescription)
+	meta(name="og:type" content="website")
+	meta(name="og:locale" content=selectedLang)
+
+	meta(name="og:url" content=lang.websiteDomain + pageUrl)
+	meta(name="og:image" content=lang.websiteDomain + "/static/img/" + selectedLang + "/og_image.jpg")
+
+	meta(name="twitter:title" content=lang.tosPageTitle)
+	meta(name="twitter:description" content=lang.tosPageDescription)
+	meta(name="twitter:card" content="summary_large_image")
+
+	meta(name="twitter:url" content=lang.websiteDomain + pageUrl)
+	meta(name="twitter:image" content=lang.websiteDomain + "/static/img/" + selectedLang + "/og_image.jpg")
+
+
 
 block content
 	main.main

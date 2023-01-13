@@ -1,4 +1,6 @@
 #Global
+websiteDomain: https://mysanta.co
+
 homePageTitle: Secret Santa Generator 2023 | Become a Secret Santa this Christmas
 homePageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
 
@@ -18,7 +20,7 @@ gtmCode: GTM-TJX6L4V
 
 #Header
 menuRules:
-  link: ./rules-en
+  link: ./rules
   text: Rules
 menuLogin: Sign in
 menuCreate: Create a game
@@ -34,7 +36,7 @@ bannerText: |
   and your community members.
 bannerBtn: Get started
 bannerScreen:
-  url: assets/img/en/banner-screen
+  url: static/img/en/banner-screen
   type: png
 
 #Callback
@@ -55,21 +57,21 @@ stepsTitle: |
 stepsText: ''
 
 step1Img:
-  url: assets/img/en/steps/1
+  url: static/img/en/steps/1
   type: jpg
 step1Title: You're set in three, two, one
 step1Text: |
    <p>Set the name of the gift exchange game and the date when the gifts will be given. Tell participants how you prefer receiving the gifts. Create the link for new players to join.</p>
 
 step2Img:
-  url: assets/img/en/steps/2
+  url: static/img/en/steps/2
   type: jpg
 step2Title: Watch the numbers grow
 step2Text: |
    <p>The progress is displayed in the gift exchange generator interface. If someone changes their mind or joins by mistake, you can easily remove the player from the game.</p>
 
 step3Img:
-  url: assets/img/en/steps/3
+  url: static/img/en/steps/3
   type: jpg
 step3Title: Keep an eye on those gifts
 step3Text: |
@@ -99,7 +101,7 @@ giftsTitle: |
 giftsText: |
   Each participant creates their own <em>personal</em> Wishlist
 giftsImg:
-  url: assets/img/en/gifts-img
+  url: static/img/en/gifts-img
   type: jpg
 
 gift1Title: Everyone creates <br> a wishlist
@@ -112,8 +114,8 @@ gift3Title: Hint on where <br> to purchase a gift
 gift3Text: We partner with trusted dropshipping companies
 
 #Stats
-statsTitle: 250 000
-statsSubtitle: people played in 2021
+statsTitle: 450 000
+statsSubtitle: people played in 2022
 statsText: Secret Santa worked tirelessly to make sure no one was left without a gift
 statsCreate:  Create a game
 statsWhy: Why put it off?
@@ -194,13 +196,13 @@ faq5Main: |
 #Footer
 footerCopyright: © 2023 MySanta
 footerAgreement:
-  link: ./privacy-policy-en
+  link: ./privacy-policy
   text: Privacy Policy
 footerTerms: 
-  link: ./tos-en
+  link: ./tos
   text: Terms Of Service
 footerRefund: 
-  link: ./refund-policy-en
+  link: ./refund-policy
   text: Refund Policy
 footerEmail: 
   link: mailto:hello@mysanta.co
@@ -226,7 +228,7 @@ rulesContent: |
   <p>All you need to start playing Secret Santa on our website - is to register in our service, specify your e-mail, get a link to invite other participants - and send it to all who will play the game.</p>
   <p>Each participant goes to the link and indicates their name and the desired gift within the specified amount (set by you). Then our algorithm itself will distribute who gives whom a gift.</p>
   <p>On the appointed day, all participants who have registered through the link will receive an email with instructions on who to give a gift to and what it might be.</p>
-rulesCreate:
+rulesCreate: 'Create game'
 
 #Privacy policy
 privacyPolicyContent: |

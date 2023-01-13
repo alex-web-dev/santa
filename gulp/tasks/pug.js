@@ -15,11 +15,11 @@ export const pug = () => {
 		}))
 		.pipe(typograf({ locale: ['ru', 'en-US'] }))
 		.pipe(gulpif(app.isProd, replace(/<link rel="stylesheet" href="assets\/css\/styles.css"[^>]*>/, function (s) {
-			const style = fs.readFileSync('build/assets/css/styles.css', 'utf8');
+			const style = fs.readFileSync('build/static/css/styles.css', 'utf8');
 			return '<style>' + style + '</style>';
 		})))
 		.pipe(gulpif(app.isProd, replace(/<script src="assets\/js\/index.js"[^>]*>/, function (s) {
-			const script = fs.readFileSync('build/assets/js/index.js', 'utf8');
+			const script = fs.readFileSync('build/static/js/index.js', 'utf8');
 			return '<script>' + script;
 		})))
 		.pipe(app.gulp.dest(app.path.buildFolder));

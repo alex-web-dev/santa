@@ -24,11 +24,11 @@ export const path = {
 		lang: `${srcFolder}/lang`,
 	},
 	build: {
-		css: `${buildFolder}/assets/css`,
+		css: `${buildFolder}/static/css`,
 		cssFile: 'styles.css',
-		js: `${buildFolder}/assets/js`,
-		img: `${buildFolder}/assets/img`,
-		fonts: `${buildFolder}/assets/fonts`,
-		favicon: `${buildFolder}/assets/img`,
+		js: `${buildFolder}/static/js`,
+		img: `${buildFolder}/static/img`,
+		fonts: `${buildFolder}/static/fonts`,
+		favicon: `${buildFolder}/static/img`,
 	}
 };
