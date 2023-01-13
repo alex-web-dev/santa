@@ -14,11 +14,11 @@ export const pug = () => {
 			pretty: true
 		}))
 		.pipe(typograf({ locale: ['ru', 'en-US'] }))
-		.pipe(gulpif(app.isProd, replace(/<link rel="stylesheet" href="assets\/css\/styles.css"[^>]*>/, function (s) {
+		.pipe(gulpif(app.isProd, replace(/<link rel="stylesheet" href="static\/css\/styles.css"[^>]*>/, function (s) {
 			const style = fs.readFileSync('build/static/css/styles.css', 'utf8');
 			return '<style>' + style + '</style>';
 		})))
-		.pipe(gulpif(app.isProd, replace(/<script src="assets\/js\/index.js"[^>]*>/, function (s) {
+		.pipe(gulpif(app.isProd, replace(/<script src="static\/js\/index.js"[^>]*>/, function (s) {
 			const script = fs.readFileSync('build/static/js/index.js', 'utf8');
 			return '<script>' + script;
 		})))
