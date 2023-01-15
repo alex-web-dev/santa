@@ -19,7 +19,7 @@ gtmCode: GTM-TJX6L4V
 
 #Header
 menuRules:
-  link: ./de/rules
+  link: /de/rules
   text: Regeln
 menuLogin: Anmelden
 menuCreate: Spiel erstellen
@@ -198,13 +198,13 @@ faq5Main: |
 #Footer
 footerCopyright: © 2023 MySanta
 footerAgreement:
-  link: ./de/privacy-policy
+  link: /de/privacy-policy
   text: Privacy Policy
 footerTerms: 
-  link: ./de/tos
+  link: /de/tos
   text: Terms Of Service
 footerRefund: 
-  link: ./de/refund-policy
+  link: /de/refund-policy
   text: Refund Policy
 footerEmail: 
   link: mailto:hello@mysanta.co

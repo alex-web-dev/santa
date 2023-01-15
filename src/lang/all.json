@@ -13,7 +13,7 @@
 			"fbDomainVerification": "10br3uj84bkhcz7ujo5wzfc8k1ikfq",
 			"gtmCode": "GTM-TJX6L4V",
 			"menuRules": {
-				"link": "./de/rules",
+				"link": "/de/rules",
 				"text": "Regeln"
 			},
 			"menuLogin": "Anmelden",
@@ -122,15 +122,15 @@
 			"faq5Main": "<p>Schreiben Sie uns an <a href=\"mailto:hello@mysanta.co\">hello@mysanta.co</a>. Wir freuen uns, Ihre Fragen so schnell wie möglich zu beantworten.</p>\n",
 			"footerCopyright": "© 2023 MySanta",
 			"footerAgreement": {
-				"link": "./de/privacy-policy",
+				"link": "/de/privacy-policy",
 				"text": "Privacy Policy"
 			},
 			"footerTerms": {
-				"link": "./de/tos",
+				"link": "/de/tos",
 				"text": "Terms Of Service"
 			},
 			"footerRefund": {
-				"link": "./de/refund-policy",
+				"link": "/de/refund-policy",
 				"text": "Refund Policy"
 			},
 			"footerEmail": {
@@ -157,7 +157,7 @@
 			"fbDomainVerification": "10br3uj84bkhcz7ujo5wzfc8k1ikfq",
 			"gtmCode": "GTM-TJX6L4V",
 			"menuRules": {
-				"link": "./rules",
+				"link": "/rules",
 				"text": "Rules"
 			},
 			"menuLogin": "Sign in",
@@ -266,15 +266,15 @@
 			"faq5Main": "<p>Write to <a href=\"mailto:hello@mysanta.co\">hello@mysanta.co</a>. We will answer any questions as quickly as possible</p>\n",
 			"footerCopyright": "© 2023 MySanta",
 			"footerAgreement": {
-				"link": "./privacy-policy",
+				"link": "/privacy-policy",
 				"text": "Privacy Policy"
 			},
 			"footerTerms": {
-				"link": "./tos",
+				"link": "/tos",
 				"text": "Terms Of Service"
 			},
 			"footerRefund": {
-				"link": "./refund-policy",
+				"link": "/refund-policy",
 				"text": "Refund Policy"
 			},
 			"footerEmail": {
@@ -304,7 +304,7 @@
 			"fbDomainVerification": "10br3uj84bkhcz7ujo5wzfc8k1ikfq",
 			"gtmCode": "GTM-TJX6L4V",
 			"menuRules": {
-				"link": "./es/rules",
+				"link": "/es/rules",
 				"text": "Reglas"
 			},
 			"menuLogin": "Iniciar sesión",
@@ -413,15 +413,15 @@
 			"faq5Main": "<p>Escriba a <a href=\"mailto:hello@mysanta.co\">hello@mysanta.co</a>. Responderemos cualquier pregunta lo más rápido posible.</p>\n",
 			"footerCopyright": "© 2023 MySanta",
 			"footerAgreement": {
-				"link": "./es/privacy-policy",
+				"link": "/es/privacy-policy",
 				"text": "Privacy Policy"
 			},
 			"footerTerms": {
-				"link": "./es/tos",
+				"link": "/es/tos",
 				"text": "Terms Of Service"
 			},
 			"footerRefund": {
-				"link": "./es/refund-policy",
+				"link": "/es/refund-policy",
 				"text": "Refund Policy"
 			},
 			"footerEmail": {
@@ -448,7 +448,7 @@
 			"fbDomainVerification": "10br3uj84bkhcz7ujo5wzfc8k1ikfq",
 			"gtmCode": "GTM-TJX6L4V",
 			"menuRules": {
-				"link": "./rules",
+				"link": "/rules",
 				"text": "Правила"
 			},
 			"menuLogin": "Войти",
@@ -557,19 +557,19 @@
 			"faq5Main": "<p>Напишите на <a href=\"mailto:hello@mysanta.ru\">hello@mysanta.ru</a>. Мы ответим по любым вопросам максимально быстро.</p>\n",
 			"footerCopyright": "© 2023 Мой Санта",
 			"footerAgreement": {
-				"link": "./privacy-policy",
+				"link": "/privacy-policy",
 				"text": "Пользовательское соглашение"
 			},
 			"footerTerms": {
-				"link": "./tos",
+				"link": "/tos",
 				"text": "Условия предоставления услуг"
 			},
 			"footerRefund": {
-				"link": "./refund-policy",
+				"link": "/refund-policy",
 				"text": "Политика возврата денежных средств"
 			},
 			"footerEmail": {
-				"link": "./mailto:hello@mysanta.ru",
+				"link": "/mailto:hello@mysanta.ru",
 				"text": "hello@mysanta.ru"
 			},
 			"cookieText": "Мы используем куки, чтобы вам было удобнее пользоваться сайтом.",
