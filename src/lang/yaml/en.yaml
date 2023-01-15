@@ -196,13 +196,13 @@ faq5Main: |
 #Footer
 footerCopyright: © 2023 MySanta
 footerAgreement:
-  link: /privacy-policy
+  link: /privacy_policy
   text: Privacy Policy
 footerTerms: 
   link: /tos
   text: Terms Of Service
 footerRefund: 
-  link: /refund-policy
+  link: /refund_policy
   text: Refund Policy
 footerEmail: 
   link: mailto:hello@mysanta.co

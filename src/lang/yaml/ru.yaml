@@ -192,13 +192,13 @@ faq5Main: |
 #Footer
 footerCopyright: © 2023 Мой Санта
 footerAgreement:
-  link: /privacy-policy
+  link: /privacy_policy
   text: Пользовательское соглашение
 footerTerms: 
   link: /tos
   text: Условия предоставления услуг
 footerRefund: 
-  link: /refund-policy
+  link: /refund_policy
   text: Политика возврата денежных средств
 footerEmail: 
   link: /mailto:hello@mysanta.ru

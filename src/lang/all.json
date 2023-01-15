@@ -122,7 +122,7 @@
 			"faq5Main": "<p>Schreiben Sie uns an <a href=\"mailto:hello@mysanta.co\">hello@mysanta.co</a>. Wir freuen uns, Ihre Fragen so schnell wie möglich zu beantworten.</p>\n",
 			"footerCopyright": "© 2023 MySanta",
 			"footerAgreement": {
-				"link": "/de/privacy-policy",
+				"link": "/de/privacy_policy",
 				"text": "Privacy Policy"
 			},
 			"footerTerms": {
@@ -130,7 +130,7 @@
 				"text": "Terms Of Service"
 			},
 			"footerRefund": {
-				"link": "/de/refund-policy",
+				"link": "/de/refund_policy",
 				"text": "Refund Policy"
 			},
 			"footerEmail": {
@@ -266,7 +266,7 @@
 			"faq5Main": "<p>Write to <a href=\"mailto:hello@mysanta.co\">hello@mysanta.co</a>. We will answer any questions as quickly as possible</p>\n",
 			"footerCopyright": "© 2023 MySanta",
 			"footerAgreement": {
-				"link": "/privacy-policy",
+				"link": "/privacy_policy",
 				"text": "Privacy Policy"
 			},
 			"footerTerms": {
@@ -274,7 +274,7 @@
 				"text": "Terms Of Service"
 			},
 			"footerRefund": {
-				"link": "/refund-policy",
+				"link": "/refund_policy",
 				"text": "Refund Policy"
 			},
 			"footerEmail": {
@@ -413,7 +413,7 @@
 			"faq5Main": "<p>Escriba a <a href=\"mailto:hello@mysanta.co\">hello@mysanta.co</a>. Responderemos cualquier pregunta lo más rápido posible.</p>\n",
 			"footerCopyright": "© 2023 MySanta",
 			"footerAgreement": {
-				"link": "/es/privacy-policy",
+				"link": "/es/privacy_policy",
 				"text": "Privacy Policy"
 			},
 			"footerTerms": {
@@ -421,7 +421,7 @@
 				"text": "Terms Of Service"
 			},
 			"footerRefund": {
-				"link": "/es/refund-policy",
+				"link": "/es/refund_policy",
 				"text": "Refund Policy"
 			},
 			"footerEmail": {
@@ -557,7 +557,7 @@
 			"faq5Main": "<p>Напишите на <a href=\"mailto:hello@mysanta.ru\">hello@mysanta.ru</a>. Мы ответим по любым вопросам максимально быстро.</p>\n",
 			"footerCopyright": "© 2023 Мой Санта",
 			"footerAgreement": {
-				"link": "/privacy-policy",
+				"link": "/privacy_policy",
 				"text": "Пользовательское соглашение"
 			},
 			"footerTerms": {
@@ -565,7 +565,7 @@
 				"text": "Условия предоставления услуг"
 			},
 			"footerRefund": {
-				"link": "/refund-policy",
+				"link": "/refund_policy",
 				"text": "Политика возврата денежных средств"
 			},
 			"footerEmail": {
