@@ -27,7 +27,7 @@ bannerTitle: Организуйте новогодний обмен подарк
 bannerText: Играйте в <strong>Тайного санту</strong> с коллегами и друзьями, всей семьёй или просто со знакомыми и подписчиками.
 bannerBtn: Создать игру
 bannerScreen:
-  url: static/img/ru/banner-screen
+  url: /static/img/ru/banner-screen
   type: png
 
 #Callback
@@ -48,7 +48,7 @@ stepsTitle: |
 stepsText: Пара кликов и всё готово. <em>Серьезно.</em>
 
 step1Img:
-  url: static/img/ru/steps/1
+  url: /static/img/ru/steps/1
   type: jpg
 step1Title: Играйте там, где вам удобно
 step1Text: |
@@ -56,7 +56,7 @@ step1Text: |
    <p>Тайный Санта справится даже если все в разных местах — подарки всё равно найдут своих адресатов.</p>
 
 step2Img:
-  url: static/img/ru/steps/2
+  url: /static/img/ru/steps/2
   type: jpg
 step2Title: Управляйте ходом игры
 step2Text: |
@@ -64,7 +64,7 @@ step2Text: |
    <p>Сразу видно, кто уже подготовился, а кому лучше напомнить о праздничных обязанностях.</p>
 
 step3Img:
-  url: static/img/ru/steps/3
+  url: /static/img/ru/steps/3
   type: jpg
 step3Title: А кто чей Санта?
 step3Text: |
@@ -96,7 +96,7 @@ giftsText: |
   <em>персональный</em>
   вишлист
 giftsImg:
-  url: static/img/ru/gifts-img
+  url: /static/img/ru/gifts-img
   type: jpg
 
 gift1Title: Спросим <br> пожелания игрока

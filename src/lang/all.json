@@ -22,7 +22,7 @@
 			"bannerText": "Tauschen Sie Weihnachtsgeschenke mit Kollegen, Freunden, der Großfamilie und Mitgliedern Ihrer Online-Gemeinschaft.\n",
 			"bannerBtn": "Los geht`s",
 			"bannerScreen": {
-				"url": "static/img/de/banner-screen",
+				"url": "/static/img/de/banner-screen",
 				"type": "png"
 			},
 			"callbackTitle": null,
@@ -34,19 +34,19 @@
 			"stepsTitle": "Wichteln —\n<span class=\"title1__primary\">nice</span>\n&\n<span class=\"title1__primary\">easy</span>\n",
 			"stepsText": "",
 			"step1Img": {
-				"url": "static/img/de/steps/1",
+				"url": "/static/img/de/steps/1",
 				"type": "jpg"
 			},
 			"step1Title": "In drei, zwei, eins sind Sie bereit",
 			"step1Text": "<p>Legen Sie den Namen des Spiels und das Datum fest, an dem die Geschenke übergeben werden. Teilen Sie den Teilnehmern mit, wie die Geschenke überreicht werden sollen.\n <br>\n Erstellen Sie den Link, über den neue Spieler teilnehmen können.</p>\n",
 			"step2Img": {
-				"url": "static/img/de/steps/2",
+				"url": "/static/img/de/steps/2",
 				"type": "jpg"
 			},
 			"step2Title": "Sehen Sie, wie die Zahlen wachsen",
 			"step2Text": "<p>Sie können den Fortschritt des Spiels leicht verfolgen. Wenn jemand seine Meinung ändert oder aus Versehen mitspielt, können Sie\n   <br>\n   den Spieler einfach aus dem Spiel entfernen.</p>\n",
 			"step3Img": {
-				"url": "static/img/de/steps/3",
+				"url": "/static/img/de/steps/3",
 				"type": "jpg"
 			},
 			"step3Title": "Behalten Sie die Geschenke im Auge",
@@ -64,7 +64,7 @@
 			"giftsTitle": "<span>Die</span>\n<span class=\"title1__primary\">Geschenke</span>\n<span>werden</span>\n<span class=\"title1__primary\">sicher</span>\n<span class=\"title1__primary title1__like\">gefallen</span>\n",
 			"giftsText": "Jeder Teilnehmer erstellt seine eigene <em>persönliche</em> Wunschliste\n",
 			"giftsImg": {
-				"url": "static/img/de/gifts-img",
+				"url": "/static/img/de/gifts-img",
 				"type": "jpg"
 			},
 			"gift1Title": "Jeder erstellt <br> einen Wunschzettel",
@@ -166,7 +166,7 @@
 			"bannerText": "Exchange <strong>Christmas gifts</strong> with coworkers, friends, extended family,\n<br>\nand your community members.\n",
 			"bannerBtn": "Get started",
 			"bannerScreen": {
-				"url": "static/img/en/banner-screen",
+				"url": "/static/img/en/banner-screen",
 				"type": "png"
 			},
 			"callbackTitle": null,
@@ -178,19 +178,19 @@
 			"stepsTitle": "Make your gift exchange <br>\n<span class=\"title1__primary\">nice</span>\nand\n<span class=\"title1__primary\">easy</span>\n",
 			"stepsText": "",
 			"step1Img": {
-				"url": "static/img/en/steps/1",
+				"url": "/static/img/en/steps/1",
 				"type": "jpg"
 			},
 			"step1Title": "You're set in three, two, one",
 			"step1Text": "<p>Set the name of the gift exchange game and the date when the gifts will be given. Tell participants how you prefer receiving the gifts. Create the link for new players to join.</p>\n",
 			"step2Img": {
-				"url": "static/img/en/steps/2",
+				"url": "/static/img/en/steps/2",
 				"type": "jpg"
 			},
 			"step2Title": "Watch the numbers grow",
 			"step2Text": "<p>The progress is displayed in the gift exchange generator interface. If someone changes their mind or joins by mistake, you can easily remove the player from the game.</p>\n",
 			"step3Img": {
-				"url": "static/img/en/steps/3",
+				"url": "/static/img/en/steps/3",
 				"type": "jpg"
 			},
 			"step3Title": "Keep an eye on those gifts",
@@ -208,7 +208,7 @@
 			"giftsTitle": "<span>You will definitely</span>\n<span class=\"title1__primary\">like the</span>\n<span class=\"title1__primary title1__like\">gifts</span>\n",
 			"giftsText": "Each participant creates their own <em>personal</em> Wishlist\n",
 			"giftsImg": {
-				"url": "static/img/en/gifts-img",
+				"url": "/static/img/en/gifts-img",
 				"type": "jpg"
 			},
 			"gift1Title": "Everyone creates <br> a wishlist",
@@ -313,7 +313,7 @@
 			"bannerText": "Intercambie <strong>regalos de Navidad</strong> con compañeros de trabajo, amigos, familiares, y los miembros de su comunidad.\n",
 			"bannerBtn": "Crear un juego",
 			"bannerScreen": {
-				"url": "static/img/es/banner-screen",
+				"url": "/static/img/es/banner-screen",
 				"type": "png"
 			},
 			"callbackTitle": null,
@@ -325,19 +325,19 @@
 			"stepsTitle": "Haga su intercambio de regalos\n<span class=\"title1__primary\">fácil</span>\ny\n<span class=\"title1__primary\">agradable</span>\n",
 			"stepsText": "",
 			"step1Img": {
-				"url": "static/img/en/steps/1",
+				"url": "/static/img/en/steps/1",
 				"type": "jpg"
 			},
 			"step1Title": "Está listo en tres, dos, uno",
 			"step1Text": "<p>Elija el nombre del juego de intercambio de regalos y la fecha en que se entregarán los regalos. Cuente a los participantes cómo prefiere recibir los regalos. Cree el enlace para que se unan nuevos jugadores.</p>\n",
 			"step2Img": {
-				"url": "static/img/en/steps/2",
+				"url": "/static/img/en/steps/2",
 				"type": "jpg"
 			},
 			"step2Title": "Mire cómo crecen los números",
 			"step2Text": "<p>El progreso se muestra en la interfaz del generador de intercambio de regalos. Si alguien cambia de opinión o se une por error, puede eliminar fácilmente al jugador del juego.</p>\n",
 			"step3Img": {
-				"url": "static/img/en/steps/3",
+				"url": "/static/img/en/steps/3",
 				"type": "jpg"
 			},
 			"step3Title": "Mantenga un ojo en esos regalos",
@@ -355,7 +355,7 @@
 			"giftsTitle": "<span>Seguro que</span>\n<span class=\"title1__primary\">le gustarán los</span>\n<span class=\"title1__primary title1__like\">regalos</span>\n",
 			"giftsText": "Cada participante crea su propia lista de deseos <em>personal</em>\n",
 			"giftsImg": {
-				"url": "static/img/en/gifts-img",
+				"url": "/static/img/en/gifts-img",
 				"type": "jpg"
 			},
 			"gift1Title": "Todos crean una <br> lista de deseos",
@@ -457,7 +457,7 @@
 			"bannerText": "Играйте в <strong>Тайного санту</strong> с коллегами и друзьями, всей семьёй или просто со знакомыми и подписчиками.",
 			"bannerBtn": "Создать игру",
 			"bannerScreen": {
-				"url": "static/img/ru/banner-screen",
+				"url": "/static/img/ru/banner-screen",
 				"type": "png"
 			},
 			"callbackTitle": "А еще у нас есть чат-боты",
@@ -469,19 +469,19 @@
 			"stepsTitle": "Создать игру\n<span class=\"title1__primary\">легко</span>\nи\n<span class=\"title1__primary\">просто</span>\n",
 			"stepsText": "Пара кликов и всё готово. <em>Серьезно.</em>",
 			"step1Img": {
-				"url": "static/img/ru/steps/1",
+				"url": "/static/img/ru/steps/1",
 				"type": "jpg"
 			},
 			"step1Title": "Играйте там, где вам удобно",
 			"step1Text": "<p>Можно играть в офисе и дома, с семьей и с друзьями. Игра подходит для офлайна, когда все живут рядом, и для онлайн-жеребьевки.</p>\n<p>Тайный Санта справится даже если все в разных местах — подарки всё равно найдут своих адресатов.</p>\n",
 			"step2Img": {
-				"url": "static/img/ru/steps/2",
+				"url": "/static/img/ru/steps/2",
 				"type": "jpg"
 			},
 			"step2Title": "Управляйте ходом игры",
 			"step2Text": "<p>Вы получите полный доступ к настройкам игры: админ может удалять тех, кто передумал участвовать, и вычислять тех, кто еще не отправил подарок.</p>\n<p>Сразу видно, кто уже подготовился, а кому лучше напомнить о праздничных обязанностях.</p>\n",
 			"step3Img": {
-				"url": "static/img/ru/steps/3",
+				"url": "/static/img/ru/steps/3",
 				"type": "jpg"
 			},
 			"step3Title": "А кто чей Санта?",
@@ -499,7 +499,7 @@
 			"giftsTitle": "<span>Подарки точно</span>\n<span class=\"title1__primary title1__like\">понравятся</span>\n",
 			"giftsText": "Каждый игрок создает свой \n<em>персональный</em>\nвишлист\n",
 			"giftsImg": {
-				"url": "static/img/ru/gifts-img",
+				"url": "/static/img/ru/gifts-img",
 				"type": "jpg"
 			},
 			"gift1Title": "Спросим <br> пожелания игрока",
