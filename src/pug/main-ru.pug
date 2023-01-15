@@ -37,13 +37,13 @@ block content
 						p.text.text--big.banner__text !{lang.bannerText}
 						a.btn.banner__btn(href="/login") !{lang.bannerBtn} 
 					.banner__phone
-						+picture('static/img/page-banner/left-hand', 'png', 'banner__phone-hand banner__phone-hand--left', 601, 254, false, false)
-						+picture('static/img/page-banner/right-hand', 'png', 'banner__phone-hand banner__phone-hand--right', 1235, 720, false, false)
+						+picture('/static/img/page-banner/left-hand', 'png', 'banner__phone-hand banner__phone-hand--left', 601, 254, false, false)
+						+picture('/static/img/page-banner/right-hand', 'png', 'banner__phone-hand banner__phone-hand--right', 1235, 720, false, false)
 						+picture(lang.bannerScreen.url, lang.bannerScreen.type, 'banner__phone-screen', 220, 490, false, false)
 					.banner__candies
-						+picture('static/img/page-banner/candy', 'png', 'banner__candy banner__candy--1', 50, 122, false, false)
-						+picture('static/img/page-banner/candy', 'png', 'banner__candy banner__candy--2', 97, 237, false, false)
-						+picture('static/img/page-banner/candy', 'png', 'banner__candy banner__candy--3', 154, 376, false, false)
+						+picture('/static/img/page-banner/candy', 'png', 'banner__candy banner__candy--1', 50, 122, false, false)
+						+picture('/static/img/page-banner/candy', 'png', 'banner__candy banner__candy--2', 97, 237, false, false)
+						+picture('/static/img/page-banner/candy', 'png', 'banner__candy banner__candy--3', 154, 376, false, false)
 
 		if selectedLang == 'ru'
 			section.callback
@@ -103,22 +103,22 @@ block content
 					.play__list
 						.play-item.play__item
 							.play-item__img
-								+picture('static/img/play/1', 'png', '', 149, 180, true)
+								+picture('/static/img/play/1', 'png', '', 149, 180, true)
 							h3.title3.play-item__title !{lang.playItem1Title}
 							p.text.play-item__text !{lang.playItem1Text}
 						.play-item.play__item
 							.play-item__img
-								+picture('static/img/play/2', 'png', '', 147, 200, true)
+								+picture('/static/img/play/2', 'png', '', 147, 200, true)
 							h3.title3.play-item__title !{lang.playItem2Title}
 							p.text.play-item__text !{lang.playItem2Text}
 						.play-item.play__item
 							.play-item__img
-								+picture('static/img/play/3', 'png', '', 167, 180, true)
+								+picture('/static/img/play/3', 'png', '', 167, 180, true)
 							h3.title3.play-item__title !{lang.playItem3Title}
 							p.text.play-item__text !{lang.playItem3Text}
 						.play-item.play__item
 							.play-item__img
-								+picture('static/img/play/4', 'png', '', 240, 180, true)
+								+picture('/static/img/play/4', 'png', '', 240, 180, true)
 							h3.title3.play-item__title !{lang.playItem4Title}
 							p.text.play-item__text !{lang.playItem4Text}
 					.play__spheres
@@ -160,7 +160,7 @@ block content
 					.stats__footer
 						a.btn.btn--second.stats__footer-btn(href="/login")  !{lang.statsCreate}
 						.link.link--third.stats__footer-btn !{lang.statsWhy}
-					+picture('static/img/stats/santa', 'png', 'stats__santa', 194, 350, true)
+					+picture('/static/img/stats/santa', 'png', 'stats__santa', 194, 350, true)
 					.stats__stars
 						.star.stats__star
 						.star.stats__star
@@ -178,11 +178,11 @@ block content
 								.feature__info
 									h3.title2.feature__title !{ lang.feature1Title }
 									p.text.feature__text !{ lang.feature1Text }
-								+picture('static/img/features/1', 'png', 'feature__img', 228, 404, true)(class="feature__picture")
+								+picture('/static/img/features/1', 'png', 'feature__img', 228, 404, true)(class="feature__picture")
 					.feature.feature--active.features__item
 						.container
 							.feature__content
-								+picture('static/img/features/2', 'png', 'feature__img', 291, 292, true)(class="feature__picture")
+								+picture('/static/img/features/2', 'png', 'feature__img', 291, 292, true)(class="feature__picture")
 								.feature__info
 									h3.title2.feature__title !{ lang.feature2Title }
 									p.text.feature__text !{ lang.feature2Text }
@@ -192,7 +192,7 @@ block content
 								.feature__info
 									h3.title2.feature__title !{ lang.feature3Title }
 									p.text.feature__text.feature__text--short !{ lang.feature3Text }
-								+picture('static/img/features/3', 'png', 'feature__img', 254, 320, true)(class="feature__picture")
+								+picture('/static/img/features/3', 'png', 'feature__img', 254, 320, true)(class="feature__picture")
 
 		section.reviews
 			.container
@@ -203,7 +203,7 @@ block content
 							.text.review__text
 								p !{ lang.review1Text }
 							.review__author
-								+picture('static/img/reviews/1', 'png', 'review__author-img', 50, 50)
+								+picture('/static/img/reviews/1', 'png', 'review__author-img', 50, 50)
 								.review__author-info
 									.text.text--bold !{ lang.review1Name }
 									.text !{ lang.review1City }
@@ -211,7 +211,7 @@ block content
 							.text.review__text
 								p !{ lang.review2Text }
 							.review__author
-								+picture('static/img/reviews/2', 'png', 'review__author-img', 50, 50)
+								+picture('/static/img/reviews/2', 'png', 'review__author-img', 50, 50)
 								.review__author-info
 									.text.text--bold !{ lang.review2Name }
 									.text !{ lang.review2City }
@@ -219,7 +219,7 @@ block content
 							.text.review__text
 								p !{ lang.review3Text }
 							.review__author
-								+picture('static/img/reviews/3', 'png', 'review__author-img', 50, 50)
+								+picture('/static/img/reviews/3', 'png', 'review__author-img', 50, 50)
 								.review__author-info
 									.text.text--bold !{ lang.review3Name }
 									.text !{ lang.review3City }
@@ -228,7 +228,7 @@ block content
 							.text.review__text
 								p !{ lang.review4Text }
 							.review__author
-								+picture('static/img/reviews/4', 'png', 'review__author-img', 50, 50)
+								+picture('/static/img/reviews/4', 'png', 'review__author-img', 50, 50)
 								.review__author-info
 									.text.text--bold !{ lang.review4Name }
 									.text !{ lang.review4City }
@@ -236,7 +236,7 @@ block content
 							.text.review__text
 								p !{ lang.review5Text }
 							.review__author
-								+picture('static/img/reviews/5', 'png', 'review__author-img', 50, 50)
+								+picture('/static/img/reviews/5', 'png', 'review__author-img', 50, 50)
 								.review__author-info
 									.text.text--bold !{ lang.review5Name }
 									.text !{ lang.review5City }
@@ -244,7 +244,7 @@ block content
 							.text.review__text
 								p !{ lang.review6Text }
 							.review__author
-								+picture('static/img/reviews/6', 'png', 'review__author-img', 50, 50)
+								+picture('/static/img/reviews/6', 'png', 'review__author-img', 50, 50)
 								.review__author-info
 									.text.text--bold !{ lang.review6Name }
 									.text !{ lang.review6City }
@@ -257,9 +257,9 @@ block content
 					h2.title1.start__title !{ lang.startTitle }
 					p.text.text--big.start__text !{ lang.startText }
 					a.btn.btn--black.start__btn(href="/login") !{ lang.startCreate }
-					+picture('static/img/start/deer', 'png', 'start__deer', 240, 239, true)
-					+picture('static/img/start/tree', 'png', 'start__tree', 293, 340, true)
-					+picture('static/img/start/santa', 'png', 'start__santa', 277, 300, true)
+					+picture('/static/img/start/deer', 'png', 'start__deer', 240, 239, true)
+					+picture('/static/img/start/tree', 'png', 'start__tree', 293, 340, true)
+					+picture('/static/img/start/santa', 'png', 'start__santa', 277, 300, true)
 
 		section.faq
 			.container
