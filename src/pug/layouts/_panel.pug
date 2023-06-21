@@ -29,7 +29,7 @@ html(lang=selectedLang)
 
 
 
-        link(rel='shortcut icon' href='/static/img/favicon.ico')
+        link(rel='shortcut icon' href='static/img/favicon.ico')
         link(rel='stylesheet' href='/static/css/styles.css')
 
         script.
@@ -37,9 +37,9 @@ html(lang=selectedLang)
     body
         .preloader
             .preloader__images
-                +picture('/static/img/panel/preloader/1', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
-                +picture('/static/img/panel/preloader/2', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
-                +picture('/static/img/panel/preloader/3', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
+                +picture('static/img/panel/preloader/1', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
+                +picture('static/img/panel/preloader/2', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
+                +picture('static/img/panel/preloader/3', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
 
 
         block content

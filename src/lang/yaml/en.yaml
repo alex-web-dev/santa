@@ -37,7 +37,7 @@ bannerText: |
   and your community members.
 bannerBtn: Get started
 bannerScreen:
-  url: /static/img/en/banner-screen
+  url: static/img/en/banner-screen
   type: png
 
 #Callback
@@ -58,21 +58,21 @@ stepsTitle: |
 stepsText: ''
 
 step1Img:
-  url: /static/img/en/steps/1
+  url: static/img/en/steps/1
   type: jpg
 step1Title: You're set in three, two, one
 step1Text: |
    <p>Set the name of the gift exchange game and the date when the gifts will be given. Tell participants how you prefer receiving the gifts. Create the link for new players to join.</p>
 
 step2Img:
-  url: /static/img/en/steps/2
+  url: static/img/en/steps/2
   type: jpg
 step2Title: Watch the numbers grow
 step2Text: |
    <p>The progress is displayed in the gift exchange generator interface. If someone changes their mind or joins by mistake, you can easily remove the player from the game.</p>
 
 step3Img:
-  url: /static/img/en/steps/3
+  url: static/img/en/steps/3
   type: jpg
 step3Title: Keep an eye on those gifts
 step3Text: |
@@ -102,7 +102,7 @@ giftsTitle: |
 giftsText: |
   Each participant creates their own <em>personal</em> Wishlist
 giftsImg:
-  url: /static/img/en/gifts-img
+  url: static/img/en/gifts-img
   type: jpg
 
 gift1Title: Everyone creates <br> a wishlist

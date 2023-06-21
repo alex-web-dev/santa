@@ -33,3 +33,4 @@ gulp.task('dev', dev);
 gulp.task('build', build);
 gulp.task('default', dev);
 gulp.task('lang', lang);
+gulp.task('pug', pug);

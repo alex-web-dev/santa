@@ -15,7 +15,8 @@ export const pug = () => {
 		}))
 		.pipe(typograf({ locale: ['ru', 'en-US'] }))
 		.pipe(gulpif(app.isProd, replace(/<link rel="stylesheet" href="\/static\/css\/styles.css"[^>]*>/, function (s) {
-			const style = fs.readFileSync('build/static/css/styles.css', 'utf8');
+			let style = fs.readFileSync('build/static/css/styles.css', 'utf8');
+			style = style.replaceAll('/static', 'static');
 			return '<style>' + style + '</style>';
 		})))
 		.pipe(gulpif(app.isProd, replace(/<script src="\/static\/js\/index.js"[^>]*>/, function (s) {

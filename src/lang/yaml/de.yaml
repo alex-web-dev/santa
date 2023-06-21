@@ -32,7 +32,7 @@ bannerText: |
   Tauschen Sie Weihnachtsgeschenke mit Kollegen, Freunden, der Großfamilie und Mitgliedern Ihrer Online-Gemeinschaft.
 bannerBtn: Los geht`s
 bannerScreen:
-  url: /static/img/de/banner-screen
+  url: static/img/de/banner-screen
   type: png
 
 #Callback
@@ -53,7 +53,7 @@ stepsTitle: |
 stepsText: ''
 
 step1Img:
-  url: /static/img/de/steps/1
+  url: static/img/de/steps/1
   type: jpg
 step1Title: In drei, zwei, eins sind Sie bereit
 step1Text: |
@@ -62,7 +62,7 @@ step1Text: |
     Erstellen Sie den Link, über den neue Spieler teilnehmen können.</p>
 
 step2Img:
-  url: /static/img/de/steps/2
+  url: static/img/de/steps/2
   type: jpg
 step2Title: Sehen Sie, wie die Zahlen wachsen
 step2Text: |
@@ -71,7 +71,7 @@ step2Text: |
       den Spieler einfach aus dem Spiel entfernen.</p>
 
 step3Img:
-  url: /static/img/de/steps/3
+  url: static/img/de/steps/3
   type: jpg
 step3Title: Behalten Sie die Geschenke im Auge
 step3Text: |
@@ -103,7 +103,7 @@ giftsTitle: |
 giftsText: |
   Jeder Teilnehmer erstellt seine eigene <em>persönliche</em> Wunschliste
 giftsImg:
-  url: /static/img/de/gifts-img
+  url: static/img/de/gifts-img
   type: jpg
 
 gift1Title: Jeder erstellt <br> einen Wunschzettel

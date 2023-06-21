@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "gulp dev --dev",
-    "build": "gulp build --prod"
+    "build": "gulp build --prod",
+    "pug": "gulp pug --prod"
   },
   "browserslist": [
     "ie 11"
