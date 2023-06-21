@@ -46,7 +46,7 @@ block content
         .panel-card.panel-card--second.panel__card
             .panel-text.panel-card__text !{lang.panel_offlineWhomText}
             h2.panel-card__title !{lang.panel_offlineWhomTitle}
-            +picture('static/img/panel/cards/3', 'png', 'panel-card__img', 99, 99, false)
+            +picture('static/img/panel/cards/3', 'png', 'panel-card__img', 99, 99, true)
             svg(class="panel-card__spinner" width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg")
                 circle(circle cx="14" cy="15" r="13" stroke="white" stroke-opacity="0.3" stroke-width="2")
                 path(d="M14 28C21.1797 28 27 22.1797 27 15C27 7.8203 21.1797 2 14 2" stroke="white" stroke-width="3" stroke-linecap="round")
@@ -59,7 +59,7 @@ block modals
         .panel-modal.popup__panel-modal
             .panel-confirm
                 .panel-confirm__info
-                    +picture('static/img/panel/confirm/bread-man', 'png', 'panel-confirm__img', 170, 112, false)
+                    +picture('static/img/panel/confirm/bread-man', 'png', 'panel-confirm__img', 170, 112, true)
                     .panel-title3.panel-confirm__title !{lang.panel_offlineExitTitle}
                     .panel-text.panel-confirm__text !{lang.panel_offlineExitText}
                 .panel-confirm__btns

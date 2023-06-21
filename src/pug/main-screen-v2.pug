@@ -42,22 +42,22 @@ block content
             p.text.panel__banner-text !{lang.panel_mainText}
             button.panel-card.panel__banner-card.js-open-popup(data-popup-name="type")
                 h2.panel-card__title !{lang.panel_mainCreate}
-                +picture('static/img/panel/cards/1', 'png', 'panel-card__img panel-card__img--bottom', 242, 152, false)
+                +picture('static/img/panel/cards/1', 'png', 'panel-card__img panel-card__img--bottom', 242, 152, true)
         .panel__start.panel__start--pb-60
             h3.panel__start-title !{lang.panel_mainJoin}
             .panel__start-cards.panel__start-cards--row
                 a.start-card.start-card--row.panel__start-card(href="#") 
                     .start-card__title !{lang.panel_mainRussiaTitle}
                     .start-card__value !{lang.panel_mainRussiaValue}
-                    +picture('static/img/panel/start-cards/1', 'png', 'start-card__img', 80, 80, false)
+                    +picture('static/img/panel/start-cards/1', 'png', 'start-card__img', 80, 80, true)
                 a.start-card.start-card--row.panel__start-card(href="#") 
                     .start-card__title !{lang.panel_mainWorldTitle}
                     .start-card__value !{lang.panel_mainWorldValue}
-                    +picture('static/img/panel/start-cards/2', 'png', 'start-card__img', 80, 80, false)
+                    +picture('static/img/panel/start-cards/2', 'png', 'start-card__img', 80, 80, true)
                 a.start-card.start-card--row.panel__start-card(href="#") 
                     .start-card__title !{lang.panel_mainWorldTitle}
                     .start-card__value !{lang.panel_mainWorldValue}
-                    +picture('static/img/panel/start-cards/2', 'png', 'start-card__img', 80, 80, false)
+                    +picture('static/img/panel/start-cards/2', 'png', 'start-card__img', 80, 80, true)
 
 block modals
     .popup.popup--panel(data-name="type")
@@ -69,14 +69,14 @@ block modals
                         input.panel-type__input(type="radio" name="type" checked)
                         .panel-type__content
                             .panel-type__box
-                            +picture('static/img/panel/types/1', 'png', 'panel-type__img', 74, 74, false)
+                            +picture('static/img/panel/types/1', 'png', 'panel-type__img', 74, 74, true)
                             .panel-title5.panel-type__title !{lang.panel_typeOnlineTitle}
                             .panel-text.panel-text--gray.panel-type__text !{lang.panel_typeOnlineText}
                     label.panel-type.panel-types__item
                         input.panel-type__input(type="radio" name="type")
                         .panel-type__content
                             .panel-type__box
-                            +picture('static/img/panel/types/2', 'png', 'panel-type__img', 82, 82, false)
+                            +picture('static/img/panel/types/2', 'png', 'panel-type__img', 82, 82, true)
                             .panel-title5.panel-type__title !{lang.panel_typeFastTitle}
                             .panel-text.panel-text--gray.panel-type__text !{lang.panel_typeFastText}
                 a.btn.btn--panel.panel-types__btn(href="fast-game-full.html")  !{lang.panel_typeCreate}
