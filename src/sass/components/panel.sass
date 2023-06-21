@@ -1,0 +1,96 @@
+.panel
+  margin-left: auto
+  margin-right: auto
+  padding: 12px 20px 40px
+  flex: 1 1 auto
+  display: flex
+  flex-direction: column
+  width: 100%
+  max-width: 375px
+  font-family: 'SF Pro', sans-serif
+
+  &__header
+    display: flex
+    justify-content: space-between
+
+  &__link
+    font-size: 17px
+
+    &--login
+      margin-left: auto
+
+  &__title
+    margin-top: 12px
+
+  &__banner
+    margin-top: 30px
+
+    &:first-child
+      margin-top: 18px
+
+  &__banner-logo
+    margin: 0 auto
+    width: 188px
+    height: 30px
+  
+  &__banner-text
+    margin-top: 10px
+    text-align: center
+    font-size: 16px
+
+  &__banner-card
+    margin-top: 30px
+
+  &__start
+    margin-top: 50px
+    padding-bottom: 10px
+
+    &--pb-60
+      padding-bottom: 60px
+
+  &__start-title
+    margin-bottom: 20px
+
+  &__start-cards
+    margin: -30px -20px
+    padding: 30px 20px
+
+    &--row
+      display: flex
+      overflow-x: auto
+
+  &__start-card    
+    &:not(:first-child)
+      margin-top: 10px
+
+  &__start-cards--row &__start-card
+    flex: 0 0 auto
+
+    &:not(:first-child)
+      margin-top: 0
+      margin-left: 10px
+
+  &__players
+    margin-top: 34px
+    flex: 1 1 auto
+
+  &__card
+    margin-top: 44px
+
+  &__card-ps
+    margin-top: 40px
+
+  &__btns
+    margin-top: auto
+    padding-top: 75px
+    min-height: 180px
+
+  &__btns-item
+    display: block
+    width: 100%
+
+    &:not(:first-child)
+      margin-top: 15px
+
+  &__final
+    margin-top: 178px

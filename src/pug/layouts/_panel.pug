@@ -1,0 +1,52 @@
+include ../mixins/_mixins.pug
+
+block vars
+
+- var lang = langs[selectedLang];
+
+doctype html
+html(lang=selectedLang)
+    head
+        title
+            block title
+        block description
+        block og
+
+        meta(charset='utf-8')
+        meta(name='viewport' content='width=device-width, initial-scale=1')
+        meta(name='format-detection' content='telephone=no')
+        meta(name='facebook-domain-verification' content=lang.fbDomainVerification)
+        meta(name='yandex-verification' content=lang.yandexDomainVerification)
+
+
+
+        meta(name='apple-mobile-web-app-capable' content='yes')
+        meta(name='apple-mobile-web-app-status-bar-style' content='default')
+        meta(name='apple-mobile-web-app-title' content='MySanta')
+        meta(name='mobile-web-app-capable' content='yes')
+        meta(name='application-name' content='MySanta')
+
+
+
+
+        link(rel='shortcut icon' href='/static/img/favicon.ico')
+        link(rel='stylesheet' href='/static/css/styles.css')
+
+        script.
+            var LANG = '#{selectedLang}';
+    body
+        .preloader
+            .preloader__images
+                +picture('/static/img/panel/preloader/1', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
+                +picture('/static/img/panel/preloader/2', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
+                +picture('/static/img/panel/preloader/3', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
+
+
+        block content
+
+        block modals
+
+        include ../modals/_modals.pug
+
+        block scripts
+        script(src='/static/js/index.js')

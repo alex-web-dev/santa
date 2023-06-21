@@ -1,0 +1,83 @@
+extends layouts/_panel.pug
+
+block vars
+    - var selectedLang = 'ru';
+    - var pageUrl = '';
+
+block title
+    | !{lang.homePageTitle}
+
+block description
+    meta(name="description" content=lang.homePageDescription)
+    link(rel='canonical' href=lang.websiteDomain + pageUrl)
+
+block og
+    meta(name="og:title" content=lang.homePageTitle)
+    meta(name="og:description" content=lang.homePageDescription)
+    meta(name="og:type" content="website")
+    meta(name="og:locale" content=selectedLang)
+
+    meta(name="og:url" content=lang.websiteDomain + pageUrl)
+    meta(name="og:image" content=lang.websiteDomain + "/static/img/" + selectedLang + "/og_image.jpg")
+
+    meta(name="twitter:title" content=lang.homePageTitle)
+    meta(name="twitter:description" content=lang.homePageDescription)
+    meta(name="twitter:card" content="summary_large_image")
+
+    meta(name="twitter:url" content=lang.websiteDomain + pageUrl)
+    meta(name="twitter:image" content=lang.websiteDomain + "/static/img/" + selectedLang + "/og_image.jpg")
+
+
+block content
+    .panel
+        .panel__header
+            a.link.link--primary.link--medium.link--flex.panel__link.panel__link--login(href="login.html") 
+                span !{lang.panel_loginBtn}
+                svg(class="link__icon" width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg")
+                    path(d="M12.25 23.5C18.4632 23.5 23.5 18.4632 23.5 12.25C23.5 6.0368 18.4632 1 12.25 1C6.0368 1 1 6.0368 1 12.25C1 18.4632 6.0368 23.5 12.25 23.5Z" stroke="#F74F4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round")
+                    path(d="M12.25 13.5C14.3211 13.5 16 11.8211 16 9.75C16 7.67893 14.3211 6 12.25 6C10.1789 6 8.5 7.67893 8.5 9.75C8.5 11.8211 10.1789 13.5 12.25 13.5Z" stroke="#F74F4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round")
+                    path(d="M4.95996 20.8113C5.26935 19.7815 5.90242 18.879 6.76527 18.2375C7.62812 17.596 8.67477 17.2497 9.74996 17.25H14.75C15.8265 17.2496 16.8745 17.5967 17.7379 18.2397C18.6014 18.8827 19.2343 19.7872 19.5425 20.8187" stroke="#F74F4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round")
+        .panel__banner
+            a.logo.logo--black.panel__banner-logo(href="./" class="logo--" + selectedLang aria-label="Logo")
+            p.text.panel__banner-text !{lang.panel_mainText}
+            button.panel-card.panel__banner-card.js-open-popup(data-popup-name="type")
+                h2.panel-card__title !{lang.panel_mainCreate}
+                +picture('/static/img/panel/cards/1', 'png', 'panel-card__img panel-card__img--bottom', 242, 152, false)
+        .panel__start.panel__start--pb-60
+            h3.panel__start-title !{lang.panel_mainJoin}
+            .panel__start-cards.panel__start-cards--row
+                a.start-card.start-card--row.panel__start-card(href="#") 
+                    .start-card__title !{lang.panel_mainRussiaTitle}
+                    .start-card__value !{lang.panel_mainRussiaValue}
+                    +picture('static/img/panel/start-cards/1', 'png', 'start-card__img', 80, 80, false)
+                a.start-card.start-card--row.panel__start-card(href="#") 
+                    .start-card__title !{lang.panel_mainWorldTitle}
+                    .start-card__value !{lang.panel_mainWorldValue}
+                    +picture('static/img/panel/start-cards/2', 'png', 'start-card__img', 80, 80, false)
+                a.start-card.start-card--row.panel__start-card(href="#") 
+                    .start-card__title !{lang.panel_mainWorldTitle}
+                    .start-card__value !{lang.panel_mainWorldValue}
+                    +picture('static/img/panel/start-cards/2', 'png', 'start-card__img', 80, 80, false)
+
+block modals
+    .popup.popup--panel(data-name="type")
+        .panel-modal.popup__panel-modal
+            form.panel-types(action="#")  
+                .panel-title3.panel-types__title !{lang.panel_typeTitle}
+                .panel-types__list
+                    label.panel-type.panel-types__item
+                        input.panel-type__input(type="radio" name="type" checked)
+                        .panel-type__content
+                            .panel-type__box
+                            +picture('static/img/panel/types/1', 'png', 'panel-type__img', 74, 74, false)
+                            .panel-title5.panel-type__title !{lang.panel_typeOnlineTitle}
+                            .panel-text.panel-text--gray.panel-type__text !{lang.panel_typeOnlineText}
+                    label.panel-type.panel-types__item
+                        input.panel-type__input(type="radio" name="type")
+                        .panel-type__content
+                            .panel-type__box
+                            +picture('static/img/panel/types/2', 'png', 'panel-type__img', 82, 82, false)
+                            .panel-title5.panel-type__title !{lang.panel_typeFastTitle}
+                            .panel-text.panel-text--gray.panel-type__text !{lang.panel_typeFastText}
+                a.btn.btn--panel.panel-types__btn(href="fast-game-full.html")  !{lang.panel_typeCreate}
+            button.panel-modal__close.popup__close

@@ -1,0 +1,44 @@
+extends layouts/_panel.pug
+
+block vars
+    - var selectedLang = 'ru';
+    - var pageUrl = '';
+
+block title
+    | !{lang.homePageTitle}
+
+block description
+    meta(name="description" content=lang.homePageDescription)
+    link(rel='canonical' href=lang.websiteDomain + pageUrl)
+
+block og
+    meta(name="og:title" content=lang.homePageTitle)
+    meta(name="og:description" content=lang.homePageDescription)
+    meta(name="og:type" content="website")
+    meta(name="og:locale" content=selectedLang)
+
+    meta(name="og:url" content=lang.websiteDomain + pageUrl)
+    meta(name="og:image" content=lang.websiteDomain + "/static/img/" + selectedLang + "/og_image.jpg")
+
+    meta(name="twitter:title" content=lang.homePageTitle)
+    meta(name="twitter:description" content=lang.homePageDescription)
+    meta(name="twitter:card" content="summary_large_image")
+
+    meta(name="twitter:url" content=lang.websiteDomain + pageUrl)
+    meta(name="twitter:image" content=lang.websiteDomain + "/static/img/" + selectedLang + "/og_image.jpg")
+
+
+block content
+    .panel
+        .panel__banner
+            a.logo.logo--black.panel__banner-logo(href="./" class="logo--" + selectedLang aria-label="Logo")
+            p.text.panel__banner-text !{lang.panel_webText}
+            .panel-card.panel-card--second.panel__banner-card
+                .panel-text.panel-card__text !{lang.panel_webCardText}
+                h2.panel-card__title !{lang.panel_webCardTitle}
+                +picture('/static/img/panel/cards/3', 'png', 'panel-card__img', 99, 99, false)
+                button.btn.btn--panel.btn--light-white.panel-card__btn !{lang.panel_webCardBtn}
+        p.panel-text.panel__card-ps !{lang.panel_webCardMessage}
+        .panel__btns
+            button.btn.btn--panel.panel__btns-item !{lang.panel_webAdd}
+            button.btn.btn--panel.panel__btns-item !{lang.panel_webDownload}

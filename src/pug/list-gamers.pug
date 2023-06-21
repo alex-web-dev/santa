@@ -1,0 +1,109 @@
+extends layouts/_panel.pug
+
+block vars
+    - var selectedLang = 'ru';
+    - var pageUrl = '';
+
+block title
+    | !{lang.homePageTitle}
+
+block description
+    meta(name="description" content=lang.homePageDescription)
+    link(rel='canonical' href=lang.websiteDomain + pageUrl)
+
+block og
+    meta(name="og:title" content=lang.homePageTitle)
+    meta(name="og:description" content=lang.homePageDescription)
+    meta(name="og:type" content="website")
+    meta(name="og:locale" content=selectedLang)
+
+    meta(name="og:url" content=lang.websiteDomain + pageUrl)
+    meta(name="og:image" content=lang.websiteDomain + "/static/img/" + selectedLang + "/og_image.jpg")
+
+    meta(name="twitter:title" content=lang.homePageTitle)
+    meta(name="twitter:description" content=lang.homePageDescription)
+    meta(name="twitter:card" content="summary_large_image")
+
+    meta(name="twitter:url" content=lang.websiteDomain + pageUrl)
+    meta(name="twitter:image" content=lang.websiteDomain + "/static/img/" + selectedLang + "/og_image.jpg")
+
+
+block content
+    .panel
+        .panel__header
+            a.link.link--primary.link--medium.link--flex.panel__back(href="main-screen.html") 
+                svg(svg class="link__back" width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg")
+                    path(d="M9.5 17.7L1 9.39999L9.5 1" stroke="#F74F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                span !{lang.panel_backBtn}
+            a.link.link--primary.link--medium.link--flex.panel__link(href="offline-who.html") 
+                span !{lang.panel_offlineBtn}
+                svg(class="link__icon link__icon--ml-10" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg")
+                    path(d="M18.5 1H3.5C2.11929 1 1 2.11929 1 3.5V18.5C1 19.8807 2.11929 21 3.5 21H18.5C19.8807 21 21 19.8807 21 18.5V3.5C21 2.11929 19.8807 1 18.5 1Z" stroke="#F74F4F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round")
+                    path(d="M6.625 7.25C6.97018 7.25 7.25 6.97018 7.25 6.625C7.25 6.27982 6.97018 6 6.625 6C6.27982 6 6 6.27982 6 6.625C6 6.97018 6.27982 7.25 6.625 7.25Z" fill="#F74F4F" stroke="#F74F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                    path(d="M15.375 7.25C15.7202 7.25 16 6.97018 16 6.625C16 6.27982 15.7202 6 15.375 6C15.0298 6 14.75 6.27982 14.75 6.625C14.75 6.97018 15.0298 7.25 15.375 7.25Z" fill="#F74F4F" stroke="#F74F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                    path(d="M15.375 16C15.7202 16 16 15.7202 16 15.375C16 15.0298 15.7202 14.75 15.375 14.75C15.0298 14.75 14.75 15.0298 14.75 15.375C14.75 15.7202 15.0298 16 15.375 16Z" fill="#F74F4F" stroke="#F74F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                    path(d="M6.625 16C6.97018 16 7.25 15.7202 7.25 15.375C7.25 15.0298 6.97018 14.75 6.625 14.75C6.27982 14.75 6 15.0298 6 15.375C6 15.7202 6.27982 16 6.625 16Z" fill="#F74F4F" stroke="#F74F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+        h1.panel-title1.panel__title !{lang.panel_listTitle}
+        form.panel-players.panel__players
+            .panel-players__group
+                h2.panel-title4.panel-players__title
+                    | !{lang.panel_listNotSeeTitle}
+                    span 3
+                .panel-players__list
+                    .panel-players__item.panel-players__item--hide
+                        svg(class="panel-players__item-icon-hide" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg")
+                            path(d="M1.83337 1L16.8334 16" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            path(d="M8.15334 7.32251C7.84061 7.63502 7.66483 8.05897 7.66467 8.50109C7.66452 8.9432 7.84 9.36728 8.15251 9.68001C8.46502 9.99274 8.88897 10.1685 9.33109 10.1687C9.7732 10.1688 10.1973 9.99336 10.51 9.68084" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            path(d="M7.13583 2.97084C7.85035 2.76644 8.59016 2.66404 9.33333 2.66668C12.6667 2.66668 15.4442 4.61084 17.6667 8.50001C17.0183 9.63417 16.3233 10.6033 15.5808 11.4067M13.7975 12.9575C12.4383 13.8742 10.9517 14.3333 9.33333 14.3333C6 14.3333 3.2225 12.3892 1 8.50001C2.14083 6.50418 3.4275 5.02084 4.86 4.04918" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        svg(class="panel-players__item-icon-show" width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg")
+                            path(d="M9.33337 8.83337C10.4379 8.83337 11.3334 7.93794 11.3334 6.83337C11.3334 5.7288 10.4379 4.83337 9.33337 4.83337C8.2288 4.83337 7.33337 5.7288 7.33337 6.83337C7.33337 7.93794 8.2288 8.83337 9.33337 8.83337Z" fill="black")
+                            path(d="M17.6667 6.83333C15.4442 10.7225 12.6667 12.6667 9.33333 12.6667C6 12.6667 3.2225 10.7225 1 6.83333C3.2225 2.94417 6 1 9.33333 1C12.6667 1 15.4442 2.94417 17.6667 6.83333Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        span.panel-text.panel-text--bold.panel-players__item-name !{lang.panel_listName1}
+                        button.panel-players__item-btn(type="button") !{lang.panel_listInvite}
+                    .panel-players__item.panel-players__item--hide
+                        svg(class="panel-players__item-icon-hide" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg")
+                            path(d="M1.83337 1L16.8334 16" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            path(d="M8.15334 7.32251C7.84061 7.63502 7.66483 8.05897 7.66467 8.50109C7.66452 8.9432 7.84 9.36728 8.15251 9.68001C8.46502 9.99274 8.88897 10.1685 9.33109 10.1687C9.7732 10.1688 10.1973 9.99336 10.51 9.68084" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            path(d="M7.13583 2.97084C7.85035 2.76644 8.59016 2.66404 9.33333 2.66668C12.6667 2.66668 15.4442 4.61084 17.6667 8.50001C17.0183 9.63417 16.3233 10.6033 15.5808 11.4067M13.7975 12.9575C12.4383 13.8742 10.9517 14.3333 9.33333 14.3333C6 14.3333 3.2225 12.3892 1 8.50001C2.14083 6.50418 3.4275 5.02084 4.86 4.04918" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        svg(class="panel-players__item-icon-show" width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg")
+                            path(d="M9.33337 8.83337C10.4379 8.83337 11.3334 7.93794 11.3334 6.83337C11.3334 5.7288 10.4379 4.83337 9.33337 4.83337C8.2288 4.83337 7.33337 5.7288 7.33337 6.83337C7.33337 7.93794 8.2288 8.83337 9.33337 8.83337Z" fill="black")
+                            path(d="M17.6667 6.83333C15.4442 10.7225 12.6667 12.6667 9.33333 12.6667C6 12.6667 3.2225 10.7225 1 6.83333C3.2225 2.94417 6 1 9.33333 1C12.6667 1 15.4442 2.94417 17.6667 6.83333Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        span.panel-text.panel-text--bold.panel-players__item-name !{lang.panel_listName2}
+                        button.panel-players__item-btn(type="button") !{lang.panel_listInvite}
+                    .panel-players__item.panel-players__item--hide
+                        svg(class="panel-players__item-icon-hide" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg")
+                            path(d="M1.83337 1L16.8334 16" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            path(d="M8.15334 7.32251C7.84061 7.63502 7.66483 8.05897 7.66467 8.50109C7.66452 8.9432 7.84 9.36728 8.15251 9.68001C8.46502 9.99274 8.88897 10.1685 9.33109 10.1687C9.7732 10.1688 10.1973 9.99336 10.51 9.68084" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            path(d="M7.13583 2.97084C7.85035 2.76644 8.59016 2.66404 9.33333 2.66668C12.6667 2.66668 15.4442 4.61084 17.6667 8.50001C17.0183 9.63417 16.3233 10.6033 15.5808 11.4067M13.7975 12.9575C12.4383 13.8742 10.9517 14.3333 9.33333 14.3333C6 14.3333 3.2225 12.3892 1 8.50001C2.14083 6.50418 3.4275 5.02084 4.86 4.04918" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        svg(class="panel-players__item-icon-show" width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg")
+                            path(d="M9.33337 8.83337C10.4379 8.83337 11.3334 7.93794 11.3334 6.83337C11.3334 5.7288 10.4379 4.83337 9.33337 4.83337C8.2288 4.83337 7.33337 5.7288 7.33337 6.83337C7.33337 7.93794 8.2288 8.83337 9.33337 8.83337Z" fill="black")
+                            path(d="M17.6667 6.83333C15.4442 10.7225 12.6667 12.6667 9.33333 12.6667C6 12.6667 3.2225 10.7225 1 6.83333C3.2225 2.94417 6 1 9.33333 1C12.6667 1 15.4442 2.94417 17.6667 6.83333Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        span.panel-text.panel-text--bold.panel-players__item-name !{lang.panel_listName3}
+                        button.panel-players__item-btn(type="button") !{lang.panel_listInvite}
+            .panel-players__group
+                h2.panel-title4.panel-players__title
+                    | !{lang.panel_listSeeTitle}
+                    span 3
+                .panel-players__list
+                    .panel-players__item
+                        svg(class="panel-players__item-icon-hide" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg")
+                            path(d="M1.83337 1L16.8334 16" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            path(d="M8.15334 7.32251C7.84061 7.63502 7.66483 8.05897 7.66467 8.50109C7.66452 8.9432 7.84 9.36728 8.15251 9.68001C8.46502 9.99274 8.88897 10.1685 9.33109 10.1687C9.7732 10.1688 10.1973 9.99336 10.51 9.68084" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            path(d="M7.13583 2.97084C7.85035 2.76644 8.59016 2.66404 9.33333 2.66668C12.6667 2.66668 15.4442 4.61084 17.6667 8.50001C17.0183 9.63417 16.3233 10.6033 15.5808 11.4067M13.7975 12.9575C12.4383 13.8742 10.9517 14.3333 9.33333 14.3333C6 14.3333 3.2225 12.3892 1 8.50001C2.14083 6.50418 3.4275 5.02084 4.86 4.04918" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        svg(class="panel-players__item-icon-show" width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg")
+                            path(d="M9.33337 8.83337C10.4379 8.83337 11.3334 7.93794 11.3334 6.83337C11.3334 5.7288 10.4379 4.83337 9.33337 4.83337C8.2288 4.83337 7.33337 5.7288 7.33337 6.83337C7.33337 7.93794 8.2288 8.83337 9.33337 8.83337Z" fill="black")
+                            path(d="M17.6667 6.83333C15.4442 10.7225 12.6667 12.6667 9.33333 12.6667C6 12.6667 3.2225 10.7225 1 6.83333C3.2225 2.94417 6 1 9.33333 1C12.6667 1 15.4442 2.94417 17.6667 6.83333Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        span.panel-text.panel-text--bold.panel-players__item-name !{lang.panel_listName4}
+                        button.panel-players__item-btn(type="button") !{lang.panel_listRetry}
+                    .panel-players__item
+                        svg(class="panel-players__item-icon-hide" width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg")
+                            path(d="M1.83337 1L16.8334 16" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            path(d="M8.15334 7.32251C7.84061 7.63502 7.66483 8.05897 7.66467 8.50109C7.66452 8.9432 7.84 9.36728 8.15251 9.68001C8.46502 9.99274 8.88897 10.1685 9.33109 10.1687C9.7732 10.1688 10.1973 9.99336 10.51 9.68084" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                            path(d="M7.13583 2.97084C7.85035 2.76644 8.59016 2.66404 9.33333 2.66668C12.6667 2.66668 15.4442 4.61084 17.6667 8.50001C17.0183 9.63417 16.3233 10.6033 15.5808 11.4067M13.7975 12.9575C12.4383 13.8742 10.9517 14.3333 9.33333 14.3333C6 14.3333 3.2225 12.3892 1 8.50001C2.14083 6.50418 3.4275 5.02084 4.86 4.04918" stroke="#3C3C43" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        svg(class="panel-players__item-icon-show" width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg")
+                            path(d="M9.33337 8.83337C10.4379 8.83337 11.3334 7.93794 11.3334 6.83337C11.3334 5.7288 10.4379 4.83337 9.33337 4.83337C8.2288 4.83337 7.33337 5.7288 7.33337 6.83337C7.33337 7.93794 8.2288 8.83337 9.33337 8.83337Z" fill="black")
+                            path(d="M17.6667 6.83333C15.4442 10.7225 12.6667 12.6667 9.33333 12.6667C6 12.6667 3.2225 10.7225 1 6.83333C3.2225 2.94417 6 1 9.33333 1C12.6667 1 15.4442 2.94417 17.6667 6.83333Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                        span.panel-text.panel-text--bold.panel-players__item-name !{lang.panel_listName5}
+                        button.panel-players__item-btn(type="button") !{lang.panel_listRetry}
+            .panel-players__footer
+                button.btn.btn--panel.panel-players__btn !{lang.panel_listSave}

@@ -1,0 +1,54 @@
+.preloader
+  position: fixed
+  left: 0
+  top: 0
+  z-index: 99
+  display: flex
+  align-items: center
+  justify-content: center
+  width: 100%
+  height: 100%
+  background-color: $color-second
+  transition: visibility .4s, opacity .4s
+
+  &__images
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: $color-second
+    margin: auto
+
+  &__img
+    position: absolute
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    z-index: -1
+
+  &__picture:first-child &__img
+    animation: toggleIndex 1.5s infinite
+
+  &__picture:nth-child(2) &__img
+    animation: toggleIndex 1.5s 0.5s infinite
+
+  &__picture:nth-child(3) &__img
+    animation: toggleIndex 1.5s 1s infinite
+
+  &--hide
+    visibility: hidden
+    opacity: 0
+
+@keyframes toggleIndex
+  0%
+    z-index: 1
+
+  33%
+    z-index: 1
+
+  34%
+    z-index: -1
+
+  100%
+    z-index: -1

@@ -36,6 +36,10 @@ html(lang=selectedLang)
             var LANG = '#{selectedLang}';
     body
         .preloader
+            .preloader__images
+                +picture('/static/img/panel/preloader/1', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
+                +picture('/static/img/panel/preloader/2', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
+                +picture('/static/img/panel/preloader/3', 'png', 'preloader__img', 60, 60, false, false).preloader__picture
 
         if !hideHeader
             include ../partials/_header.pug

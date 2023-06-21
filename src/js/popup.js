@@ -13,9 +13,11 @@ $openBtns.forEach($btn => {
 
 const $popups = document.querySelectorAll('.popup');
 $popups.forEach($popup => {
-  const $closeBtn = $popup.querySelector('.popup__close');
-  $closeBtn.addEventListener('click', () => {
-    $popup.classList.remove('popup--show');
+  const $closeBtns = $popup.querySelectorAll('.popup__close, .js-close-popup');
+  $closeBtns.forEach($btn => {
+    $btn.addEventListener('click', () => {
+      $popup.classList.remove('popup--show');
+    });
   });
 
   $popup.addEventListener('click', (e) => {

@@ -1,0 +1,109 @@
+.panel-card
+  position: relative
+  padding: 15px 20px
+  display: flex
+  flex-direction: column
+  width: 100%
+  border-radius: 20px
+  min-height: 200px
+  background-color: $color-primary
+  text-align: left
+
+  &:before
+    content: ''
+    position: absolute
+    bottom: -10px
+    left: 50%
+    transform: translateX(-50%)
+    z-index: -1
+    width: 295px
+    height: 173px
+    background: #ff8888
+    filter: blur(20px)
+    border-radius: 20px
+
+  &__title
+    position: relative
+    max-width: 160px
+    font-size: 28px
+    font-weight: 700
+    line-height: 1.2
+    color: #fff
+
+    &:not(:first-child)
+      margin-top: 58px
+
+  &__text
+    margin-bottom: auto
+    max-width: 125px
+    color: #fff
+
+  &__img
+    position: absolute
+    right: 10px
+    top: 10px
+
+    &--bottom
+      top: unset
+      right: 14px
+      bottom: 0
+
+  &__spinner,
+  &__show
+    position: absolute
+    right: 15px
+    bottom: 15px
+
+  &__spinner
+    animation: spinner 0.9s linear infinite
+
+  &__show
+    display: none
+    align-items: center
+    justify-content: center
+    height: 30px
+    width: 30px
+
+  &__btn
+    margin-top: 20px
+    width: 100%
+
+  &--second
+    background-color: $color-second
+
+    &:before
+      background-color: #75ce9b
+
+  &--hidden &__title
+    filter: blur(7px)
+
+  &--hidden &__show
+    display: flex
+
+  &--loading &__title
+    &:before,
+    &:after
+      position: absolute
+      left: 0
+      top: 0
+      content: ''
+      background: rgba(255, 255, 255, 0.3)
+      border-radius: 30px
+      height: 20px
+
+    &:before
+      width: 150px
+
+    &:after
+      top: 30px
+      width: 88px
+
+    span
+      opacity: 0
+
+@keyframes spinner
+  0%
+    transform: rotate(0deg)
+
+  100%
+    transform: rotate(360deg)

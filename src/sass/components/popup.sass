@@ -46,9 +46,22 @@
     top: 15px
     right: 15px
 
+  &__panel-modal
+    position: absolute
+    bottom: 0
+    left: 50%
+    transform: translate(-50%, 20px)
+
+  &--panel
+    &:before
+      background: rgba(0, 0, 0, 0.7)
+
   &--show
     opacity: 1
     visibility: visible
+
+  &--show &__panel-modal
+    transform: translate(-50%, 0)
 
   @media (max-width: 767px)
     &__content

@@ -93,6 +93,49 @@
 .title3
   font-size: 30px
 
+.panel-title1
+  font-size: 34px
+  line-height: 1.2
+  letter-spacing: 0.374px
+  font-weight: 700
+
+.panel-title2
+  font-size: 28px
+  line-height: 1.2
+  font-weight: 700
+
+.panel-title3
+  font-size: 26px
+  line-height: 1.23
+  letter-spacing: 0.35px
+  font-weight: 700
+
+.panel-title4
+  position: relative
+  font-size: 22px
+  line-height: 1.27
+  font-weight: 700
+
+  &--loading
+    &:before
+      position: absolute
+      left: 0
+      top: 0
+      content: ''
+      background: rgba(175, 175, 175, 0.3)
+      border-radius: 30px
+      width: 135px
+      height: 20px
+
+    span
+      opacity: 0
+
+
+.panel-title5
+  font-size: 18px
+  line-height: 1.33
+  font-weight: 700
+
 .text
   font-size: 18px
   line-height: 1.44
@@ -107,6 +150,20 @@
   &--bold
     font-weight: 700
 
+.panel-text
+  font-size: 16px
+  line-height: 1.38
+  letter-spacing: -0.408px
+
+  p:not(:first-child)
+    margin-top: 15px
+
+  &--gray
+    color: rgba(0, 0, 0, 0.4)
+
+  &--bold
+    font-weight: 700
+
 .link
   color: $color-black
   transition: color .3s
@@ -114,22 +171,56 @@
   &:hover
     color: $color-primary
 
+  &__icon
+    &:first-child
+      margin-right: 3px
+
+    &:last-child
+      margin-left: 3px
+
+    &--ml-10
+      &:last-child
+        margin-left: 10px
+
+  &__back
+    margin-right: 10px
+
   &--third
     color: $color-third
 
     &:hover
       color: $color-third
 
+  &--primary
+    color: $color-primary
+
+  &--white
+    color: #fff
+
+  &--medium
+    font-weight: 500
+
+  &--flex
+    display: flex
+    align-items: center
+
 .icon
   &--primary
     fill: $color-primary
 
 .logo
+  display: block
   +icon('../img/en/logo.png', 166px, 34px)
 
   &--ru
     background-image: url('../img/ru/logo.png')
     height: 25px
+
+  &--black
+    background-image: url('../img/en/logo-black.png')
+
+  &--ru#{&}--black
+    background-image: url('../img/ru/logo-black.png')
 
 @media (max-width: 1200px)
   .title3

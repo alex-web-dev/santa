@@ -1,0 +1,86 @@
+.panel-players
+  display: flex
+  flex-direction: column
+
+  &__header
+    display: flex
+    justify-content: space-between
+
+  &__input
+    flex: 1 1 auto
+
+  &__add
+    margin-left: 20px
+    flex: 0 0 auto
+
+  &__group
+    &:not(:first-child)
+      margin-top: 50px
+
+  &__title
+    &:not(:first-child)
+      margin-top: 40px
+
+    span
+      margin-left: 10px
+      color: rgba(0, 0, 0, 0.3)
+
+  &__list
+    margin-top: 10px
+    margin-right: -20px
+
+  &__item
+    padding: 17px 20px 17px 0
+    display: flex
+    align-items: center
+    border-bottom: 1px solid rgba(60, 60, 67, 0.1)
+
+  &__item-toggle
+    margin-right: 10px
+    display: flex
+
+  &__item-icon-hide
+    display: none
+
+  &__item-icon-hide,
+  &__item-icon-show
+    margin-right: 10px
+
+  &__item-name
+    padding-right: 10px
+
+  &__item-btn
+    margin-left: auto
+    padding: 5px 12px
+    background: rgba($color-primary, 0.1)
+    border-radius: 14px
+    font-weight: 600
+    font-size: 15px
+    line-height: 18px
+    color: $color-primary
+
+  &__item--hide &__item-icon-hide
+    display: block
+    opacity: 0.4
+
+  &__item--hide &__item-icon-show
+    display: none
+
+  &__item--hide &__item-name
+    opacity: 0.5
+    font-weight: 400
+
+  &__empty
+    margin-top: 112px
+    text-align: center
+  
+  &__empty-text
+    margin: 20px auto 0
+    max-width: 214px
+
+  &__footer
+    margin-top: auto
+
+  &__btn
+    margin-top: 40px
+    width: 100%

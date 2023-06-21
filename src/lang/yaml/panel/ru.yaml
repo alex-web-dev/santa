@@ -1,0 +1,92 @@
+#global
+panel_loginBtn: Войти
+panel_backBtn: Назад
+panel_playersBtn: Список игроков
+panel_offlineBtn: Оффлайн
+
+# main screen
+panel_mainLogin: Войти
+panel_mainText: Сервис для игры в Тайного Санту
+panel_mainCreate: Создать игру
+panel_mainGames: Общие игры
+panel_mainJoin: Присоединиться
+panel_mainRussiaTitle: Российская игра
+panel_mainRussiaValue: 45 игроков
+panel_mainWorldTitle: Всемирная игра
+panel_mainWorldValue: 5 699 игроков
+
+panel_typeTitle: Выберите тип
+panel_typeOnlineTitle: Онлайн игра
+panel_typeOnlineText: Нет ограничения по игрокам, еще что-то, и еще что-то
+panel_typeFastTitle: Быстрая игра
+panel_typeFastText: До 10 игроков, еще что-то, и еще что-то
+panel_typeCreate: Создать игру
+
+#fast game
+panel_gameTitle: Быстрая игра
+panel_gameInputPlaceholder: Василий Пупкин
+panel_gamePlayers: Игроков
+panel_gameName1: Мария Иванова 
+panel_gameName2: Ольга Орлова
+panel_gameName3: Старый Вася
+panel_gameName4: Виктор Бабич
+panel_gamePlayersEmpty: Начните добавлять игроков, нужно минимум трое
+panel_gameStartSort: Провести жеребьевку
+panel_gameItemDelete: Удалить
+
+panel_sortStartTitle: Провести жеребьевку?
+panel_sortStartText: Если вы добавили всех игроков, то начните жеребьевку. Если нет — вернитесь назад.
+panel_sortStartSubmit: Да, провести
+panel_sortStartCancel: Нет
+
+panel_sortDoneTitle: Быстрая жеребьевка проведена
+panel_sortDoneText: В списке игроков вы можете отправить ссылки с результатами игрокам и себе. Раздел «Отдельно игроки» будет удобен если вы все рядом и хотите передавать телефон.
+panel_sortDonePlay: Запустить оффлайн
+panel_sortDoneList: К списку игроков
+
+#offline
+panel_offlineTitle: Оффлайн
+panel_offlineWhoText: Это вы?
+panel_offlineWhoTitle: Маша Иванова
+panel_offlineWhoMessage: Нажав «Да», вы увидите кому должны дарить подарок. Если это не вы, нажмите «Нет», и потом следующий игрок .
+panel_offlineWhoSubmit: Да, это я
+panel_offlineWhoCancel: Нет
+
+panel_offlineWhomText: Маша Иванова, вы дарите
+panel_offlineWhomTitle: Федор Федоров
+panel_offlineWhomMessage: |
+  <p>Если вы запомнили кому вы дарите, нажмите «Следующий игрок» и передайте телефон дальше.</p>
+  <p>И попросите организатора отправить вам ссылку, чтобы вы не потеряли кому вы дарите</p>
+panel_offlineWhomSubmit: Следующий игрок
+panel_offlineWhomCancel: Показать еще раз
+
+panel_offlineEndText: Вы дошли до конца. Хотите пройти жеребьевку еще раз?
+panel_offlineEndSubmit: Начать заново
+panel_offlineEndCancel: К списку игроков
+
+panel_offlineExitTitle: Вы точно <br> хотите выйти?
+panel_offlineExitText: Все результаты не сохранятся и возможно вы можете потерять результаты жеребьевки. Нажмите сохранить перед выходом.
+panel_offlineExitCancel: Отмена
+panel_offlineExitBtn: Все равно выйти
+
+#list gamers
+panel_listTitle: Список игроков
+panel_listNotSeeTitle: Не увидели
+panel_listSeeTitle: Увидели приглашение
+panel_listName1: Мария Иванова
+panel_listName2: Виктор Бабич
+panel_listName3: Ольга Орлова
+panel_listName4: Молодой Игорь
+panel_listName5: Старый Вася
+panel_listInvite: Пригласить
+panel_listRetry: Еще раз
+panel_listSave: Сохранить результаты
+
+#web view
+panel_webText: Сервис для игры в Тайного Санту
+panel_webCardText: Маша Иванова, вы дарите
+panel_webCardTitle: Федор Федоров
+panel_webCardBtn: Смотреть вишлист
+panel_webCardMessage: Вы можете помочь своему тайному санте, добавив свой вишлист
+panel_webAdd: Добавить вишлист
+panel_webDownload: Скачать

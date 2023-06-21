@@ -1,0 +1,53 @@
+extends layouts/_panel.pug
+
+block vars
+    - var selectedLang = 'ru';
+    - var pageUrl = '';
+
+block title
+    | !{lang.homePageTitle}
+
+block description
+    meta(name="description" content=lang.homePageDescription)
+    link(rel='canonical' href=lang.websiteDomain + pageUrl)
+
+block og
+    meta(name="og:title" content=lang.homePageTitle)
+    meta(name="og:description" content=lang.homePageDescription)
+    meta(name="og:type" content="website")
+    meta(name="og:locale" content=selectedLang)
+
+    meta(name="og:url" content=lang.websiteDomain + pageUrl)
+    meta(name="og:image" content=lang.websiteDomain + "/static/img/" + selectedLang + "/og_image.jpg")
+
+    meta(name="twitter:title" content=lang.homePageTitle)
+    meta(name="twitter:description" content=lang.homePageDescription)
+    meta(name="twitter:card" content="summary_large_image")
+
+    meta(name="twitter:url" content=lang.websiteDomain + pageUrl)
+    meta(name="twitter:image" content=lang.websiteDomain + "/static/img/" + selectedLang + "/og_image.jpg")
+
+
+block content
+    .panel
+        .panel__header
+            a.link.link--primary.link--medium.link--flex.panel__back(href="main-screen.html") 
+                svg(svg class="link__back" width="11" height="19" viewBox="0 0 11 19" fill="none" xmlns="http://www.w3.org/2000/svg")
+                    path(d="M9.5 17.7L1 9.39999L9.5 1" stroke="#F74F4F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round")
+                span !{lang.panel_backBtn}
+        h1.panel-title1.panel__title !{lang.panel_gameTitle}
+        .panel-players.panel__players
+            .panel-players__header
+                input.input.panel-players__input(type="text" placeholder=`${lang.panel_gameInputPlaceholder}`)
+                button.btn.btn--circle.panel-players__add 
+                    <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.0405273 8.59668C0.0405273 9.09912 0.460938 9.50928 0.953125 9.50928H7.5874V16.1436C7.5874 16.6357 7.99756 17.0562 8.5 17.0562C9.00244 17.0562 9.42285 16.6357 9.42285 16.1436V9.50928H16.0469C16.5391 9.50928 16.9595 9.09912 16.9595 8.59668C16.9595 8.09424 16.5391 7.67383 16.0469 7.67383H9.42285V1.0498C9.42285 0.557617 9.00244 0.137207 8.5 0.137207C7.99756 0.137207 7.5874 0.557617 7.5874 1.0498V7.67383H0.953125C0.460938 7.67383 0.0405273 8.09424 0.0405273 8.59668Z" fill="white"/>
+                    </svg>
+            h2.panel-title4.panel-players__title
+                | !{lang.panel_gamePlayers}
+                span 0
+            .panel-players__empty
+                +picture('static/img/panel/players-empty', 'png', 'panel-players__empty-img', 92, 150, false)
+                p.panel-text.panel-players__empty-text !{lang.panel_gamePlayersEmpty}
+            .panel-players__footer
+                button.btn.btn--panel.panel-players__btn(disabled) !{lang.panel_gameStartSort}
