@@ -14,6 +14,7 @@ tosPageTitle: Secret Santa Generator 2023 | Privacy
 tosPageDescription: Exchange Christmas gifts with coworkers, friends, extended family, and your community members.
 
 fbDomainVerification: 10br3uj84bkhcz7ujo5wzfc8k1ikfq
+yandexDomainVerification: 35ade823e92aa0b1
 gtmCode: GTM-TJX6L4V
 
 
@@ -198,13 +199,13 @@ faq5Main: |
 #Footer
 footerCopyright: © 2023 MySanta
 footerAgreement:
-  link: /de/privacy-policy
+  link: /de/privacy_policy
   text: Privacy Policy
 footerTerms: 
   link: /de/tos
   text: Terms Of Service
 footerRefund: 
-  link: /de/refund-policy
+  link: /de/refund_policy
   text: Refund Policy
 footerEmail: 
   link: mailto:hello@mysanta.co

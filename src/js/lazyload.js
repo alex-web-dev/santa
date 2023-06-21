@@ -2,6 +2,6 @@ import LazyLoad from "vanilla-lazyload";
 
 window.addEventListener('load', () => {
   new LazyLoad({
-    threshold: 150
+    threshold: 300
   });
 });

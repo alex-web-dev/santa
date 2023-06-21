@@ -27,15 +27,16 @@ block og
 	meta(name="twitter:url" content=lang.websiteDomain + pageUrl)
 	meta(name="twitter:image" content=lang.websiteDomain + "/static/img/" + selectedLang + "/og_image.jpg")
 
+
 block content
 	main.main
-		section.banner.banner--home
+		section.banner.banner--home(data-screen-name="main")
 			.container
-				.banner__content 
+				.banner__content
 					.banner__info
 						h1.title1.banner__title !{lang.bannerTitle}
 						p.text.text--big.banner__text !{lang.bannerText}
-						a.btn.banner__btn(href="/login") !{lang.bannerBtn} 
+						a.btn.banner__btn(href="/login") !{lang.bannerBtn}
 					.banner__phone
 						+picture('/static/img/page-banner/left-hand', 'png', 'banner__phone-hand banner__phone-hand--left', 601, 254, false, false)
 						+picture('/static/img/page-banner/right-hand', 'png', 'banner__phone-hand banner__phone-hand--right', 1235, 720, false, false)
@@ -46,7 +47,7 @@ block content
 						+picture('/static/img/page-banner/candy', 'png', 'banner__candy banner__candy--3', 154, 376, false, false)
 
 		if selectedLang == 'ru'
-			section.callback
+			section.callback(data-screen-name="chatbot")
 				.container
 					.callback__content
 						h2.title1.callback__title !{lang.callbackTitle}
@@ -66,7 +67,7 @@ block content
 								span !{lang.callbackWhatsApp}
 								span.btn__label !{lang.callbackWhatsAppSoon}
 
-		section.steps
+		section.steps(data-screen-name="create_game")
 			.container
 				.steps__content
 					h2.title1.steps__title !{lang.stepsTitle}
@@ -95,7 +96,7 @@ block content
 									h3.title2.step__title !{lang.step3Title}
 									.text.step__text !{lang.step3Text}
 
-		section.play
+		section.play(data-screen-name="game_portraits")
 			.container
 				.play__content
 					h2.title1.play__title !{lang.playTitle}
@@ -122,13 +123,10 @@ block content
 							h3.title3.play-item__title !{lang.playItem4Title}
 							p.text.play-item__text !{lang.playItem4Text}
 					.play__spheres
-						span.sphere.play__sphere
-						span.sphere.play__sphere
-						span.sphere.play__sphere
-						span.sphere.play__sphere
-						span.sphere.play__sphere
+						each val in [0, 0, 0, 0, 0]
+							+sphere('play__sphere')
 
-		section.gifts
+		section.gifts(data-screen-name="wishlist")
 			.container
 				.gifts__content
 					h2.title1.gifts__title(class="gifts__title--" + selectedLang) !{lang.giftsTitle}
@@ -151,7 +149,7 @@ block content
 							h3.title3.gift-feature__title !{lang.gift3Title}
 							p.text.gift-feature__text !{lang.gift3Text}
 
-		section.stats
+		section.stats.lazy(data-screen-name="gamers_last_year", data-bg-set="url('static/img/stats/bg.webp') 1x, url('static/img/stats/bg@2x.webp') 2x")
 			.container
 				.stats__content
 					h2.title1.stats__title !{lang.statsTitle}
@@ -162,11 +160,10 @@ block content
 						.link.link--third.stats__footer-btn !{lang.statsWhy}
 					+picture('/static/img/stats/santa', 'png', 'stats__santa', 194, 350, true)
 					.stats__stars
-						.star.stats__star
-						.star.stats__star
-						.star.stats__star
+						each val in [0, 0, 0]
+							+star('stats__star')
 
-		section.features
+		section.features(data-screen-name="not_stickers")
 			.features__content
 				.container
 					h2.title1.features__title !{ lang.featuresTitle }
@@ -194,7 +191,7 @@ block content
 									p.text.feature__text.feature__text--short !{ lang.feature3Text }
 								+picture('/static/img/features/3', 'png', 'feature__img', 254, 320, true)(class="feature__picture")
 
-		section.reviews
+		section.reviews(data-screen-name="testimonials")
 			.container
 				.reviews__content
 					h2.title1.title1--center.reviews__title !{ lang.reviewsTitle }
@@ -251,7 +248,7 @@ block content
 					.reviews__footer
 						button.btn.btn--line.reviews__more !{ lang.reviewsMore }
 
-		section.start
+		section.start(data-screen-name="call_to_action")
 			.container
 				.start__content
 					h2.title1.start__title !{ lang.startTitle }
@@ -261,7 +258,7 @@ block content
 					+picture('/static/img/start/tree', 'png', 'start__tree', 293, 340, true)
 					+picture('/static/img/start/santa', 'png', 'start__santa', 277, 300, true)
 
-		section.faq
+		section.faq(data-screen-name="faq")
 			.container
 				.faq__content
 					h2.title1.title1--center !{ lang.faqTitle }

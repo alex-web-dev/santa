@@ -1,3 +1,4 @@
+import './analytics.js'
 import './foreach-polyfill.js'
 import './header.js';
 import './menu.js';

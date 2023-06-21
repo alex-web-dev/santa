@@ -23,7 +23,17 @@ mixin picture(src, fileType, className, width, height, retina = false, lazy = tr
                 source(data-srcset=src + ".webp" type="image/webp")
                 source(data-srcset=src + "." + fileType type="image/" + fileType)
                 img(class=className data-src=src + "." + fileType width=width height=height alt=alt)
-            else 
+            else
                 source(srcset=src + ".webp" type="image/webp")
                 source(srcset=src + "." + fileType type="image/" + fileType)
                 img(class=className src=src + "." + fileType width=width height=height alt=alt)
+
+
+
+mixin star(className = '')
+    span(class='star ' + className)
+        +picture('/static/img/star', 'png', '', 150, 141, true)
+
+mixin sphere(className = '')
+    span(class='sphere ' + className)
+        +picture('/static/img/sphere', 'png', '', 240, 240, true)
