@@ -1,16 +1,20 @@
 .login
   padding: 12px 20px 40px
   flex: 1 1 auto
+  display: flex
+  flex-direction: column
   background-color: $color-primary
   font-family: 'SF Pro', sans-serif
 
   &__content
     position: relative
     z-index: 1
+    flex: 1 1 auto
+    display: flex
+    flex-direction: column
     margin-left: auto
     margin-right: auto
     width: 100%
-    max-width: 375px
 
   &__back
     font-size: 17px
@@ -23,10 +27,7 @@
     color: #fff
 
   &__footer
-    margin-top: 165px
-
-    &--mt-350
-      margin-top: 350px
+    margin-top: auto
 
   &__btn
     width: 100%
@@ -36,7 +37,6 @@
 
   &__agreement
     margin: 30px auto 0
-    max-width: 320px
     text-align: center
     font-size: 14px
     line-height: 1.43

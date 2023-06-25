@@ -31,7 +31,10 @@ block og
 block content
     .panel
         .panel__banner
-            a.logo.logo--black.panel__banner-logo(href="./" class="logo--" + selectedLang aria-label="Logo")
+            a.logo-text.panel__banner-logo(href="./" aria-label="Logo")
+                | Мой С
+                +picon('santa')
+                | нта
             p.text.panel__banner-text !{lang.panel_webText}
             .panel-card.panel-card--second.panel__banner-card
                 .panel-text.panel-card__text !{lang.panel_webCardText}
