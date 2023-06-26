@@ -11,71 +11,13 @@
   background-color: $color-second
   transition: visibility .4s, opacity .4s
 
-  &__images
-    margin: auto
-    display: flex
-
-  &__picture:not(:first-child)
-    margin-left: 10px
-
   &__img
     position: absolute
     left: 50%
     top: 50%
-    margin-left: -30px
-    margin-top: -30px
-    width: 60px
-    height: 60px
     object-fit: cover
-
-  &__picture:nth-child(1) &__img
-      animation: movePreloadImg1 1.5s infinite
-
-  &__picture:nth-child(2) &__img
-      animation: movePreloadImg2 1.5s infinite
-
-  &__picture:nth-child(3) &__img
-      animation: movePreloadImg3 1.5s infinite
+    transform: scale(0.5) translate(-100%, -100%)
 
   &--hide
     visibility: hidden
     opacity: 0
-
-@keyframes movePreloadImg1
-  0%
-    transform: translateX(-70px)
-
-  33%
-    transform: translateX(0)
-
-  67%
-    transform: translateX(70px)
-    
-  100%
-    transform: translateX(-70px)
-
-@keyframes movePreloadImg2
-  0%
-    transform: translateX(0)
-
-  33%
-    transform: translateX(70px)
-
-  67%
-    transform: translateX(-70px)
-    
-  100%
-    transform: translateX(0)
-
-@keyframes movePreloadImg3
-  0%
-    transform: translateX(70px)
-
-  33%
-    transform: translateX(-70px)
-
-  67%
-    transform: translateX(0)
-    
-  100%
-    transform: translateX(70px)
